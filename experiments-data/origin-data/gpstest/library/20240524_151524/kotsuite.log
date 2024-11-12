@@ -1,0 +1,463 @@
+15:15:24.566 [SECTION] org.kotsuite.client.MainKt - [Start main function]
+15:15:24.567 [INFO] org.kotsuite.client.MainKt - KotSuite Core Version: 1.2.1
+15:15:24.568 [INFO] org.kotsuite.client.Client - Set configs: { project_path: /home/yangfeng/Repos/kotsuite-project/kotsuite-experiments/repos/gpstest, module_path: /home/yangfeng/Repos/kotsuite-project/kotsuite-experiments/repos/gpstest/library }
+15:15:24.572 [SECTION] org.kotsuite.client.Client - [Analysis Phase]
+15:15:24.573 [INFO] org.kotsuite.analysis.Analyzer - Analysis project: project(/home/yangfeng/Repos/kotsuite-project/kotsuite-experiments/repos/gpstest)
+15:15:24.573 [INFO] org.kotsuite.analysis.Analyzer - Start analyze project
+15:15:24.573 [INFO] org.kotsuite.analysis.Analyzer - Setup Soot: class([com.android.gpstest.library.util.MathUtils]), project(/home/yangfeng/Repos/kotsuite-project/kotsuite-experiments/repos/gpstest)
+15:15:24.587 [DEBUG] org.kotsuite.analysis.Analyzer - Test frameworks: 
+[
+  "/home/yangfeng/.cache/Google/AndroidStudioPreview2023.2/kotsuite-cache/libs/test-framework/junit/4.13.2/junit-4.13.2.jar",
+  "/home/yangfeng/.cache/Google/AndroidStudioPreview2023.2/kotsuite-cache/libs/test-framework/org.robolectric/4.10.3/robolectric-4.10.3.jar",
+  "/home/yangfeng/.cache/Google/AndroidStudioPreview2023.2/kotsuite-cache/libs/test-framework/org.mockito/mockito-core-5.5.0.jar",
+  "/home/yangfeng/.cache/Google/AndroidStudioPreview2023.2/kotsuite-cache/libs/test-framework/io.github.Maple-pro/JMockK-1.4-jar-with-dependencies.jar"
+]
+15:15:28.646 [INFO] org.kotsuite.analysis.Analyzer - Finish analyze project
+15:15:28.650 [SECTION] org.kotsuite.client.Client - [Generate Phase]
+15:15:28.665 [SECTION] org.kotsuite.ga.TestSuiteGenerator - [Test suite generator: Standard GA Strategy]
+15:15:28.665 [SECTION] org.kotsuite.ga.strategy.Strategy - [Whole Solution]
+15:15:28.666 [SECTION] org.kotsuite.ga.strategy.Strategy - Collecting overall statistic to /home/yangfeng/Repos/kotsuite-project/kotsuite-experiments/repos/gpstest/library/kotsuite/20240524_151524/final/report/overall_statistic.json
+15:15:28.677 [INFO] org.kotsuite.ga.strategy.Strategy - Collecting complete!
+15:15:28.677 [INFO] org.kotsuite.ga.strategy.Strategy - 1 classes can be analyzed
+15:15:28.677 [DEBUG] org.kotsuite.ga.strategy.Strategy - 
+[
+  "com.android.gpstest.library.util.MathUtils"
+]
+15:15:28.677 [INFO] org.kotsuite.ga.strategy.Strategy - 8 methods can be analyzed
+15:15:28.677 [DEBUG] org.kotsuite.ga.strategy.Strategy - 
+{
+  "com.android.gpstest.library.util.MathUtils": [
+    "double mod(double,double)",
+    "double toMhz(double)",
+    "boolean fuzzyEquals(double,double,double)",
+    "float mapToRange(float,float,float,float,float)",
+    "boolean isValidFloat(float)",
+    "double clamp(double,double,double)",
+    "java.lang.String fromBase64(java.lang.String)",
+    "java.lang.Double toDouble(java.lang.String)"
+  ]
+}
+15:15:28.677 [SECTION] org.kotsuite.ga.strategy.Strategy - [Class: com.android.gpstest.library.util.MathUtils]
+15:15:28.678 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Class: com.android.gpstest.library.util.MathUtils, Method: <com.android.gpstest.library.util.MathUtils: double mod(double,double)>]
+15:15:28.678 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Generate initial population
+15:15:28.682 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Round 0]
+15:15:28.683 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Generating population coverage info...
+15:15:28.683 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - a. Generating Jimple test classes...
+15:15:28.688 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - b. Printing Jasmin files...
+15:15:28.718 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - c. Generating fitness for test case: test_mod_double_double_1_1
+15:15:29.072 [INFO] org.kotsuite.ga.commands.TestRunner - .
+15:15:29.072 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.069
+15:15:29.072 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:29.072 [INFO] org.kotsuite.ga.commands.TestRunner - OK (1 test)
+15:15:29.072 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:29.072 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: true
+15:15:29.120 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - c. Generating fitness for test case: test_mod_double_double_2_3
+15:15:29.415 [INFO] org.kotsuite.ga.commands.TestRunner - .
+15:15:29.415 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.062
+15:15:29.415 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:29.416 [INFO] org.kotsuite.ga.commands.TestRunner - OK (1 test)
+15:15:29.416 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:29.416 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: true
+15:15:29.434 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - d. Generating fitness for whole population
+15:15:29.668 [INFO] org.kotsuite.ga.commands.TestRunner - ..
+15:15:29.669 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.004
+15:15:29.669 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:29.669 [INFO] org.kotsuite.ga.commands.TestRunner - OK (2 tests)
+15:15:29.669 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:29.669 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: true
+15:15:29.686 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Adding assertion to each testcase...
+15:15:29.688 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Checking whether the fitness of the population meets the requirements...
+15:15:29.689 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Fitness: Fitness(lineCoverage=1.0, ccCoverage=1.0)
+15:15:29.689 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Remove duplicated test cases]
+15:15:29.689 [INFO] org.kotsuite.ga.chromosome.Population - Minimization: 2 -> 1
+15:15:29.689 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Class: com.android.gpstest.library.util.MathUtils, Method: <com.android.gpstest.library.util.MathUtils: double toMhz(double)>]
+15:15:29.689 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Generate initial population
+15:15:29.689 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Round 0]
+15:15:29.689 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Generating population coverage info...
+15:15:29.689 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - a. Generating Jimple test classes...
+15:15:29.690 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - b. Printing Jasmin files...
+15:15:29.691 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - c. Generating fitness for test case: test_toMhz_double_1_5
+15:15:30.007 [INFO] org.kotsuite.ga.commands.TestRunner - .
+15:15:30.007 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.07
+15:15:30.007 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:30.007 [INFO] org.kotsuite.ga.commands.TestRunner - OK (1 test)
+15:15:30.007 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:30.007 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: true
+15:15:30.021 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - c. Generating fitness for test case: test_toMhz_double_2_7
+15:15:30.312 [INFO] org.kotsuite.ga.commands.TestRunner - .
+15:15:30.312 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.07
+15:15:30.312 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:30.312 [INFO] org.kotsuite.ga.commands.TestRunner - OK (1 test)
+15:15:30.312 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:30.312 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: true
+15:15:30.324 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - d. Generating fitness for whole population
+15:15:30.575 [INFO] org.kotsuite.ga.commands.TestRunner - ..
+15:15:30.575 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.004
+15:15:30.575 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:30.575 [INFO] org.kotsuite.ga.commands.TestRunner - OK (2 tests)
+15:15:30.575 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:30.575 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: true
+15:15:30.589 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Adding assertion to each testcase...
+15:15:30.590 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Checking whether the fitness of the population meets the requirements...
+15:15:30.590 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Fitness: Fitness(lineCoverage=1.0, ccCoverage=1.0)
+15:15:30.590 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Remove duplicated test cases]
+15:15:30.590 [INFO] org.kotsuite.ga.chromosome.Population - Minimization: 2 -> 1
+15:15:30.590 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Class: com.android.gpstest.library.util.MathUtils, Method: <com.android.gpstest.library.util.MathUtils: boolean fuzzyEquals(double,double,double)>]
+15:15:30.590 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Generate initial population
+15:15:30.590 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Round 0]
+15:15:30.590 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Generating population coverage info...
+15:15:30.590 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - a. Generating Jimple test classes...
+15:15:30.590 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - b. Printing Jasmin files...
+15:15:30.592 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - c. Generating fitness for test case: test_fuzzyEquals_double_double_double_1_9
+15:15:30.924 [INFO] org.kotsuite.ga.commands.TestRunner - .
+15:15:30.924 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.07
+15:15:30.924 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:30.924 [INFO] org.kotsuite.ga.commands.TestRunner - OK (1 test)
+15:15:30.925 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:30.925 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: true
+15:15:30.957 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - c. Generating fitness for test case: test_fuzzyEquals_double_double_double_2_11
+15:15:31.256 [INFO] org.kotsuite.ga.commands.TestRunner - .
+15:15:31.256 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.066
+15:15:31.256 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:31.256 [INFO] org.kotsuite.ga.commands.TestRunner - OK (1 test)
+15:15:31.256 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:31.256 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: true
+15:15:31.267 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - d. Generating fitness for whole population
+15:15:31.492 [INFO] org.kotsuite.ga.commands.TestRunner - ..
+15:15:31.492 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.004
+15:15:31.492 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:31.493 [INFO] org.kotsuite.ga.commands.TestRunner - OK (2 tests)
+15:15:31.493 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:31.493 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: true
+15:15:31.505 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Adding assertion to each testcase...
+15:15:31.505 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Checking whether the fitness of the population meets the requirements...
+15:15:31.506 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Fitness: Fitness(lineCoverage=1.0, ccCoverage=0.2)
+15:15:31.506 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Remove duplicated test cases]
+15:15:31.506 [INFO] org.kotsuite.ga.chromosome.Population - Minimization: 2 -> 1
+15:15:31.506 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Class: com.android.gpstest.library.util.MathUtils, Method: <com.android.gpstest.library.util.MathUtils: float mapToRange(float,float,float,float,float)>]
+15:15:31.506 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Generate initial population
+15:15:31.507 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Round 0]
+15:15:31.507 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Generating population coverage info...
+15:15:31.507 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - a. Generating Jimple test classes...
+15:15:31.507 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - b. Printing Jasmin files...
+15:15:31.509 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - c. Generating fitness for test case: test_mapToRange_float_float_float_float_float_1_13
+15:15:31.807 [INFO] org.kotsuite.ga.commands.TestRunner - .
+15:15:31.808 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.075
+15:15:31.808 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:31.808 [INFO] org.kotsuite.ga.commands.TestRunner - OK (1 test)
+15:15:31.808 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:31.808 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: true
+15:15:31.818 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - c. Generating fitness for test case: test_mapToRange_float_float_float_float_float_2_15
+15:15:32.154 [INFO] org.kotsuite.ga.commands.TestRunner - .
+15:15:32.154 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.072
+15:15:32.154 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:32.154 [INFO] org.kotsuite.ga.commands.TestRunner - OK (1 test)
+15:15:32.154 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:32.154 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: true
+15:15:32.171 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - d. Generating fitness for whole population
+15:15:32.406 [INFO] org.kotsuite.ga.commands.TestRunner - ..
+15:15:32.406 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.005
+15:15:32.406 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:32.406 [INFO] org.kotsuite.ga.commands.TestRunner - OK (2 tests)
+15:15:32.406 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:32.406 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: true
+15:15:32.421 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Adding assertion to each testcase...
+15:15:32.421 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Checking whether the fitness of the population meets the requirements...
+15:15:32.421 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Fitness: Fitness(lineCoverage=0.4444444444444444, ccCoverage=0.6666666666666666)
+15:15:32.421 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Remove duplicated test cases]
+15:15:32.421 [INFO] org.kotsuite.ga.chromosome.Population - Minimization: 2 -> 2
+15:15:32.421 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Class: com.android.gpstest.library.util.MathUtils, Method: <com.android.gpstest.library.util.MathUtils: boolean isValidFloat(float)>]
+15:15:32.421 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Generate initial population
+15:15:32.421 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Round 0]
+15:15:32.421 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Generating population coverage info...
+15:15:32.421 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - a. Generating Jimple test classes...
+15:15:32.422 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - b. Printing Jasmin files...
+15:15:32.423 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - c. Generating fitness for test case: test_isValidFloat_float_1_17
+15:15:32.705 [INFO] org.kotsuite.ga.commands.TestRunner - .
+15:15:32.705 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.061
+15:15:32.705 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:32.705 [INFO] org.kotsuite.ga.commands.TestRunner - OK (1 test)
+15:15:32.705 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:32.705 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: true
+15:15:32.716 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - c. Generating fitness for test case: test_isValidFloat_float_2_19
+15:15:33.755 [INFO] org.kotsuite.ga.commands.TestRunner - .
+15:15:33.755 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.061
+15:15:33.755 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:33.755 [INFO] org.kotsuite.ga.commands.TestRunner - OK (1 test)
+15:15:33.755 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:33.755 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: true
+15:15:33.767 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - d. Generating fitness for whole population
+15:15:33.997 [INFO] org.kotsuite.ga.commands.TestRunner - ..
+15:15:33.997 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.004
+15:15:33.997 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:33.997 [INFO] org.kotsuite.ga.commands.TestRunner - OK (2 tests)
+15:15:33.997 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:33.998 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: true
+15:15:34.010 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Adding assertion to each testcase...
+15:15:34.010 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Checking whether the fitness of the population meets the requirements...
+15:15:34.010 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Fitness: Fitness(lineCoverage=1.0, ccCoverage=0.3333333333333333)
+15:15:34.010 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Remove duplicated test cases]
+15:15:34.010 [INFO] org.kotsuite.ga.chromosome.Population - Minimization: 2 -> 1
+15:15:34.010 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Class: com.android.gpstest.library.util.MathUtils, Method: <com.android.gpstest.library.util.MathUtils: double clamp(double,double,double)>]
+15:15:34.010 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Generate initial population
+15:15:34.011 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Round 0]
+15:15:34.011 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Generating population coverage info...
+15:15:34.011 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - a. Generating Jimple test classes...
+15:15:34.011 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - b. Printing Jasmin files...
+15:15:34.012 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - c. Generating fitness for test case: test_clamp_double_double_double_1_21
+15:15:34.331 [INFO] org.kotsuite.ga.commands.TestRunner - .
+15:15:34.331 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.066
+15:15:34.331 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:34.331 [INFO] org.kotsuite.ga.commands.TestRunner - OK (1 test)
+15:15:34.331 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:34.332 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: true
+15:15:34.345 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - c. Generating fitness for test case: test_clamp_double_double_double_2_23
+15:15:34.680 [INFO] org.kotsuite.ga.commands.TestRunner - .
+15:15:34.680 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.069
+15:15:34.680 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:34.680 [INFO] org.kotsuite.ga.commands.TestRunner - OK (1 test)
+15:15:34.680 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:34.680 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: true
+15:15:34.690 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - d. Generating fitness for whole population
+15:15:34.919 [INFO] org.kotsuite.ga.commands.TestRunner - ..
+15:15:34.919 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.005
+15:15:34.920 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:34.920 [INFO] org.kotsuite.ga.commands.TestRunner - OK (2 tests)
+15:15:34.920 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:34.920 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: true
+15:15:34.935 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Adding assertion to each testcase...
+15:15:34.936 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Checking whether the fitness of the population meets the requirements...
+15:15:34.936 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Fitness: Fitness(lineCoverage=0.75, ccCoverage=0.25)
+15:15:34.936 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Remove duplicated test cases]
+15:15:34.936 [INFO] org.kotsuite.ga.chromosome.Population - Minimization: 2 -> 1
+15:15:34.936 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Class: com.android.gpstest.library.util.MathUtils, Method: <com.android.gpstest.library.util.MathUtils: java.lang.String fromBase64(java.lang.String)>]
+15:15:34.936 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Generate initial population
+15:15:34.938 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Round 0]
+15:15:34.939 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Generating population coverage info...
+15:15:34.939 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - a. Generating Jimple test classes...
+15:15:34.939 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - b. Printing Jasmin files...
+15:15:34.941 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - c. Generating fitness for test case: test_fromBase64_String_1_25
+15:15:35.239 [INFO] org.kotsuite.ga.commands.TestRunner - .E
+15:15:35.239 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.032
+15:15:35.239 [INFO] org.kotsuite.ga.commands.TestRunner - There was 1 failure:
+15:15:35.239 [INFO] org.kotsuite.ga.commands.TestRunner - 1) test_fromBase64_String_1_25(com.android.gpstest.library.util.TempMathUtilsFromBase64Round0ID12)
+15:15:35.239 [INFO] org.kotsuite.ga.commands.TestRunner - java.lang.RuntimeException: Stub!
+15:15:35.239 [INFO] org.kotsuite.ga.commands.TestRunner - 	at android.util.Base64.decode(Base64.java:25)
+15:15:35.239 [INFO] org.kotsuite.ga.commands.TestRunner - 	at com.android.gpstest.library.util.MathUtils.fromBase64(MathUtils.java:166)
+15:15:35.239 [INFO] org.kotsuite.ga.commands.TestRunner - 	at com.android.gpstest.library.util.TempMathUtilsFromBase64Round0ID12.test_fromBase64_String_1_25(Unknown Source)
+15:15:35.239 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:35.239 [INFO] org.kotsuite.ga.commands.TestRunner - FAILURES!!!
+15:15:35.239 [INFO] org.kotsuite.ga.commands.TestRunner - Tests run: 1,  Failures: 1
+15:15:35.239 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:35.239 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: false
+15:15:35.239 [ERROR] org.kotsuite.ga.commands.TestRunner - test_fromBase64_String_1_25(com.android.gpstest.library.util.TempMathUtilsFromBase64Round0ID12): Stub!
+15:15:35.248 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - c. Generating fitness for test case: test_fromBase64_String_2_27
+15:15:35.523 [INFO] org.kotsuite.ga.commands.TestRunner - .E
+15:15:35.523 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.025
+15:15:35.523 [INFO] org.kotsuite.ga.commands.TestRunner - There was 1 failure:
+15:15:35.523 [INFO] org.kotsuite.ga.commands.TestRunner - 1) test_fromBase64_String_2_27(com.android.gpstest.library.util.TempMathUtilsFromBase64Round0ID12)
+15:15:35.523 [INFO] org.kotsuite.ga.commands.TestRunner - java.lang.RuntimeException: Stub!
+15:15:35.523 [INFO] org.kotsuite.ga.commands.TestRunner - 	at android.util.Base64.decode(Base64.java:25)
+15:15:35.523 [INFO] org.kotsuite.ga.commands.TestRunner - 	at com.android.gpstest.library.util.MathUtils.fromBase64(MathUtils.java:166)
+15:15:35.523 [INFO] org.kotsuite.ga.commands.TestRunner - 	at com.android.gpstest.library.util.TempMathUtilsFromBase64Round0ID12.test_fromBase64_String_2_27(Unknown Source)
+15:15:35.523 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:35.523 [INFO] org.kotsuite.ga.commands.TestRunner - FAILURES!!!
+15:15:35.523 [INFO] org.kotsuite.ga.commands.TestRunner - Tests run: 1,  Failures: 1
+15:15:35.523 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:35.523 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: false
+15:15:35.523 [ERROR] org.kotsuite.ga.commands.TestRunner - test_fromBase64_String_2_27(com.android.gpstest.library.util.TempMathUtilsFromBase64Round0ID12): Stub!
+15:15:35.532 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - d. Generating fitness for whole population
+15:15:35.788 [INFO] org.kotsuite.ga.commands.TestRunner - .E.E
+15:15:35.788 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.005
+15:15:35.788 [INFO] org.kotsuite.ga.commands.TestRunner - There were 2 failures:
+15:15:35.788 [INFO] org.kotsuite.ga.commands.TestRunner - 1) test_fromBase64_String_1_25(com.android.gpstest.library.util.TempMathUtilsFromBase64Round0ID12)
+15:15:35.788 [INFO] org.kotsuite.ga.commands.TestRunner - java.lang.RuntimeException: Stub!
+15:15:35.788 [INFO] org.kotsuite.ga.commands.TestRunner - 	at android.util.Base64.decode(Base64.java:25)
+15:15:35.788 [INFO] org.kotsuite.ga.commands.TestRunner - 	at com.android.gpstest.library.util.MathUtils.fromBase64(MathUtils.java:166)
+15:15:35.788 [INFO] org.kotsuite.ga.commands.TestRunner - 	at com.android.gpstest.library.util.TempMathUtilsFromBase64Round0ID12.test_fromBase64_String_1_25(Unknown Source)
+15:15:35.789 [INFO] org.kotsuite.ga.commands.TestRunner - 2) test_fromBase64_String_2_27(com.android.gpstest.library.util.TempMathUtilsFromBase64Round0ID12)
+15:15:35.789 [INFO] org.kotsuite.ga.commands.TestRunner - java.lang.RuntimeException: Stub!
+15:15:35.789 [INFO] org.kotsuite.ga.commands.TestRunner - 	at android.util.Base64.decode(Base64.java:25)
+15:15:35.789 [INFO] org.kotsuite.ga.commands.TestRunner - 	at com.android.gpstest.library.util.MathUtils.fromBase64(MathUtils.java:166)
+15:15:35.789 [INFO] org.kotsuite.ga.commands.TestRunner - 	at com.android.gpstest.library.util.TempMathUtilsFromBase64Round0ID12.test_fromBase64_String_2_27(Unknown Source)
+15:15:35.789 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:35.789 [INFO] org.kotsuite.ga.commands.TestRunner - FAILURES!!!
+15:15:35.789 [INFO] org.kotsuite.ga.commands.TestRunner - Tests run: 2,  Failures: 2
+15:15:35.789 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:35.789 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: false
+15:15:35.789 [ERROR] org.kotsuite.ga.commands.TestRunner - test_fromBase64_String_1_25(com.android.gpstest.library.util.TempMathUtilsFromBase64Round0ID12): Stub!
+15:15:35.789 [ERROR] org.kotsuite.ga.commands.TestRunner - test_fromBase64_String_2_27(com.android.gpstest.library.util.TempMathUtilsFromBase64Round0ID12): Stub!
+15:15:35.799 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Adding assertion to each testcase...
+15:15:35.800 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Checking whether the fitness of the population meets the requirements...
+15:15:35.800 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Fitness: Fitness(lineCoverage=0.0, ccCoverage=0.0)
+15:15:35.800 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Remove duplicated test cases]
+15:15:35.800 [INFO] org.kotsuite.ga.chromosome.Population - Minimization: 2 -> 1
+15:15:35.800 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Class: com.android.gpstest.library.util.MathUtils, Method: <com.android.gpstest.library.util.MathUtils: java.lang.Double toDouble(java.lang.String)>]
+15:15:35.800 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Generate initial population
+15:15:35.800 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Round 0]
+15:15:35.800 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Generating population coverage info...
+15:15:35.800 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - a. Generating Jimple test classes...
+15:15:35.801 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - b. Printing Jasmin files...
+15:15:35.802 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - c. Generating fitness for test case: test_toDouble_String_1_29
+15:15:36.108 [INFO] org.kotsuite.ga.commands.TestRunner - .
+15:15:36.108 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.077
+15:15:36.108 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:36.108 [INFO] org.kotsuite.ga.commands.TestRunner - OK (1 test)
+15:15:36.108 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:36.108 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: true
+15:15:36.119 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - c. Generating fitness for test case: test_toDouble_String_2_31
+15:15:36.415 [INFO] org.kotsuite.ga.commands.TestRunner - .E
+15:15:36.415 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.062
+15:15:36.415 [INFO] org.kotsuite.ga.commands.TestRunner - There was 1 failure:
+15:15:36.415 [INFO] org.kotsuite.ga.commands.TestRunner - 1) test_toDouble_String_2_31(com.android.gpstest.library.util.TempMathUtilsToDoubleRound0ID14)
+15:15:36.415 [INFO] org.kotsuite.ga.commands.TestRunner - java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "value" is null
+15:15:36.415 [INFO] org.kotsuite.ga.commands.TestRunner - 	at org.kotsuite.agent.runtime.ReturnValueHandler.handleReturnValue(ReturnValueHandler.java:24)
+15:15:36.415 [INFO] org.kotsuite.ga.commands.TestRunner - 	at com.android.gpstest.library.util.MathUtils.toDouble(MathUtils.java:181)
+15:15:36.415 [INFO] org.kotsuite.ga.commands.TestRunner - 	at com.android.gpstest.library.util.TempMathUtilsToDoubleRound0ID14.test_toDouble_String_2_31(Unknown Source)
+15:15:36.415 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:36.415 [INFO] org.kotsuite.ga.commands.TestRunner - FAILURES!!!
+15:15:36.415 [INFO] org.kotsuite.ga.commands.TestRunner - Tests run: 1,  Failures: 1
+15:15:36.415 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:36.415 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: false
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - java.text.ParseException: Unparseable number: "Sw1FMFe87O7tp52hNLpiuD0iRnNyokJRISXXvK3SWbDoCWCO2QehIOmjxDdJW3lIbQKKB3"
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at java.base/java.text.NumberFormat.parse(NumberFormat.java:434)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at com.android.gpstest.library.util.MathUtils.toDouble(MathUtils.java:178)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at com.android.gpstest.library.util.TempMathUtilsToDoubleRound0ID14.test_toDouble_String_2_31(Unknown Source)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at KotMain.main(KotMain.java:59)
+15:15:36.415 [ERROR] org.kotsuite.ga.commands.TestRunner - test_toDouble_String_2_31(com.android.gpstest.library.util.TempMathUtilsToDoubleRound0ID14): Cannot invoke "Object.getClass()" because "value" is null
+15:15:36.426 [INFO] org.kotsuite.ga.coverage.fitness.PopulationFitness - d. Generating fitness for whole population
+15:15:36.680 [INFO] org.kotsuite.ga.commands.TestRunner - ..
+15:15:36.680 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.012
+15:15:36.680 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:36.680 [INFO] org.kotsuite.ga.commands.TestRunner - OK (2 tests)
+15:15:36.680 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:36.680 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: true
+15:15:36.680 [ERROR] org.kotsuite.ga.commands.TestRunner - java.text.ParseException: Unparseable number: "Sw1FMFe87O7tp52hNLpiuD0iRnNyokJRISXXvK3SWbDoCWCO2QehIOmjxDdJW3lIbQKKB3"
+15:15:36.680 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at java.base/java.text.NumberFormat.parse(NumberFormat.java:434)
+15:15:36.680 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at com.android.gpstest.library.util.MathUtils.toDouble(MathUtils.java:178)
+15:15:36.680 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at com.android.gpstest.library.util.TempMathUtilsToDoubleRound0ID14.test_toDouble_String_2_31(Unknown Source)
+15:15:36.680 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+15:15:36.680 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+15:15:36.680 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+15:15:36.680 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+15:15:36.680 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+15:15:36.680 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+15:15:36.680 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+15:15:36.680 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+15:15:36.680 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+15:15:36.680 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+15:15:36.680 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+15:15:36.680 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+15:15:36.681 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+15:15:36.681 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+15:15:36.681 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+15:15:36.681 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+15:15:36.681 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+15:15:36.681 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+15:15:36.681 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+15:15:36.681 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+15:15:36.681 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.Suite.runChild(Suite.java:128)
+15:15:36.681 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.Suite.runChild(Suite.java:27)
+15:15:36.681 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+15:15:36.681 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+15:15:36.681 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+15:15:36.681 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+15:15:36.681 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+15:15:36.681 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+15:15:36.681 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+15:15:36.681 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+15:15:36.681 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+15:15:36.681 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at KotMain.main(KotMain.java:42)
+15:15:36.690 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Adding assertion to each testcase...
+15:15:36.691 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Checking whether the fitness of the population meets the requirements...
+15:15:36.691 [INFO] org.kotsuite.ga.strategy.standard.StandardGAStrategy - Fitness: Fitness(lineCoverage=1.0, ccCoverage=1.0)
+15:15:36.691 [SECTION] org.kotsuite.ga.strategy.standard.StandardGAStrategy - [Remove duplicated test cases]
+15:15:36.691 [INFO] org.kotsuite.ga.chromosome.Population - Minimization: 2 -> 2
+15:15:36.693 [SECTION] org.kotsuite.ga.TestSuiteGenerator - [Generate final whole solution coverage report]
+15:15:36.694 [DEBUG] org.kotsuite.ga.TestSuiteGenerator - a. Output .class files to /home/yangfeng/Repos/kotsuite-project/kotsuite-experiments/repos/gpstest/library/kotsuite/20240524_151524/final/classes
+15:15:36.696 [DEBUG] org.kotsuite.ga.TestSuiteGenerator - b. Generate final exec file
+15:15:36.942 [INFO] org.kotsuite.ga.commands.TestRunner - ...E.......
+15:15:36.942 [INFO] org.kotsuite.ga.commands.TestRunner - Time: 0.013
+15:15:36.942 [INFO] org.kotsuite.ga.commands.TestRunner - There was 1 failure:
+15:15:36.942 [INFO] org.kotsuite.ga.commands.TestRunner - 1) test_fromBase64_String_1_25(com.android.gpstest.library.util.MathUtilsTest)
+15:15:36.942 [INFO] org.kotsuite.ga.commands.TestRunner - java.lang.RuntimeException: Stub!
+15:15:36.942 [INFO] org.kotsuite.ga.commands.TestRunner - 	at android.util.Base64.decode(Base64.java:25)
+15:15:36.942 [INFO] org.kotsuite.ga.commands.TestRunner - 	at com.android.gpstest.library.util.MathUtils.fromBase64(MathUtils.java:166)
+15:15:36.942 [INFO] org.kotsuite.ga.commands.TestRunner - 	at com.android.gpstest.library.util.MathUtilsTest.test_fromBase64_String_1_25(Unknown Source)
+15:15:36.942 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:36.942 [INFO] org.kotsuite.ga.commands.TestRunner - FAILURES!!!
+15:15:36.942 [INFO] org.kotsuite.ga.commands.TestRunner - Tests run: 10,  Failures: 1
+15:15:36.942 [INFO] org.kotsuite.ga.commands.TestRunner - 
+15:15:36.942 [INFO] org.kotsuite.ga.commands.TestRunner - Test successful: false
+15:15:36.942 [ERROR] org.kotsuite.ga.commands.TestRunner - java.text.ParseException: Unparseable number: "Sw1FMFe87O7tp52hNLpiuD0iRnNyokJRISXXvK3SWbDoCWCO2QehIOmjxDdJW3lIbQKKB3"
+15:15:36.942 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at java.base/java.text.NumberFormat.parse(NumberFormat.java:434)
+15:15:36.942 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at com.android.gpstest.library.util.MathUtils.toDouble(MathUtils.java:178)
+15:15:36.942 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at com.android.gpstest.library.util.MathUtilsTest.test_toDouble_String_2_31(Unknown Source)
+15:15:36.942 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+15:15:36.942 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+15:15:36.942 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+15:15:36.942 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+15:15:36.942 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+15:15:36.942 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+15:15:36.942 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+15:15:36.942 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+15:15:36.942 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.Suite.runChild(Suite.java:128)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.Suite.runChild(Suite.java:27)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - 	at KotMain.main(KotMain.java:42)
+15:15:36.943 [ERROR] org.kotsuite.ga.commands.TestRunner - test_fromBase64_String_1_25(com.android.gpstest.library.util.MathUtilsTest): Stub!
+15:15:36.943 [DEBUG] org.kotsuite.ga.TestSuiteGenerator - c. Generate coverage, report and statistic
+15:15:36.956 [INFO] org.kotsuite.ga.coverage.ExecResolver - Generating HTML report: /home/yangfeng/Repos/kotsuite-project/kotsuite-experiments/repos/gpstest/library/kotsuite/20240524_151524/final/report/coverage_report_20240524_151524/
+15:15:37.173 [INFO] org.kotsuite.ga.coverage.ExecResolver - [INFO] Loading execution data file /home/yangfeng/Repos/kotsuite-project/kotsuite-experiments/repos/gpstest/library/kotsuite/20240524_151524/final/exec/jacoco_20240524_151524.exec.
+15:15:37.173 [INFO] org.kotsuite.ga.coverage.ExecResolver - [INFO] Analyzing 122 classes.
+15:15:37.173 [INFO] org.kotsuite.ga.coverage.ExecResolver - Generating XML report: /home/yangfeng/Repos/kotsuite-project/kotsuite-experiments/repos/gpstest/library/kotsuite/20240524_151524/final/report/coverage_xml_20240524_151524.xml
+15:15:37.406 [INFO] org.kotsuite.ga.coverage.ExecResolver - [INFO] Loading execution data file /home/yangfeng/Repos/kotsuite-project/kotsuite-experiments/repos/gpstest/library/kotsuite/20240524_151524/final/exec/jacoco_20240524_151524.exec.
+15:15:37.406 [INFO] org.kotsuite.ga.coverage.ExecResolver - [INFO] Analyzing 122 classes.
+15:15:37.431 [SECTION] org.kotsuite.ga.TestSuiteGenerator - [Decompile class files to java files]
+15:15:38.374 [INFO] org.kotsuite.ga.decompile.Decompiler - INFO:  Decompiling class com/android/gpstest/library/util/MathUtilsTestSuccess
+15:15:38.374 [INFO] org.kotsuite.ga.decompile.Decompiler - INFO:  ... done
+15:15:38.484 [INFO] org.kotsuite.ga.decompile.Decompiler - INFO:  Decompiling class com/android/gpstest/library/util/MathUtilsTestFailed
+15:15:38.484 [INFO] org.kotsuite.ga.decompile.Decompiler - INFO:  ... done
+15:15:38.484 [SUCCESS] org.kotsuite.client.Client - Success!

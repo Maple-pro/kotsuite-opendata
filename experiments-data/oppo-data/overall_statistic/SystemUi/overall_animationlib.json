@@ -1,0 +1,108 @@
+{
+  "module": "/Users/oneplus/WorkSpace/SystemUi/animationlib",
+  "classes": [
+    {
+      "className": "com.android.app.animation.InterpolatorsAndroidX",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.app.animation.InterpolatorsAndroidX: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.app.animation.InterpolatorsAndroidX: float getOvershootInterpolation(float,float,float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.app.animation.InterpolatorsAndroidX: float getOvershootInterpolation(float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.app.animation.InterpolatorsAndroidX: androidx.core.animation.PathInterpolator createEmphasizedInterpolator()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.app.animation.InterpolatorsAndroidX: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.app.animation.MathUtils",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.app.animation.MathUtils: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.app.animation.MathUtils: float log(float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.app.animation.MathUtils: float max(float,float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.app.animation.BuildConfig",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.app.animation.BuildConfig: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.app.animation.BuildConfig: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.app.animation.Interpolators",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.app.animation.Interpolators: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.app.animation.Interpolators: float getOvershootInterpolation(float,float,float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.app.animation.Interpolators: float getOvershootInterpolation(float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.app.animation.Interpolators: android.view.animation.PathInterpolator createEmphasizedInterpolator()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.app.animation.Interpolators: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    }
+  ]
+}

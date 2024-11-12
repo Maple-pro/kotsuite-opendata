@@ -1,0 +1,5562 @@
+{
+  "所有类的数量": 241,
+  "所有类的统计信息": {
+    "不需要测试的类的统计信息": {
+      "类的数量": 165,
+      "类的统计信息": {
+        "匿名类的数量": 147,
+        "非公共类的数量": 0,
+        "抽象类的数量": 13,
+        "接口类的数量": 0,
+        "数据类的数量": 4,
+        "包级别类的数量": 1
+      }
+    },
+    "需要测试但是无法测试的类的统计信息": {
+      "类的数量": 0,
+      "类的统计信息": []
+    },
+    "可以测试的类的统计信息": {
+      "类的数量": 76,
+      "类的统计信息": [
+        {
+          "类名": "ch.abertschi.adfree.BuildConfig",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 2,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 2,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.ListenerStatus",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 4,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 2,
+              "方法的统计信息": {
+                "非公有方法的数量": 2,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 2,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.ListenerStatus: ch.abertschi.adfree.ListenerStatus[] values()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.ListenerStatus: ch.abertschi.adfree.ListenerStatus valueOf(java.lang.String)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.util.NotificationUtils",
+          "覆盖率统计": {
+            "行覆盖率": 0.2631578947368421,
+            "圈复杂度覆盖率": 0.25
+          },
+          "成员方法的数量": 15,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 11,
+              "方法的统计信息": {
+                "非公有方法的数量": 2,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 7,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 1,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                "<ch.abertschi.adfree.util.NotificationUtils: android.app.Notification showTextNotification(int,java.lang.String,java.lang.String,kotlin.jvm.functions.Function0,int,boolean)>"
+              ]
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.util.NotificationUtils: void updateTextNotificationIfAvailable(int,java.lang.String,java.lang.String)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.375,
+                    "圈复杂度覆盖率": 0.25
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.util.NotificationUtils: void hideNotification(int)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.util.NotificationUtils: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.util.Serializer",
+          "覆盖率统计": {
+            "行覆盖率": 0.5,
+            "圈复杂度覆盖率": 0.6666666666666666
+          },
+          "成员方法的数量": 4,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 1,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.util.Serializer: java.lang.String prettyPrint(java.lang.Object)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.StartOnBootListener",
+          "覆盖率统计": {
+            "行覆盖率": 0.2,
+            "圈复杂度覆盖率": 0.16666666666666666
+          },
+          "成员方法的数量": 3,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 2,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 1
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.StartOnBootListener: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.AdFreeApplication",
+          "覆盖率统计": {
+            "行覆盖率": 0.025,
+            "圈复杂度覆盖率": 0.03125
+          },
+          "成员方法的数量": 33,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 32,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 30,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 1
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.AdFreeApplication: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.model.PreferencesFactory",
+          "覆盖率统计": {
+            "行覆盖率": 1.0,
+            "圈复杂度覆盖率": 1.0
+          },
+          "成员方法的数量": 31,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 30,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: boolean isBlockingEnabled()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: void setBlockingEnabled(boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: java.util.Date getLastUpdateInServiceDate()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: void setLastUpdateInServiceDate(java.util.Date)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: void setFirstRun()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: boolean isFirstRun()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: boolean isGoogleCastEnabled()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: boolean setGoogleCastEnabled(boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: boolean storeVoiceCallAudioVolume(int)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: int loadVoiceCallAudioVolume()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: boolean setPlayUntilEnd(boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: boolean getPlayUntilEnd()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: boolean setLoopMusicPlayback(boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: boolean getLoopMusicPlayback()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: boolean storeStreamMusicAudioVolume(int)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: int loadStreaMusicAudioVolume()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: java.lang.String getLocalMusicDirectory()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: boolean setLocalMusicDirectory(java.lang.String)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: android.content.SharedPreferences getPreferences()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: java.lang.String getActivePlugin()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: void setActivePlugin(java.lang.String)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: boolean isAlwaysOnNotificationEnabled()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: boolean setAlwaysOnNotification(boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: int getDelaySeconds()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: boolean setDelaySeconds(int)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: boolean isAdDetectableEnabled(ch.abertschi.adfree.detector.AdDetectable)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: void saveAdDetectableEnable(boolean,ch.abertschi.adfree.detector.AdDetectable)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: boolean isDeveloperModeEnabled()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: boolean setDeveloperMode(boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.PreferencesFactory: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.model.AdDetectableFactory",
+          "覆盖率统计": {
+            "行覆盖率": 0.4222222222222222,
+            "圈复杂度覆盖率": 0.047619047619047616
+          },
+          "成员方法的数量": 15,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 3,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 10,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.AdDetectableFactory: void persistMeta()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.AdDetectableFactory: boolean isAdfreeEnabled()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.AdDetectableFactory: void setAdfreeEnabled(boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.AdDetectableFactory: boolean isEnabled(ch.abertschi.adfree.detector.AdDetectable)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.AdDetectableFactory: void setEnable(boolean,ch.abertschi.adfree.detector.AdDetectable)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.AdDetectableFactory: java.util.List getEnabledDetectors()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.AdDetectableFactory: java.util.List getAllDetectors()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.AdDetectableFactory: java.util.List getDetectorsForCategory(java.lang.String)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.AdDetectableFactory: java.util.List getVisibleDetectors()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.AdDetectableFactory: java.util.List getVisibleCategories()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.ad.AdDetector",
+          "覆盖率统计": {
+            "行覆盖率": 0.29508196721311475,
+            "圈复杂度覆盖率": 0.34615384615384615
+          },
+          "成员方法的数量": 16,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 7,
+              "方法的统计信息": {
+                "非公有方法的数量": 2,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 2,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 2,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 9,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.ad.AdDetector: void applyDetectors(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.034482758620689655,
+                    "圈复杂度覆盖率": 0.07692307692307693
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.ad.AdDetector: void notifyObservers(ch.abertschi.adfree.ad.AdEvent)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.ad.AdDetector: void requestNoAd()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.ad.AdDetector: void requestIgnoreAd()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.ad.AdDetector: void requestShowcase()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.ad.AdDetector: void requestAd()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.ad.AdDetector: void addObserver(ch.abertschi.adfree.ad.AdObserver)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.ad.AdDetector: void deleteObserver(ch.abertschi.adfree.ad.AdObserver)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.ad.AdDetector: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.AudioController",
+          "覆盖率统计": {
+            "行覆盖率": 0.058823529411764705,
+            "圈复杂度覆盖率": 0.2
+          },
+          "成员方法的数量": 9,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 2,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                "<ch.abertschi.adfree.AudioController: void fadeOffVoiceCallVolume(kotlin.jvm.functions.Function0)>"
+              ]
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.AudioController: boolean isMusicStreamMuted()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.AudioController: void muteMusicStream()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.AudioController: void unmuteMusicStream()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.AudioController: void showVoiceCallVolume()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.AudioController: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.plugin.PluginHandler",
+          "覆盖率统计": {
+            "行覆盖率": 0.4090909090909091,
+            "圈复杂度覆盖率": 0.17391304347826086
+          },
+          "成员方法的数量": 14,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 8,
+              "方法的统计信息": {
+                "非公有方法的数量": 2,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 5,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                "<ch.abertschi.adfree.plugin.PluginHandler: void requestPluginStop(kotlin.jvm.functions.Function0)>",
+                "<ch.abertschi.adfree.plugin.PluginHandler: void stopPlugin(kotlin.jvm.functions.Function0)>",
+                "<ch.abertschi.adfree.plugin.PluginHandler: void forceStopPlugin(kotlin.jvm.functions.Function0)>"
+              ]
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.PluginHandler: void runPlugin()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 0.5
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.PluginHandler: void trialRunPlugin()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 0.5
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.PluginHandler: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.AdStateController",
+          "覆盖率统计": {
+            "行覆盖率": 0.2857142857142857,
+            "圈复杂度覆盖率": 0.2857142857142857
+          },
+          "成员方法的数量": 15,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 9,
+              "方法的统计信息": {
+                "非公有方法的数量": 2,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 6,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 6,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.AdStateController: void onAdEvent(ch.abertschi.adfree.ad.AdEvent,ch.abertschi.adfree.ad.AdObservable)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.5,
+                    "圈复杂度覆盖率": 0.125
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.AdStateController: void onShowCase(ch.abertschi.adfree.ad.AdObservable)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.AdStateController: void onIgnoreAd(ch.abertschi.adfree.ad.AdObservable)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.25,
+                    "圈复杂度覆盖率": 0.5
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.AdStateController: void onNoAd(ch.abertschi.adfree.ad.AdObservable)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.08333333333333333,
+                    "圈复杂度覆盖率": 0.3333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.AdStateController: void onAd(ch.abertschi.adfree.ad.AdObservable)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.125,
+                    "圈复杂度覆盖率": 0.5
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.AdStateController: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.NotificationChannel",
+          "覆盖率统计": {
+            "行覆盖率": 0.7,
+            "圈复杂度覆盖率": 0.5
+          },
+          "成员方法的数量": 10,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 2,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 2,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                "<ch.abertschi.adfree.NotificationChannel: void showDefaultAdNotification(kotlin.jvm.functions.Function0)>"
+              ]
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.NotificationChannel: kotlin.Pair buildAlwaysOnNotification()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.NotificationChannel: void hideAlwaysOnNotification()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.NotificationChannel: void hideDefaultAdNotification()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.NotificationChannel: void updateAdNotification(java.lang.String,java.lang.String)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.model.YesNoModel",
+          "覆盖率统计": {
+            "行覆盖率": 0.5,
+            "圈复杂度覆盖率": 0.2222222222222222
+          },
+          "成员方法的数量": 10,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 8,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 7,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 2,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.YesNoModel: java.util.List loadJSONFromAsset(java.lang.String)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.5333333333333333,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.YesNoModel: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.model.RemoteManager",
+          "覆盖率统计": {
+            "行覆盖率": 0.4,
+            "圈复杂度覆盖率": 0.16666666666666666
+          },
+          "成员方法的数量": 7,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 6,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 5,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.RemoteManager: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.NotificationStatusManager",
+          "覆盖率统计": {
+            "行覆盖率": 0.21621621621621623,
+            "圈复杂度覆盖率": 0.2222222222222222
+          },
+          "成员方法的数量": 9,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 1,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 6,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.NotificationStatusManager: void addObserver(ch.abertschi.adfree.NotificationStatusObserver)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.NotificationStatusManager: void notifyStatusChanged(ch.abertschi.adfree.ListenerStatus)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.25,
+                    "圈复杂度覆盖率": 0.3333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.NotificationStatusManager: ch.abertschi.adfree.ListenerStatus getStatus()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.NotificationStatusManager: void forceTimedRestart()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.NotificationStatusManager: void restartNotificationListener()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.125,
+                    "圈复杂度覆盖率": 0.25
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.NotificationStatusManager: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.GoogleCastManager",
+          "覆盖率统计": {
+            "行覆盖率": 0.25,
+            "圈复杂度覆盖率": 0.16216216216216217
+          },
+          "成员方法的数量": 9,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 2,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.GoogleCastManager: boolean isEnabled()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.GoogleCastManager: void updateNotification(android.service.notification.StatusBarNotification)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.2222222222222222,
+                    "圈复杂度覆盖率": 0.08333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.GoogleCastManager: void muteAudio()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.125,
+                    "圈复杂度覆盖率": 0.1
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.GoogleCastManager: void unmuteAudio()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.125,
+                    "圈复杂度覆盖率": 0.1
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.GoogleCastManager: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.model.TextRepository",
+          "覆盖率统计": {
+            "行覆盖率": 0.3181818181818182,
+            "圈复杂度覆盖率": 0.35294117647058826
+          },
+          "成员方法的数量": 13,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 6,
+              "方法的统计信息": {
+                "非公有方法的数量": 5,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 7,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.TextRepository: boolean useReflectionForMatch()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.TextRepository: void setReflectionForMatch(boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.TextRepository: java.util.ArrayList getAllEntries()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.TextRepository: ch.abertschi.adfree.model.TextRepositoryData createNewEntry()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.TextRepository: void updateEntry(ch.abertschi.adfree.model.TextRepositoryData)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.TextRepository: void removeEntry(ch.abertschi.adfree.model.TextRepositoryData)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.TextRepository: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.model.RemoteSetting",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 28,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 28,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 26,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 1
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.model.YamlRemoteConfigFactory",
+          "覆盖率统计": {
+            "行覆盖率": 0.6190476190476191,
+            "圈复杂度覆盖率": 0.5
+          },
+          "成员方法的数量": 10,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 7,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 2,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 3,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.YamlRemoteConfigFactory: io.reactivex.Observable downloadObservable()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.6666666666666666,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.YamlRemoteConfigFactory: java.lang.Object loadFromLocalStore(java.lang.Object)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.8,
+                    "圈复杂度覆盖率": 0.5
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.YamlRemoteConfigFactory: void storeToLocalStore(java.lang.Object)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.detector.BestEffortTextDetector",
+          "覆盖率统计": {
+            "行覆盖率": 0.7592592592592593,
+            "圈复杂度覆盖率": 0.36363636363636365
+          },
+          "成员方法的数量": 10,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 6,
+              "方法的统计信息": {
+                "非公有方法的数量": 3,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 2,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.BestEffortTextDetector: boolean canHandle(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.8,
+                    "圈复杂度覆盖率": 0.3333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.BestEffortTextDetector: java.lang.String getPackageName()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.BestEffortTextDetector: boolean detectAsAdvertisement(ch.abertschi.adfree.detector.AdPayload,kotlin.Pair,kotlin.Pair,kotlin.Pair)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.14285714285714285
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.BestEffortTextDetector: ch.abertschi.adfree.detector.AdDetectorMeta getMeta()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.detector.DeezerDebugTracer",
+          "覆盖率统计": {
+            "行覆盖率": 0.8333333333333334,
+            "圈复杂度覆盖率": 0.5
+          },
+          "成员方法的数量": 9,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 4,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.DeezerDebugTracer: ch.abertschi.adfree.detector.AdDetectorMeta getMeta()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.DeezerDebugTracer: boolean flagAsAdvertisement(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.DeezerDebugTracer: boolean flagAsMusic(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.DeezerDebugTracer: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.detector.SpLiteTextDetector",
+          "覆盖率统计": {
+            "行覆盖率": 0.6666666666666666,
+            "圈复杂度覆盖率": 0.45454545454545453
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpLiteTextDetector: java.lang.String getPackageName()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpLiteTextDetector: boolean detectAsAdvertisement(ch.abertschi.adfree.detector.AdPayload,kotlin.Pair,kotlin.Pair,kotlin.Pair)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.14285714285714285
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpLiteTextDetector: ch.abertschi.adfree.detector.AdDetectorMeta getMeta()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpLiteTextDetector: boolean flagAsMusic(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpLiteTextDetector: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.detector.UserDefinedTextDetector",
+          "覆盖率统计": {
+            "行覆盖率": 0.43478260869565216,
+            "圈复杂度覆盖率": 0.17073170731707318
+          },
+          "成员方法的数量": 9,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": {
+                "非公有方法的数量": 3,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.UserDefinedTextDetector: boolean canHandle(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.45454545454545453,
+                    "圈复杂度覆盖率": 0.1
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.UserDefinedTextDetector: boolean flagAsAdvertisement(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.3333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.UserDefinedTextDetector: ch.abertschi.adfree.detector.AdDetectorMeta getMeta()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.UserDefinedTextDetector: boolean flagAsMusic(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.UserDefinedTextDetector: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.detector.ScDetector",
+          "覆盖率统计": {
+            "行覆盖率": 1.0,
+            "圈复杂度覆盖率": 0.29411764705882354
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.ScDetector: boolean canHandle(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 0.25
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.ScDetector: boolean flagAsAdvertisement(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 0.1
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.ScDetector: ch.abertschi.adfree.detector.AdDetectorMeta getMeta()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.ScDetector: boolean flagAsMusic(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.ScDetector: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.detector.DummySpotifyDetector",
+          "覆盖率统计": {
+            "行覆盖率": 1.0,
+            "圈复杂度覆盖率": 1.0
+          },
+          "成员方法的数量": 3,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 2,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.DummySpotifyDetector: boolean flagAsAdvertisement(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.DummySpotifyDetector: ch.abertschi.adfree.detector.AdDetectorMeta getMeta()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.detector.DummyGlobal",
+          "覆盖率统计": {
+            "行覆盖率": 1.0,
+            "圈复杂度覆盖率": 1.0
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.DummyGlobal: boolean canHandle(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.DummyGlobal: boolean flagAsAdvertisement(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.DummyGlobal: ch.abertschi.adfree.detector.AdDetectorMeta getMeta()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.DummyGlobal: boolean flagAsMusic(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.DummyGlobal: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.detector.SpLiteTextEnglishDetector",
+          "覆盖率统计": {
+            "行覆盖率": 0.7272727272727273,
+            "圈复杂度覆盖率": 0.625
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpLiteTextEnglishDetector: java.lang.String getPackageName()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpLiteTextEnglishDetector: boolean detectAsAdvertisement(ch.abertschi.adfree.detector.AdPayload,kotlin.Pair,kotlin.Pair,kotlin.Pair)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.25
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpLiteTextEnglishDetector: ch.abertschi.adfree.detector.AdDetectorMeta getMeta()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpLiteTextEnglishDetector: boolean flagAsMusic(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpLiteTextEnglishDetector: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.detector.NotificationActionDetector",
+          "覆盖率统计": {
+            "行覆盖率": 0.8571428571428571,
+            "圈复杂度覆盖率": 0.4444444444444444
+          },
+          "成员方法的数量": 4,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.NotificationActionDetector: boolean canHandle(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 0.2
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.NotificationActionDetector: boolean flagAsAdvertisement(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.5
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.NotificationActionDetector: ch.abertschi.adfree.detector.AdDetectorMeta getMeta()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.detector.SpotifyNotificationDebugTracer",
+          "覆盖率统计": {
+            "行覆盖率": 0.9166666666666666,
+            "圈复杂度覆盖率": 0.625
+          },
+          "成员方法的数量": 9,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 3,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpotifyNotificationDebugTracer: java.lang.String getPackage()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpotifyNotificationDebugTracer: ch.abertschi.adfree.detector.AdDetectorMeta getMeta()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpotifyNotificationDebugTracer: boolean flagAsAdvertisement(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpotifyNotificationDebugTracer: boolean flagAsMusic(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpotifyNotificationDebugTracer: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.detector.AccuRadioDebugTracer",
+          "覆盖率统计": {
+            "行覆盖率": 0.8333333333333334,
+            "圈复杂度覆盖率": 0.6666666666666666
+          },
+          "成员方法的数量": 7,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 2,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.AccuRadioDebugTracer: ch.abertschi.adfree.detector.AdDetectorMeta getMeta()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.AccuRadioDebugTracer: boolean flagAsAdvertisement(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.AccuRadioDebugTracer: boolean flagAsMusic(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.AccuRadioDebugTracer: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.detector.DeezerTextDetector",
+          "覆盖率统计": {
+            "行覆盖率": 1.0,
+            "圈复杂度覆盖率": 0.29411764705882354
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.DeezerTextDetector: boolean canHandle(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 0.25
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.DeezerTextDetector: boolean flagAsAdvertisement(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 0.1
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.DeezerTextDetector: ch.abertschi.adfree.detector.AdDetectorMeta getMeta()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.DeezerTextDetector: boolean flagAsMusic(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.DeezerTextDetector: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.detector.NotificationBundleAndroidTextDetector",
+          "覆盖率统计": {
+            "行覆盖率": 0.6666666666666666,
+            "圈复杂度覆盖率": 0.38461538461538464
+          },
+          "成员方法的数量": 5,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 2,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.NotificationBundleAndroidTextDetector: boolean canHandle(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 0.25
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.NotificationBundleAndroidTextDetector: boolean flagAsAdvertisement(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.2727272727272727,
+                    "圈复杂度覆盖率": 0.16666666666666666
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.NotificationBundleAndroidTextDetector: ch.abertschi.adfree.detector.AdDetectorMeta getMeta()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.detector.SpotifyLiteDebugTracer",
+          "覆盖率统计": {
+            "行覆盖率": 0.8333333333333334,
+            "圈复杂度覆盖率": 0.6666666666666666
+          },
+          "成员方法的数量": 7,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 2,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpotifyLiteDebugTracer: ch.abertschi.adfree.detector.AdDetectorMeta getMeta()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpotifyLiteDebugTracer: boolean flagAsAdvertisement(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpotifyLiteDebugTracer: boolean flagAsMusic(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpotifyLiteDebugTracer: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.detector.ScNotificationDebugTracer",
+          "覆盖率统计": {
+            "行覆盖率": 0.9230769230769231,
+            "圈复杂度覆盖率": 0.625
+          },
+          "成员方法的数量": 9,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 3,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.ScNotificationDebugTracer: java.lang.String getPackage()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.ScNotificationDebugTracer: ch.abertschi.adfree.detector.AdDetectorMeta getMeta()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.ScNotificationDebugTracer: boolean flagAsAdvertisement(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.ScNotificationDebugTracer: boolean flagAsMusic(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.ScNotificationDebugTracer: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.detector.MiuiNotificationDetector",
+          "覆盖率统计": {
+            "行覆盖率": 0.40625,
+            "圈复杂度覆盖率": 0.38461538461538464
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 2,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.MiuiNotificationDetector: boolean canHandle(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 0.25
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.MiuiNotificationDetector: boolean flagAsAdvertisement(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.16666666666666666,
+                    "圈复杂度覆盖率": 0.2
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.MiuiNotificationDetector: ch.abertschi.adfree.detector.AdDetectorMeta getMeta()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.model.TrackRepository",
+          "覆盖率统计": {
+            "行覆盖率": 0.47058823529411764,
+            "圈复杂度覆盖率": 0.6666666666666666
+          },
+          "成员方法的数量": 7,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 2,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.TrackRepository: void addTrack(java.lang.String)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.TrackRepository: void removeTrack(java.lang.String)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.model.TrackRepository: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.detector.SpotifyTitleDetector",
+          "覆盖率统计": {
+            "行覆盖率": 1.0,
+            "圈复杂度覆盖率": 0.4117647058823529
+          },
+          "成员方法的数量": 7,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 2,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 1,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpotifyTitleDetector: boolean canHandle(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpotifyTitleDetector: boolean flagAsAdvertisement(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 0.2857142857142857
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpotifyTitleDetector: boolean flagAsMusic(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpotifyTitleDetector: java.lang.String getTitle(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 0.2
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.SpotifyTitleDetector: ch.abertschi.adfree.detector.AdDetectorMeta getMeta()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.detector.TidalDebugTracer",
+          "覆盖率统计": {
+            "行覆盖率": 0.8333333333333334,
+            "圈复杂度覆盖率": 0.6666666666666666
+          },
+          "成员方法的数量": 7,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 2,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.TidalDebugTracer: ch.abertschi.adfree.detector.AdDetectorMeta getMeta()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.TidalDebugTracer: boolean flagAsAdvertisement(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.TidalDebugTracer: boolean flagAsMusic(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.TidalDebugTracer: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.detector.AccuradioDetector",
+          "覆盖率统计": {
+            "行覆盖率": 0.30357142857142855,
+            "圈复杂度覆盖率": 0.2916666666666667
+          },
+          "成员方法的数量": 10,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": {
+                "非公有方法的数量": 4,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.AccuradioDetector: java.lang.String getPackageName()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.AccuradioDetector: ch.abertschi.adfree.detector.AdDetectorMeta getMeta()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.AccuradioDetector: boolean flagAsAdvertisement(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.8571428571428571,
+                    "圈复杂度覆盖率": 0.3333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.AccuradioDetector: boolean flagAsMusic(ch.abertschi.adfree.detector.AdPayload)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.detector.AccuradioDetector: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.view.ViewSettings",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 10,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 10,
+              "方法的统计信息": {
+                "非公有方法的数量": 2,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 4,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 3,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.ad.EventType",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 4,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 2,
+              "方法的统计信息": {
+                "非公有方法的数量": 2,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 2,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.ad.EventType: ch.abertschi.adfree.ad.EventType[] values()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.ad.EventType: ch.abertschi.adfree.ad.EventType valueOf(java.lang.String)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.presenter.SettingsPresenter",
+          "覆盖率统计": {
+            "行覆盖率": 0.32558139534883723,
+            "圈复杂度覆盖率": 0.2
+          },
+          "成员方法的数量": 13,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 9,
+              "方法的统计信息": {
+                "非公有方法的数量": 2,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 4,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.presenter.SettingsPresenter: void onPluginSelected(int)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.3333333333333333,
+                    "圈复杂度覆盖率": 0.5
+                  },
+                  "所有测试用例的数量": 2,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 2
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.presenter.SettingsPresenter: void tryPlugin()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.presenter.SettingsPresenter: java.lang.String[] getStringEntriesOfModel()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.presenter.SettingsPresenter: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.presenter.MainActivityPresenter",
+          "覆盖率统计": {
+            "行覆盖率": 0.25,
+            "圈复杂度覆盖率": 0.2
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 2,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.presenter.MainActivityPresenter: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.presenter.AboutPresenter",
+          "覆盖率统计": {
+            "行覆盖率": 0.14285714285714285,
+            "圈复杂度覆盖率": 0.14285714285714285
+          },
+          "成员方法的数量": 8,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 6,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 3,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 2,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.presenter.AboutPresenter: void showMoreSettings()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.presenter.AboutPresenter: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.presenter.HomePresenter",
+          "覆盖率统计": {
+            "行覆盖率": 0.2,
+            "圈复杂度覆盖率": 0.19047619047619047
+          },
+          "成员方法的数量": 13,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 9,
+              "方法的统计信息": {
+                "非公有方法的数量": 2,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 1,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 3,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.presenter.HomePresenter: boolean hasNotificationPermission(android.content.Context)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.3333333333333333,
+                    "圈复杂度覆盖率": 0.3333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.presenter.HomePresenter: void onUpdateMessageClicked()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.5,
+                    "圈复杂度覆盖率": 0.5
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.presenter.HomePresenter: void onTroubleshooting()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.4,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.presenter.HomePresenter: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.plugin.AudioPlayer",
+          "覆盖率统计": {
+            "行覆盖率": 0.6451612903225806,
+            "圈复杂度覆盖率": 0.36363636363636365
+          },
+          "成员方法的数量": 26,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 20,
+              "方法的统计信息": {
+                "非公有方法的数量": 6,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 8,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 5,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                "<ch.abertschi.adfree.plugin.AudioPlayer: void requestStop(kotlin.jvm.functions.Function0)>",
+                "<ch.abertschi.adfree.plugin.AudioPlayer: void forceStop(kotlin.jvm.functions.Function0)>",
+                "<ch.abertschi.adfree.plugin.AudioPlayer: void stop(kotlin.jvm.functions.Function0)>"
+              ]
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.AudioPlayer: void play(java.lang.String,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.AudioPlayer: void playWithCachingProxy(java.lang.String)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.AudioPlayer: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.plugin.interdimcable.InterdimCableView",
+          "覆盖率统计": {
+            "行覆盖率": 0.047619047619047616,
+            "圈复杂度覆盖率": 0.15384615384615385
+          },
+          "成员方法的数量": 7,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 1,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 1
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.interdimcable.InterdimCableView: void showInternetError()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.interdimcable.InterdimCableView: void showDownloadingTrack()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.interdimcable.InterdimCableView: void showAudioError()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.interdimcable.InterdimCableView: void showNoChannelsError()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.plugin.interdimcable.InterdimCablePlugin",
+          "覆盖率统计": {
+            "行覆盖率": 0.4074074074074074,
+            "圈复杂度覆盖率": 0.3548387096774194
+          },
+          "成员方法的数量": 31,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 18,
+              "方法的统计信息": {
+                "非公有方法的数量": 4,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 9,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 4,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                "<ch.abertschi.adfree.plugin.interdimcable.InterdimCablePlugin: void stop(kotlin.jvm.functions.Function0)>",
+                "<ch.abertschi.adfree.plugin.interdimcable.InterdimCablePlugin: void requestStop(kotlin.jvm.functions.Function0)>",
+                "<ch.abertschi.adfree.plugin.interdimcable.InterdimCablePlugin: void forceStop(kotlin.jvm.functions.Function0)>"
+              ]
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 10,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.interdimcable.InterdimCablePlugin: java.lang.String title()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.interdimcable.InterdimCablePlugin: boolean hasSettingsView()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.interdimcable.InterdimCablePlugin: android.view.View settingsView(android.content.Context,ch.abertschi.adfree.plugin.PluginActivityAction)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.5
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.interdimcable.InterdimCablePlugin: void onPluginLoaded()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.3333333333333333,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.interdimcable.InterdimCablePlugin: void onPluginActivated()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.interdimcable.InterdimCablePlugin: void onPluginDeactivated()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.interdimcable.InterdimCablePlugin: void play()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.2,
+                    "圈复杂度覆盖率": 0.25
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.interdimcable.InterdimCablePlugin: void playTrial()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.interdimcable.InterdimCablePlugin: void configureAudioVolume()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.interdimcable.InterdimCablePlugin: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.plugin.interdimcable.InterdimCableModel",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 3,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 1,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 1
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.plugin.interdimcable.Channel",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 8,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 8,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 6,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 1
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.plugin.localmusic.LocalMusicPlugin",
+          "覆盖率统计": {
+            "行覆盖率": 0.29245283018867924,
+            "圈复杂度覆盖率": 0.18421052631578946
+          },
+          "成员方法的数量": 31,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 15,
+              "方法的统计信息": {
+                "非公有方法的数量": 6,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 3,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 5,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                "<ch.abertschi.adfree.plugin.localmusic.LocalMusicPlugin: void requestStop(kotlin.jvm.functions.Function0)>",
+                "<ch.abertschi.adfree.plugin.localmusic.LocalMusicPlugin: void forceStop(kotlin.jvm.functions.Function0)>",
+                "<ch.abertschi.adfree.plugin.localmusic.LocalMusicPlugin: void stop(kotlin.jvm.functions.Function0)>"
+              ]
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 13,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicPlugin: boolean hasSettingsView()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicPlugin: void play()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicPlugin: void playTrial()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicPlugin: void onPluginLoaded()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicPlugin: void onPluginActivated()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicPlugin: void onPluginDeactivated()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicPlugin: java.lang.String title()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicPlugin: void onConfigureAudioVolume()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicPlugin: void onChooseDirectory()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicPlugin: void onActivityResult(int,int,android.content.Intent)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.13333333333333333,
+                    "圈复杂度覆盖率": 0.08333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicPlugin: void onPlayUntilEndChanged()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.7777777777777778,
+                    "圈复杂度覆盖率": 0.1111111111111111
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicPlugin: void onLoopPlaybackChanged()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 0.3333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicPlugin: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.plugin.localmusic.LocalMusicView",
+          "覆盖率统计": {
+            "行覆盖率": 0.0379746835443038,
+            "圈复杂度覆盖率": 0.2222222222222222
+          },
+          "成员方法的数量": 20,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 9,
+              "方法的统计信息": {
+                "非公有方法的数量": 2,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 3,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 2,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 1
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 11,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicView: void showPlayUntilEndEnabled(boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicView: void showLoopEnabled(boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicView: void showFolderSelectionDialog()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicView: void startActivityForResult(android.content.Intent,int,android.os.Bundle)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicView: void showErrorInChoosingDirectory(java.lang.String)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicView: void showNoAudioTracksFoundMessage()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicView: void showAudioError()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicView: void showNeedStoragePermissions()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicView: void hideLoopMusic(boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicView: void showAudioDirectoryPath(java.lang.String)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.localmusic.LocalMusicView: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.plugin.mute.MutePlugin",
+          "覆盖率统计": {
+            "行覆盖率": 0.5384615384615384,
+            "圈复杂度覆盖率": 0.7272727272727273
+          },
+          "成员方法的数量": 12,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                "<ch.abertschi.adfree.plugin.mute.MutePlugin: void stop(kotlin.jvm.functions.Function0)>",
+                "<ch.abertschi.adfree.plugin.mute.MutePlugin: void requestStop(kotlin.jvm.functions.Function0)>",
+                "<ch.abertschi.adfree.plugin.mute.MutePlugin: void forceStop(kotlin.jvm.functions.Function0)>"
+              ]
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 8,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.mute.MutePlugin: void onPluginLoaded()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.mute.MutePlugin: java.lang.String title()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.mute.MutePlugin: void play()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.mute.MutePlugin: void playTrial()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.mute.MutePlugin: void onPluginActivated()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.mute.MutePlugin: void onPluginDeactivated()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.mute.MutePlugin: boolean hasSettingsView()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.plugin.mute.MutePlugin: android.view.View settingsView(android.content.Context,ch.abertschi.adfree.plugin.PluginActivityAction)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.view.MainActivity",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 4,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": {
+                "非公有方法的数量": 2,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 1,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.view.setting.AboutActivity",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 7,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 7,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 4,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.view.setting.SettingsActivity",
+          "覆盖率统计": {
+            "行覆盖率": 0.171875,
+            "圈复杂度覆盖率": 0.1935483870967742
+          },
+          "成员方法的数量": 25,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 16,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 6,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 2,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 6
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                "<ch.abertschi.adfree.view.setting.SettingsActivity: void addOnActivityResult(kotlin.jvm.functions.Function3)>"
+              ]
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 8,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.setting.SettingsActivity: android.app.Activity activity()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.setting.SettingsActivity: void clearPluginView()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 0.5
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.setting.SettingsActivity: void setPluginView(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.42857142857142855,
+                    "圈复杂度覆盖率": 0.3333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.setting.SettingsActivity: void setActivePlugin(int)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 0.5
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.setting.SettingsActivity: void showSuggestNewPlugin()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.setting.SettingsActivity: void showTryOutMessage()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.setting.SettingsActivity: void signalizeTryOut()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.setting.SettingsActivity: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.view.setting.PluginSpinnerAdapter",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.14285714285714285
+          },
+          "成员方法的数量": 10,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 6,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 2,
+                "匿名方法的数量": 2,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.setting.PluginSpinnerAdapter: android.view.View getCustomView(int,android.view.View,android.view.ViewGroup)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.setting.PluginSpinnerAdapter: void setModel(java.lang.String[])>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.setting.PluginSpinnerAdapter: void hideSpinnerDropDown(android.widget.Spinner)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.setting.PluginSpinnerAdapter: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.di.SettingsModul",
+          "覆盖率统计": {
+            "行覆盖率": 0.3333333333333333,
+            "圈复杂度覆盖率": 0.25
+          },
+          "成员方法的数量": 4,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 2,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.di.SettingsModul: ch.abertschi.adfree.presenter.SettingsPresenter provideSettingsPresenter()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.di.AboutModul",
+          "覆盖率统计": {
+            "行覆盖率": 0.3333333333333333,
+            "圈复杂度覆盖率": 0.25
+          },
+          "成员方法的数量": 4,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 2,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.di.AboutModul: ch.abertschi.adfree.presenter.AboutPresenter provideAboutPresenter()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.view.setting.CustomSpinner",
+          "覆盖率统计": {
+            "行覆盖率": 0.16666666666666666,
+            "圈复杂度覆盖率": 0.2
+          },
+          "成员方法的数量": 7,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 6,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 4,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 2,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.setting.CustomSpinner: void onDetechedFromWindow()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.view.home.HomeActivity",
+          "覆盖率统计": {
+            "行覆盖率": 0.12903225806451613,
+            "圈复杂度覆盖率": 0.4
+          },
+          "成员方法的数量": 12,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 7,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 2,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 3
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.home.HomeActivity: void showUpdateMessage(boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.2,
+                    "圈复杂度覆盖率": 0.5
+                  },
+                  "所有测试用例的数量": 2,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 2
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.home.HomeActivity: void showPermissionRequired()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.25,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.home.HomeActivity: void showNotificationPermissionSettings()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.home.HomeActivity: void showEnjoyAdFree()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.25,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.home.HomeActivity: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.view.mod.GenericTextDetectorActivity",
+          "覆盖率统计": {
+            "行覆盖率": 0.03125,
+            "圈复杂度覆盖率": 0.2
+          },
+          "成员方法的数量": 7,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 2,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.GenericTextDetectorActivity: void showOptionDialog(ch.abertschi.adfree.model.TextRepositoryData)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.GenericTextDetectorActivity: void insertData()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.GenericTextDetectorActivity: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.view.mod.GenericTextDetectorPresenter",
+          "覆盖率统计": {
+            "行覆盖率": 0.041666666666666664,
+            "圈复杂度覆盖率": 0.1
+          },
+          "成员方法的数量": 9,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 3,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.GenericTextDetectorPresenter: ch.abertschi.adfree.model.TextRepositoryData addNewEntry()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.GenericTextDetectorPresenter: void updateEntry(ch.abertschi.adfree.model.TextRepositoryData)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.GenericTextDetectorPresenter: void deleteEntry(ch.abertschi.adfree.model.TextRepositoryData)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.GenericTextDetectorPresenter: void browseHelp()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.GenericTextDetectorPresenter: void onMoreClicked(ch.abertschi.adfree.model.TextRepositoryData)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.view.mod.ModActivity",
+          "覆盖率统计": {
+            "行覆盖率": 0.012195121951219513,
+            "圈复杂度覆盖率": 0.047619047619047616
+          },
+          "成员方法的数量": 19,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 7,
+              "方法的统计信息": {
+                "非公有方法的数量": 2,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 4,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 12,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ModActivity: void showDetectorCount(int,int)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ModActivity: void showDelayUnmute()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ModActivity: void setDelayValue(int)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ModActivity: void setEnableToggle(boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ModActivity: void setGoogleCastToggle(boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ModActivity: void setNotificationEnabled(boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ModActivity: void showPowerEnabled()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ModActivity: void showNotifiationListenerConnected()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ModActivity: void showNotificationListenerDisconnected()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ModActivity: void hideDeveloperModeFeatures()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ModActivity: void showDeveloperModeFeatures()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ModActivity: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.view.mod.ModPresenter",
+          "覆盖率统计": {
+            "行覆盖率": 0.16666666666666666,
+            "圈复杂度覆盖率": 0.2608695652173913
+          },
+          "成员方法的数量": 18,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 9,
+              "方法的统计信息": {
+                "非公有方法的数量": 2,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 2,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 2,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 9,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ModPresenter: void onStatusChanged(ch.abertschi.adfree.ListenerStatus)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ModPresenter: void onToggleAlwaysOnChanged()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.375,
+                    "圈复杂度覆盖率": 0.3333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ModPresenter: void onDelayUnmute()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ModPresenter: void onDelayChanged(int)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ModPresenter: void onEnableToggleChanged()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.16666666666666666,
+                    "圈复杂度覆盖率": 0.3333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ModPresenter: void onLaunchActiveDetectorsView()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ModPresenter: void onLaunchNotificationListenerSystemSettings()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ModPresenter: void onGoogleCastToggle()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ModPresenter: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.view.mod.CategoriesActivity",
+          "覆盖率统计": {
+            "行覆盖率": 0.04,
+            "圈复杂度覆盖率": 0.2
+          },
+          "成员方法的数量": 8,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": {
+                "非公有方法的数量": 2,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 2,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.CategoriesActivity: void hideEnabledDebug()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.CategoriesActivity: void showEnabledDebug()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.CategoriesActivity: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.view.mod.CategoriesPresenter",
+          "覆盖率统计": {
+            "行覆盖率": 0.05555555555555555,
+            "圈复杂度覆盖率": 0.14285714285714285
+          },
+          "成员方法的数量": 7,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 1,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.CategoriesPresenter: java.util.List getCategories()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.CategoriesPresenter: void onTabTitle()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.CategoriesPresenter: void onCategorySelected(java.lang.String)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.CategoriesPresenter: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.view.mod.CategoryAdapter",
+          "覆盖率统计": {
+            "行覆盖率": 0.05263157894736842,
+            "圈复杂度覆盖率": 0.2
+          },
+          "成员方法的数量": 9,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 8,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 2,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 5
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.CategoryAdapter: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.view.mod.DetectorAdapter",
+          "覆盖率统计": {
+            "行覆盖率": 0.05263157894736842,
+            "圈复杂度覆盖率": 0.2
+          },
+          "成员方法的数量": 9,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 8,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 2,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 5
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.DetectorAdapter: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.view.mod.ActiveDetectorPresenter",
+          "覆盖率统计": {
+            "行覆盖率": 0.06666666666666667,
+            "圈复杂度覆盖率": 0.08333333333333333
+          },
+          "成员方法的数量": 7,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 2,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 1,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ActiveDetectorPresenter: java.util.List getDetectors(java.lang.String)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ActiveDetectorPresenter: boolean isEnabled(ch.abertschi.adfree.detector.AdDetectable)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ActiveDetectorPresenter: void onDetectorToggled(boolean,ch.abertschi.adfree.detector.AdDetectable)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ActiveDetectorPresenter: void showAdditionalInfoFor(ch.abertschi.adfree.detector.AdDetectable,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ActiveDetectorPresenter: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.view.mod.ActiveDetectorActivity",
+          "覆盖率统计": {
+            "行覆盖率": 0.05,
+            "圈复杂度覆盖率": 0.25
+          },
+          "成员方法的数量": 4,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 2,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 2,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ActiveDetectorActivity: void showInfo(java.lang.String)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.view.mod.ActiveDetectorActivity: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.di.HomeModul",
+          "覆盖率统计": {
+            "行覆盖率": 0.3333333333333333,
+            "圈复杂度覆盖率": 0.25
+          },
+          "成员方法的数量": 4,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 2,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.di.HomeModul: ch.abertschi.adfree.presenter.HomePresenter provideSettingsPresenter()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.crashhandler.SendCrashReportActivity",
+          "覆盖率统计": {
+            "行覆盖率": 0.08823529411764706,
+            "圈复杂度覆盖率": 0.08333333333333333
+          },
+          "成员方法的数量": 15,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 12,
+              "方法的统计信息": {
+                "非公有方法的数量": 4,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 5,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.crashhandler.SendCrashReportActivity: void parseIntent(android.content.Intent)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.crashhandler.SendCrashReportActivity: void sendReport()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<ch.abertschi.adfree.crashhandler.SendCrashReportActivity: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.crashhandler.CrashExceptionHandler",
+          "覆盖率统计": {
+            "行覆盖率": 0.175,
+            "圈复杂度覆盖率": 0.3
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": {
+                "非公有方法的数量": 3,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 1,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.crashhandler.CrashExceptionHandler: void uncaughtException(java.lang.Thread,java.lang.Throwable)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.09090909090909091,
+                    "圈复杂度覆盖率": 0.5
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "ch.abertschi.adfree.NotificationsListeners",
+          "覆盖率统计": {
+            "行覆盖率": 0.027777777777777776,
+            "圈复杂度覆盖率": 0.07142857142857142
+          },
+          "成员方法的数量": 7,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 6,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 4
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<ch.abertschi.adfree.NotificationsListeners: java.lang.String getLoggerTag()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

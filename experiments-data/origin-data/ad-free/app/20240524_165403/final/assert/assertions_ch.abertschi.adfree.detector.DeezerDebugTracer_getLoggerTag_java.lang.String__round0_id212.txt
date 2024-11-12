@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"DeezerDebugTracer","method":"test_getLoggerTag_1_1621","class":"ch.abertschi.adfree.detector.TempDeezerDebugTracerGetLoggerTagRound0ID212"}
+{"assert_type":"class java.lang.String","assert_value":"DeezerDebugTracer","method":"test_getLoggerTag_2_1625","class":"ch.abertschi.adfree.detector.TempDeezerDebugTracerGetLoggerTagRound0ID212"}

@@ -1,0 +1,4240 @@
+{
+  "所有类的数量": 380,
+  "所有类的统计信息": {
+    "不需要测试的类的统计信息": {
+      "类的数量": 304,
+      "类的统计信息": {
+        "匿名类的数量": 226,
+        "非公共类的数量": 58,
+        "抽象类的数量": 15,
+        "接口类的数量": 0,
+        "数据类的数量": 1,
+        "包级别类的数量": 4
+      }
+    },
+    "需要测试但是无法测试的类的统计信息": {
+      "类的数量": 0,
+      "类的统计信息": []
+    },
+    "可以测试的类的统计信息": {
+      "类的数量": 76,
+      "类的统计信息": [
+        {
+          "类名": "com.android.gpstest.ForegroundOnlyLocationService_MembersInjector",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 5,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.ForegroundOnlyLocationService_MembersInjector: dagger.MembersInjector create(javax.inject.Provider)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ForegroundOnlyLocationService_MembersInjector: void injectMembers(com.android.gpstest.ForegroundOnlyLocationService)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ForegroundOnlyLocationService_MembersInjector: void injectRepository(com.android.gpstest.ForegroundOnlyLocationService,com.android.gpstest.library.data.LocationRepository)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ForegroundOnlyLocationService_MembersInjector: void injectMembers(java.lang.Object)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.ForegroundOnlyLocationService",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 47,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 45,
+              "方法的统计信息": {
+                "非公有方法的数量": 20,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 11,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 6,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 7
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 2,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.ForegroundOnlyLocationService: void subscribeToLocationUpdates()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ForegroundOnlyLocationService: void unsubscribeToLocationUpdates()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.io.CsvFileLogger",
+          "覆盖率统计": {
+            "行覆盖率": 0.06735751295336788,
+            "圈复杂度覆盖率": 0.2692307692307692
+          },
+          "成员方法的数量": 14,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 7,
+              "方法的统计信息": {
+                "非公有方法的数量": 6,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 7,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.io.CsvFileLogger: void onLocationChanged(android.location.Location)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.2,
+                    "圈复杂度覆盖率": 0.3333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.io.CsvFileLogger: void onGnssStatusChanged(java.util.List,android.location.Location)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.18181818181818182,
+                    "圈复杂度覆盖率": 0.25
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.io.CsvFileLogger: void onGnssMeasurementsReceived(android.location.GnssMeasurementsEvent)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.2,
+                    "圈复杂度覆盖率": 0.3333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.io.CsvFileLogger: void onGnssNavigationMessageReceived(android.location.GnssNavigationMessage)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.08333333333333333,
+                    "圈复杂度覆盖率": 0.3333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.io.CsvFileLogger: void onNmeaReceived(long,java.lang.String)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.2222222222222222,
+                    "圈复杂度覆盖率": 0.5
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.io.CsvFileLogger: void onGnssAntennaInfoReceived(java.util.List)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.1111111111111111,
+                    "圈复杂度覆盖率": 0.5
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.io.CsvFileLogger: void onOrientationChanged(com.android.gpstest.library.model.Orientation,long,long)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.io.JsonFileLogger",
+          "覆盖率统计": {
+            "行覆盖率": 0.2619047619047619,
+            "圈复杂度覆盖率": 0.25
+          },
+          "成员方法的数量": 8,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": {
+                "非公有方法的数量": 4,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.io.JsonFileLogger: boolean startLog(java.io.File,java.util.Date)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.75,
+                    "圈复杂度覆盖率": 0.5
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.io.JsonFileLogger: void close()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.25,
+                    "圈复杂度覆盖率": 0.3333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.io.JsonFileLogger: void onGnssAntennaInfoReceived(java.util.List)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.375,
+                    "圈复杂度覆盖率": 0.25
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.util.BuildUtils",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 2,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.util.BuildUtils: java.lang.String getPlayServicesVersion()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.Application",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 8,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 8,
+              "方法的统计信息": {
+                "非公有方法的数量": 2,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 3,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.lang.LocaleManager",
+          "覆盖率统计": {
+            "行覆盖率": 0.08333333333333333,
+            "圈复杂度覆盖率": 0.2
+          },
+          "成员方法的数量": 7,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": {
+                "非公有方法的数量": 3,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.lang.LocaleManager: android.content.Context setLocale(android.content.Context)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.lang.LocaleManager: android.content.Context setNewLocale(android.content.Context,java.lang.String)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.lang.LocaleManager: java.util.Locale getLocale(android.content.res.Resources)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.5,
+                    "圈复杂度覆盖率": 0.5
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.util.MapUtils",
+          "覆盖率统计": {
+            "行覆盖率": 0.2857142857142857,
+            "圈复杂度覆盖率": 0.5
+          },
+          "成员方法的数量": 4,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.util.MapUtils: com.google.android.gms.maps.model.LatLng makeLatLng(double,double)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.util.MapUtils: com.google.android.gms.maps.model.LatLng makeLatLng(android.location.Location)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.util.MapUtils: android.location.Location makeLocation(com.google.android.gms.maps.model.LatLng)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.DataBinderMapperImpl",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 7,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 7,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 5
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.ui.BenchmarkControllerImpl",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 32,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 27,
+              "方法的统计信息": {
+                "非公有方法的数量": 25,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 1
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.ui.BenchmarkControllerImpl: boolean onBackPressed()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.BenchmarkControllerImpl: void show()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.BenchmarkControllerImpl: void hide()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.BenchmarkControllerImpl: void onLocationChanged(android.location.Location)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.BenchmarkControllerImpl: void onMapClick(android.location.Location)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.ui.BenchmarkViewModel",
+          "覆盖率统计": {
+            "行覆盖率": 0.47619047619047616,
+            "圈复杂度覆盖率": 0.5882352941176471
+          },
+          "成员方法的数量": 13,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 2,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 11,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.ui.BenchmarkViewModel: void setGroundTruthLocation(android.location.Location)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.BenchmarkViewModel: androidx.lifecycle.LiveData getGroundTruthLocation()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.BenchmarkViewModel: void setAllowGroundTruthEdit(boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.BenchmarkViewModel: androidx.lifecycle.LiveData getAllowGroundTruthEdit()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.BenchmarkViewModel: void setBenchmarkCardCollapsed(boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.BenchmarkViewModel: boolean getBenchmarkCardCollapsed()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.BenchmarkViewModel: androidx.lifecycle.LiveData getAvgError()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.BenchmarkViewModel: androidx.lifecycle.LiveData getLocationErrorPair()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.BenchmarkViewModel: java.util.List getLocationErrorPairs()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.BenchmarkViewModel: void addLocation(android.location.Location)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.16666666666666666,
+                    "圈复杂度覆盖率": 0.25
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.BenchmarkViewModel: void reset()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.2857142857142857,
+                    "圈复杂度覆盖率": 0.5
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.R",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 1,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.ui.HelpActivity",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 3,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 2,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.ui.NavigationDrawerFragment",
+          "覆盖率统计": {
+            "行覆盖率": 0.17415730337078653,
+            "圈复杂度覆盖率": 0.09722222222222222
+          },
+          "成员方法的数量": 23,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 19,
+              "方法的统计信息": {
+                "非公有方法的数量": 9,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 9
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.ui.NavigationDrawerFragment: void setUp(int,androidx.drawerlayout.widget.DrawerLayout)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.047619047619047616,
+                    "圈复杂度覆盖率": 0.25
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.NavigationDrawerFragment: void selectItem(int)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.NavigationDrawerFragment: void setSavedPosition(int)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.NavigationDrawerFragment: void populateNavDrawer()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.view.ScrimInsetsScrollView",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 9,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 8,
+              "方法的统计信息": {
+                "非公有方法的数量": 4,
+                "构造方法的数量": 3,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 1
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.view.ScrimInsetsScrollView: void setOnInsetsCallback(com.android.gpstest.view.ScrimInsetsScrollView$OnInsetsCallback)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.ui.GnssFilterDialog",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 5,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 4
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.ui.MainActivity_MembersInjector",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 5,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.ui.MainActivity_MembersInjector: dagger.MembersInjector create(javax.inject.Provider)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.MainActivity_MembersInjector: void injectMembers(com.android.gpstest.ui.MainActivity)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.MainActivity_MembersInjector: void injectRepository(com.android.gpstest.ui.MainActivity,com.android.gpstest.library.data.LocationRepository)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.MainActivity_MembersInjector: void injectMembers(java.lang.Object)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.ui.MainActivity",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 66,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 65,
+              "方法的统计信息": {
+                "非公有方法的数量": 45,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 9,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 4,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 6
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.ui.MainActivity: void onNavigationDrawerItemSelected(int)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.ActivityMainBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.4090909090909091,
+            "圈复杂度覆盖率": 0.375
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ActivityMainBinding: com.android.gpstest.databinding.ActivityMainBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ActivityMainBinding: com.android.gpstest.databinding.ActivityMainBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 2,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 2
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ActivityMainBinding: com.android.gpstest.databinding.ActivityMainBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.5454545454545454,
+                    "圈复杂度覆盖率": 0.3333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.ui.status.StatusFragment",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 8,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 8,
+              "方法的统计信息": {
+                "非公有方法的数量": 2,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 1,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 4
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.ui.MapFragment",
+          "覆盖率统计": {
+            "行覆盖率": 0.008733624454148471,
+            "圈复杂度覆盖率": 0.011235955056179775
+          },
+          "成员方法的数量": 39,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 30,
+              "方法的统计信息": {
+                "非公有方法的数量": 14,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 6,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 5,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 4
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 9,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.ui.MapFragment: void activate(com.google.android.gms.maps.LocationSource$OnLocationChangedListener)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.MapFragment: void deactivate()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.MapFragment: void onCameraChange(com.google.android.gms.maps.model.CameraPosition)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.MapFragment: void onMapClick(com.google.android.gms.maps.model.LatLng)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.MapFragment: void addGroundTruthMarker(android.location.Location)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.MapFragment: void onMapLongClick(com.google.android.gms.maps.model.LatLng)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.MapFragment: boolean onMyLocationButtonClick()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.MapFragment: boolean drawPathLine(android.location.Location,android.location.Location)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.MapFragment: void removePathLines()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.ui.sky.SkyFragment",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 39,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 39,
+              "方法的统计信息": {
+                "非公有方法的数量": 22,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 5,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 8,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 3
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.map.MapViewModelController",
+          "覆盖率统计": {
+            "行覆盖率": 0.38095238095238093,
+            "圈复杂度覆盖率": 0.25
+          },
+          "成员方法的数量": 10,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": {
+                "非公有方法的数量": 4,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 5,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.map.MapViewModelController: void restoreState(android.os.Bundle,android.os.Bundle,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.19230769230769232,
+                    "圈复杂度覆盖率": 0.07142857142857142
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.map.MapViewModelController: java.lang.String getMode()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.map.MapViewModelController: boolean allowGroundTruthChange()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.map.MapViewModelController: android.location.Location getGroundTruthLocation()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.map.MapViewModelController: boolean isTestInProgress()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.chart.DistanceValueFormatter",
+          "覆盖率统计": {
+            "行覆盖率": 0.8181818181818182,
+            "圈复杂度覆盖率": 0.6
+          },
+          "成员方法的数量": 3,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 2,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.chart.DistanceValueFormatter: java.lang.String getFormattedValue(float,com.github.mikephil.charting.data.Entry,int,com.github.mikephil.charting.utils.ViewPortHandler)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.chart.DistanceValueFormatter: java.lang.String getFormattedValue(float,com.github.mikephil.charting.components.AxisBase)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.util.UIUtils",
+          "覆盖率统计": {
+            "行覆盖率": 0.11818181818181818,
+            "圈复杂度覆盖率": 0.25
+          },
+          "成员方法的数量": 18,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 11,
+              "方法的统计信息": {
+                "非公有方法的数量": 11,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 7,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.util.UIUtils: boolean isValidLocationWithErrorDialog(androidx.appcompat.app.AppCompatActivity,java.lang.String,java.lang.String,java.lang.String)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.2
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.util.UIUtils: android.app.Dialog createQrCodeDialog(androidx.appcompat.app.AppCompatActivity)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.08333333333333333,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.util.UIUtils: void showShareFragmentDialog(androidx.appcompat.app.AppCompatActivity,android.location.Location,boolean,com.android.gpstest.io.CsvFileLogger,com.android.gpstest.io.JsonFileLogger,android.net.Uri)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.7692307692307693,
+                    "圈复杂度覆盖率": 0.2
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.util.UIUtils: android.app.Dialog createHelpDialog(android.app.Activity)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.util.UIUtils: android.app.Dialog createWhatsNewDialog(android.app.Activity)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.util.UIUtils: void showFilterDialog(androidx.fragment.app.FragmentActivity)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.3333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.util.UIUtils: void showSortByDialog(androidx.fragment.app.FragmentActivity)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.2,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.ui.sky.SkyFragment_MembersInjector",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 5,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.ui.sky.SkyFragment_MembersInjector: dagger.MembersInjector create(javax.inject.Provider)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.sky.SkyFragment_MembersInjector: void injectMembers(com.android.gpstest.ui.sky.SkyFragment)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.sky.SkyFragment_MembersInjector: void injectRepository(com.android.gpstest.ui.sky.SkyFragment,com.android.gpstest.library.data.LocationRepository)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.sky.SkyFragment_MembersInjector: void injectMembers(java.lang.Object)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.GpsSkyBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.23076923076923078,
+            "圈复杂度覆盖率": 0.2727272727272727
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.GpsSkyBinding: com.android.gpstest.databinding.GpsSkyBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.GpsSkyBinding: com.android.gpstest.databinding.GpsSkyBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.GpsSkyBinding: com.android.gpstest.databinding.GpsSkyBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.24,
+                    "圈复杂度覆盖率": 0.16666666666666666
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.GpsSkySignalMeterBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.1702127659574468,
+            "圈复杂度覆盖率": 0.16666666666666666
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.GpsSkySignalMeterBinding: com.android.gpstest.databinding.GpsSkySignalMeterBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.GpsSkySignalMeterBinding: com.android.gpstest.databinding.GpsSkySignalMeterBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.GpsSkySignalMeterBinding: com.android.gpstest.databinding.GpsSkySignalMeterBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.1935483870967742,
+                    "圈复杂度覆盖率": 0.14285714285714285
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.GpsSkyLegendCardBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.02027027027027027,
+            "圈复杂度覆盖率": 0.03260869565217391
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.GpsSkyLegendCardBinding: com.android.gpstest.databinding.GpsSkyLegendCardBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.GpsSkyLegendCardBinding: com.android.gpstest.databinding.GpsSkyLegendCardBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.GpsSkyLegendCardBinding: com.android.gpstest.databinding.GpsSkyLegendCardBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.017241379310344827,
+                    "圈复杂度覆盖率": 0.011494252873563218
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.ui.MapFragment_MembersInjector",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 5,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.ui.MapFragment_MembersInjector: dagger.MembersInjector create(javax.inject.Provider)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.MapFragment_MembersInjector: void injectMembers(com.android.gpstest.ui.MapFragment)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.MapFragment_MembersInjector: void injectRepository(com.android.gpstest.ui.MapFragment,com.android.gpstest.library.data.LocationRepository)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.ui.MapFragment_MembersInjector: void injectMembers(java.lang.Object)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.map.MapConstants",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 1,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.library.BR",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 1,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.BuildConfig",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 2,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 2,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.view.GpsSkyView",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 24,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 17,
+              "方法的统计信息": {
+                "非公有方法的数量": 15,
+                "构造方法的数量": 2,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 7,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.view.GpsSkyView: void setStarted()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.view.GpsSkyView: void setStopped()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.view.GpsSkyView: void setStatus(java.util.List)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.view.GpsSkyView: int getSatelliteColor(float)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.view.GpsSkyView: void onOrientationChanged(double,double)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.view.GpsSkyView: float getCn0InViewAvg()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.view.GpsSkyView: float getCn0UsedAvg()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.DataBindingTriggerClass",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 1,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.GpsSwitchBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.47058823529411764,
+            "圈复杂度覆盖率": 0.2857142857142857
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.GpsSwitchBinding: com.android.gpstest.databinding.GpsSwitchBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.GpsSwitchBinding: com.android.gpstest.databinding.GpsSwitchBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.GpsSwitchBinding: com.android.gpstest.databinding.GpsSwitchBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.8571428571428571,
+                    "圈复杂度覆盖率": 0.5
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.BenchmarkSlidingPanelBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.140625,
+            "圈复杂度覆盖率": 0.1875
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.BenchmarkSlidingPanelBinding: com.android.gpstest.databinding.BenchmarkSlidingPanelBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.BenchmarkSlidingPanelBinding: com.android.gpstest.databinding.BenchmarkSlidingPanelBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 2,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 2
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.BenchmarkSlidingPanelBinding: com.android.gpstest.databinding.BenchmarkSlidingPanelBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.13636363636363635,
+                    "圈复杂度覆盖率": 0.09090909090909091
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.NavdrawerListBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.15789473684210525,
+            "圈复杂度覆盖率": 0.2857142857142857
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.NavdrawerListBinding: com.android.gpstest.databinding.NavdrawerListBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.NavdrawerListBinding: com.android.gpstest.databinding.NavdrawerListBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 2,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 2
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.NavdrawerListBinding: com.android.gpstest.databinding.NavdrawerListBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.BenchmarkSlidingHeaderBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.12162162162162163,
+            "圈复杂度覆盖率": 0.16666666666666666
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.BenchmarkSlidingHeaderBinding: com.android.gpstest.databinding.BenchmarkSlidingHeaderBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.BenchmarkSlidingHeaderBinding: com.android.gpstest.databinding.BenchmarkSlidingHeaderBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.BenchmarkSlidingHeaderBinding: com.android.gpstest.databinding.BenchmarkSlidingHeaderBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.11538461538461539,
+                    "圈复杂度覆盖率": 0.07692307692307693
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.WhatsNewDialogBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.16666666666666666,
+            "圈复杂度覆盖率": 0.14285714285714285
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.WhatsNewDialogBinding: com.android.gpstest.databinding.WhatsNewDialogBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.WhatsNewDialogBinding: com.android.gpstest.databinding.WhatsNewDialogBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.WhatsNewDialogBinding: com.android.gpstest.databinding.WhatsNewDialogBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.NavdrawerSeparatorBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.8333333333333334,
+            "圈复杂度覆盖率": 0.7142857142857143
+          },
+          "成员方法的数量": 5,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 2,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 1
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.NavdrawerSeparatorBinding: com.android.gpstest.databinding.NavdrawerSeparatorBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.NavdrawerSeparatorBinding: com.android.gpstest.databinding.NavdrawerSeparatorBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 1.0,
+                    "圈复杂度覆盖率": 1.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.NavdrawerSeparatorBinding: com.android.gpstest.databinding.NavdrawerSeparatorBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.6666666666666666,
+                    "圈复杂度覆盖率": 0.5
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.GpsSkyCn0IndicatorCardBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.3076923076923077,
+            "圈复杂度覆盖率": 0.25
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.GpsSkyCn0IndicatorCardBinding: com.android.gpstest.databinding.GpsSkyCn0IndicatorCardBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.GpsSkyCn0IndicatorCardBinding: com.android.gpstest.databinding.GpsSkyCn0IndicatorCardBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.GpsSkyCn0IndicatorCardBinding: com.android.gpstest.databinding.GpsSkyCn0IndicatorCardBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.42857142857142855,
+                    "圈复杂度覆盖率": 0.3333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.GpsSkySignalTitleBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.27586206896551724,
+            "圈复杂度覆盖率": 0.2222222222222222
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.GpsSkySignalTitleBinding: com.android.gpstest.databinding.GpsSkySignalTitleBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.GpsSkySignalTitleBinding: com.android.gpstest.databinding.GpsSkySignalTitleBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.GpsSkySignalTitleBinding: com.android.gpstest.databinding.GpsSkySignalTitleBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.375,
+                    "圈复杂度覆盖率": 0.25
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.Cn0UsedValueTextBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.14285714285714285,
+            "圈复杂度覆盖率": 0.14285714285714285
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.Cn0UsedValueTextBinding: com.android.gpstest.databinding.Cn0UsedValueTextBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.Cn0UsedValueTextBinding: com.android.gpstest.databinding.Cn0UsedValueTextBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.Cn0UsedValueTextBinding: com.android.gpstest.databinding.Cn0UsedValueTextBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.Cn0InViewValueTextBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.14285714285714285,
+            "圈复杂度覆盖率": 0.14285714285714285
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.Cn0InViewValueTextBinding: com.android.gpstest.databinding.Cn0InViewValueTextBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.Cn0InViewValueTextBinding: com.android.gpstest.databinding.Cn0InViewValueTextBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.Cn0InViewValueTextBinding: com.android.gpstest.databinding.Cn0InViewValueTextBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.SignalMeterTicksAndTextBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.10714285714285714,
+            "圈复杂度覆盖率": 0.15
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.SignalMeterTicksAndTextBinding: com.android.gpstest.databinding.SignalMeterTicksAndTextBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.SignalMeterTicksAndTextBinding: com.android.gpstest.databinding.SignalMeterTicksAndTextBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 2,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 2
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.SignalMeterTicksAndTextBinding: com.android.gpstest.databinding.SignalMeterTicksAndTextBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.1,
+                    "圈复杂度覆盖率": 0.06666666666666667
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.ShareLogBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.20512820512820512,
+            "圈复杂度覆盖率": 0.18181818181818182
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ShareLogBinding: com.android.gpstest.databinding.ShareLogBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ShareLogBinding: com.android.gpstest.databinding.ShareLogBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ShareLogBinding: com.android.gpstest.databinding.ShareLogBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.25,
+                    "圈复杂度覆盖率": 0.16666666666666666
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.ErrorTextDialogBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.16666666666666666,
+            "圈复杂度覆盖率": 0.14285714285714285
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ErrorTextDialogBinding: com.android.gpstest.databinding.ErrorTextDialogBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ErrorTextDialogBinding: com.android.gpstest.databinding.ErrorTextDialogBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ErrorTextDialogBinding: com.android.gpstest.databinding.ErrorTextDialogBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.BenchmarkMotionLayoutBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.140625,
+            "圈复杂度覆盖率": 0.1875
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.BenchmarkMotionLayoutBinding: com.android.gpstest.databinding.BenchmarkMotionLayoutBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.BenchmarkMotionLayoutBinding: com.android.gpstest.databinding.BenchmarkMotionLayoutBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.BenchmarkMotionLayoutBinding: com.android.gpstest.databinding.BenchmarkMotionLayoutBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.13636363636363635,
+                    "圈复杂度覆盖率": 0.09090909090909091
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.AppBarMainBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.25,
+            "圈复杂度覆盖率": 0.2857142857142857
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.AppBarMainBinding: com.android.gpstest.databinding.AppBarMainBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.AppBarMainBinding: com.android.gpstest.databinding.AppBarMainBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 2,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 2
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.AppBarMainBinding: com.android.gpstest.databinding.AppBarMainBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.ShareLocationBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.10714285714285714,
+            "圈复杂度覆盖率": 0.15
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ShareLocationBinding: com.android.gpstest.databinding.ShareLocationBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ShareLocationBinding: com.android.gpstest.databinding.ShareLocationBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 2,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 2
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ShareLocationBinding: com.android.gpstest.databinding.ShareLocationBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.1,
+                    "圈复杂度覆盖率": 0.06666666666666667
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.ActivityHelpBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.125,
+            "圈复杂度覆盖率": 0.25
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ActivityHelpBinding: com.android.gpstest.databinding.ActivityHelpBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ActivityHelpBinding: com.android.gpstest.databinding.ActivityHelpBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 2,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 2
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ActivityHelpBinding: com.android.gpstest.databinding.ActivityHelpBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.ShareBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.36363636363636365,
+            "圈复杂度覆盖率": 0.25
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ShareBinding: com.android.gpstest.databinding.ShareBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ShareBinding: com.android.gpstest.databinding.ShareBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ShareBinding: com.android.gpstest.databinding.ShareBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.5454545454545454,
+                    "圈复杂度覆盖率": 0.3333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.ActivityMainLargeScreenBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.14285714285714285,
+            "圈复杂度覆盖率": 0.14285714285714285
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ActivityMainLargeScreenBinding: com.android.gpstest.databinding.ActivityMainLargeScreenBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ActivityMainLargeScreenBinding: com.android.gpstest.databinding.ActivityMainLargeScreenBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ActivityMainLargeScreenBinding: com.android.gpstest.databinding.ActivityMainLargeScreenBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.ContentMainBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.23076923076923078,
+            "圈复杂度覆盖率": 0.2727272727272727
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ContentMainBinding: com.android.gpstest.databinding.ContentMainBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ContentMainBinding: com.android.gpstest.databinding.ContentMainBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 2,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 2
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ContentMainBinding: com.android.gpstest.databinding.ContentMainBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.25,
+                    "圈复杂度覆盖率": 0.16666666666666666
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.SettingsActivityBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.36363636363636365,
+            "圈复杂度覆盖率": 0.25
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.SettingsActivityBinding: com.android.gpstest.databinding.SettingsActivityBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.SettingsActivityBinding: com.android.gpstest.databinding.SettingsActivityBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.SettingsActivityBinding: com.android.gpstest.databinding.SettingsActivityBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.5454545454545454,
+                    "圈复杂度覆盖率": 0.3333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.NavigationDrawerBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.21428571428571427,
+            "圈复杂度覆盖率": 0.2857142857142857
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.NavigationDrawerBinding: com.android.gpstest.databinding.NavigationDrawerBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.NavigationDrawerBinding: com.android.gpstest.databinding.NavigationDrawerBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 2,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 2
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.NavigationDrawerBinding: com.android.gpstest.databinding.NavigationDrawerBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.ClearAssistWarningBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.36363636363636365,
+            "圈复杂度覆盖率": 0.25
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ClearAssistWarningBinding: com.android.gpstest.databinding.ClearAssistWarningBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ClearAssistWarningBinding: com.android.gpstest.databinding.ClearAssistWarningBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ClearAssistWarningBinding: com.android.gpstest.databinding.ClearAssistWarningBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.5454545454545454,
+                    "圈复杂度覆盖率": 0.3333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.QrCodeInstructionsBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.4090909090909091,
+            "圈复杂度覆盖率": 0.375
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.QrCodeInstructionsBinding: com.android.gpstest.databinding.QrCodeInstructionsBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.QrCodeInstructionsBinding: com.android.gpstest.databinding.QrCodeInstructionsBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 2,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 2
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.QrCodeInstructionsBinding: com.android.gpstest.databinding.QrCodeInstructionsBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.5454545454545454,
+                    "圈复杂度覆盖率": 0.3333333333333333
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.NavdrawerSeparatorSpecialBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.25,
+            "圈复杂度覆盖率": 0.2857142857142857
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.NavdrawerSeparatorSpecialBinding: com.android.gpstest.databinding.NavdrawerSeparatorSpecialBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.NavdrawerSeparatorSpecialBinding: com.android.gpstest.databinding.NavdrawerSeparatorSpecialBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 2,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 2
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.NavdrawerSeparatorSpecialBinding: com.android.gpstest.databinding.NavdrawerSeparatorSpecialBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.NavdrawerOverflowButtonBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.15789473684210525,
+            "圈复杂度覆盖率": 0.2857142857142857
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.NavdrawerOverflowButtonBinding: com.android.gpstest.databinding.NavdrawerOverflowButtonBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.NavdrawerOverflowButtonBinding: com.android.gpstest.databinding.NavdrawerOverflowButtonBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 2,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 2
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.NavdrawerOverflowButtonBinding: com.android.gpstest.databinding.NavdrawerOverflowButtonBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.NavdrawerItemBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.3333333333333333,
+            "圈复杂度覆盖率": 0.3333333333333333
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.NavdrawerItemBinding: com.android.gpstest.databinding.NavdrawerItemBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.NavdrawerItemBinding: com.android.gpstest.databinding.NavdrawerItemBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 2,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 2
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.NavdrawerItemBinding: com.android.gpstest.databinding.NavdrawerItemBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.4,
+                    "圈复杂度覆盖率": 0.25
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.ShareUploadBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.08823529411764706,
+            "圈复杂度覆盖率": 0.2
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ShareUploadBinding: com.android.gpstest.databinding.ShareUploadBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ShareUploadBinding: com.android.gpstest.databinding.ShareUploadBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 2,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 2
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.ShareUploadBinding: com.android.gpstest.databinding.ShareUploadBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.databinding.BenchmarkCardBinding",
+          "覆盖率统计": {
+            "行覆盖率": 0.21428571428571427,
+            "圈复杂度覆盖率": 0.2857142857142857
+          },
+          "成员方法的数量": 6,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 3,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.databinding.BenchmarkCardBinding: com.android.gpstest.databinding.BenchmarkCardBinding inflate(android.view.LayoutInflater)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.BenchmarkCardBinding: com.android.gpstest.databinding.BenchmarkCardBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                },
+                {
+                  "方法签名": "<com.android.gpstest.databinding.BenchmarkCardBinding: com.android.gpstest.databinding.BenchmarkCardBinding bind(android.view.View)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.BR",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 1,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.ui.share.ShareDialogFragment",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 11,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 11,
+              "方法的统计信息": {
+                "非公有方法的数量": 3,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 5,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 1,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 1
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.ui.share.ShareCollectionAdapter",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 7,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 7,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 1,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 2,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.ui.share.UploadDeviceInfoFragment",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 7,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 7,
+              "方法的统计信息": {
+                "非公有方法的数量": 3,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 1,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.ui.share.ShareLogFragment",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 7,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 7,
+              "方法的统计信息": {
+                "非公有方法的数量": 3,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 1,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.ui.share.ShareLocationFragment",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 12,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 12,
+              "方法的统计信息": {
+                "非公有方法的数量": 9,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 2
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.io.DevicePropertiesUploader",
+          "覆盖率统计": {
+            "行覆盖率": 0.023809523809523808,
+            "圈复杂度覆盖率": 0.16666666666666666
+          },
+          "成员方法的数量": 7,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 6,
+              "方法的统计信息": {
+                "非公有方法的数量": 3,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 2,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.io.DevicePropertiesUploader: java.lang.Object upload(kotlin.coroutines.Continuation)>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 0,
+                  "失败的测试用例的数量": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.ui.status.LocationPreviewParameterProvider",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 4,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 4,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 1,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 1
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.ui.Preferences",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 44,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 44,
+              "方法的统计信息": {
+                "非公有方法的数量": 10,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 30,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 3
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.Application_ComponentTreeDeps",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 1,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 0,
+                "构造方法的数量": 1,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.Application_HiltComponents",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 1,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            }
+          }
+        },
+        {
+          "类名": "com.android.gpstest.DaggerApplication_HiltComponents_SingletonC",
+          "覆盖率统计": {
+            "行覆盖率": 0.0,
+            "圈复杂度覆盖率": 0.0
+          },
+          "成员方法的数量": 2,
+          "成员方法的统计信息": {
+            "不需要测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": {
+                "非公有方法的数量": 1,
+                "构造方法的数量": 0,
+                "匿名方法的数量": 0,
+                "抽象方法的数量": 0,
+                "get/set方法的数量": 0,
+                "componentN 方法的数量": 0,
+                "override 方法的数量": 0
+              }
+            },
+            "需要但是无法测试的方法的统计信息": {
+              "方法的数量": 0,
+              "方法的统计信息": []
+            },
+            "可以测试的方法的统计信息": {
+              "方法的数量": 1,
+              "方法的统计信息": [
+                {
+                  "方法签名": "<com.android.gpstest.DaggerApplication_HiltComponents_SingletonC: com.android.gpstest.DaggerApplication_HiltComponents_SingletonC$Builder builder()>",
+                  "测试用例的覆盖率统计": {
+                    "行覆盖率": 0.0,
+                    "圈复杂度覆盖率": 0.0
+                  },
+                  "所有测试用例的数量": 1,
+                  "成功的测试用例的数量": 1,
+                  "失败的测试用例的数量": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_setGoogleCastEnabled_boolean_1_161","class":"ch.abertschi.adfree.model.TempPreferencesFactorySetGoogleCastEnabledRound0ID30"}
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_setGoogleCastEnabled_boolean_2_165","class":"ch.abertschi.adfree.model.TempPreferencesFactorySetGoogleCastEnabledRound0ID30"}

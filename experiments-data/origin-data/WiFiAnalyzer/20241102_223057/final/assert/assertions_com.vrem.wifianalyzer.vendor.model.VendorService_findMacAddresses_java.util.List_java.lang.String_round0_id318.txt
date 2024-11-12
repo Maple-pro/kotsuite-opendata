@@ -1,0 +1,2 @@
+{"assert_type":"class kotlin.collections.EmptyList","assert_value":"[]","method":"test_findMacAddresses_String_1_1673","class":"com.vrem.wifianalyzer.vendor.model.TempVendorServiceFindMacAddressesRound0ID318"}
+{"assert_type":"class kotlin.collections.EmptyList","assert_value":"[]","method":"test_findMacAddresses_String_2_1677","class":"com.vrem.wifianalyzer.vendor.model.TempVendorServiceFindMacAddressesRound0ID318"}

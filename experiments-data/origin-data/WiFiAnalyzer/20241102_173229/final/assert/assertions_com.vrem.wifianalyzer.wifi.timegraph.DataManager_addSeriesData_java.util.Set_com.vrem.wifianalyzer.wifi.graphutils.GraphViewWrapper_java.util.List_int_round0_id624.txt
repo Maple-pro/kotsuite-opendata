@@ -1,0 +1,2 @@
+{"assert_type":"class java.util.LinkedHashSet","assert_value":"[]","method":"test_addSeriesData_GraphViewWrapper_List_int_1_3376","class":"com.vrem.wifianalyzer.wifi.timegraph.TempDataManagerAddSeriesDataRound0ID624"}
+{"assert_type":"class java.util.LinkedHashSet","assert_value":"[]","method":"test_addSeriesData_GraphViewWrapper_List_int_2_3382","class":"com.vrem.wifianalyzer.wifi.timegraph.TempDataManagerAddSeriesDataRound0ID624"}

@@ -1,0 +1,1 @@
+{"assert_type":"class java.lang.Double","assert_value":"9.0","method":"test_toDouble_String_1_29","class":"com.android.gpstest.library.util.TempMathUtilsToDoubleRound0ID14"}

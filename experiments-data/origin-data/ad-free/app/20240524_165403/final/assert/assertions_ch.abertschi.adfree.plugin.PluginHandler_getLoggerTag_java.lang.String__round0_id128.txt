@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"PluginHandler","method":"test_getLoggerTag_1_893","class":"ch.abertschi.adfree.plugin.TempPluginHandlerGetLoggerTagRound0ID128"}
+{"assert_type":"class java.lang.String","assert_value":"PluginHandler","method":"test_getLoggerTag_2_899","class":"ch.abertschi.adfree.plugin.TempPluginHandlerGetLoggerTagRound0ID128"}

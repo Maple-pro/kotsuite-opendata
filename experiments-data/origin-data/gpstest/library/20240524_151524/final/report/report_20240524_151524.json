@@ -1,0 +1,203 @@
+{
+  "classInfos": [
+    {
+      "className": "com.android.gpstest.library.util.MathUtils",
+      "classType": "ENABLE",
+      "reason": "ENABLE_CLASS",
+      "coverageInfo": {
+        "lineCoverage": 0.6551724137931034,
+        "ccCoverage": 0.4090909090909091
+      },
+      "methodInfos": [
+        {
+          "methodSig": "<com.android.gpstest.library.util.MathUtils: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD",
+          "coverageInfo": {
+            "lineCoverage": 0.0,
+            "ccCoverage": 0.0
+          },
+          "testCaseInfos": []
+        },
+        {
+          "methodSig": "<com.android.gpstest.library.util.MathUtils: double mod(double,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD",
+          "coverageInfo": {
+            "lineCoverage": 1.0,
+            "ccCoverage": 1.0
+          },
+          "testCaseInfos": [
+            {
+              "testCaseName": "test_mod_double_double_1_1",
+              "testResult": "SUCCESSFUL",
+              "coverageInfo": {
+                "lineCoverage": 1.0,
+                "ccCoverage": 1.0
+              }
+            }
+          ]
+        },
+        {
+          "methodSig": "<com.android.gpstest.library.util.MathUtils: double toMhz(double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD",
+          "coverageInfo": {
+            "lineCoverage": 1.0,
+            "ccCoverage": 1.0
+          },
+          "testCaseInfos": [
+            {
+              "testCaseName": "test_toMhz_double_1_5",
+              "testResult": "SUCCESSFUL",
+              "coverageInfo": {
+                "lineCoverage": 1.0,
+                "ccCoverage": 1.0
+              }
+            }
+          ]
+        },
+        {
+          "methodSig": "<com.android.gpstest.library.util.MathUtils: boolean fuzzyEquals(double,double,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD",
+          "coverageInfo": {
+            "lineCoverage": 1.0,
+            "ccCoverage": 0.2
+          },
+          "testCaseInfos": [
+            {
+              "testCaseName": "test_fuzzyEquals_double_double_double_1_9",
+              "testResult": "SUCCESSFUL",
+              "coverageInfo": {
+                "lineCoverage": 1.0,
+                "ccCoverage": 0.2
+              }
+            }
+          ]
+        },
+        {
+          "methodSig": "<com.android.gpstest.library.util.MathUtils: double checkNonNegative(java.lang.String,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD",
+          "coverageInfo": {
+            "lineCoverage": 0.0,
+            "ccCoverage": 0.0
+          },
+          "testCaseInfos": []
+        },
+        {
+          "methodSig": "<com.android.gpstest.library.util.MathUtils: float mapToRange(float,float,float,float,float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD",
+          "coverageInfo": {
+            "lineCoverage": 0.4444444444444444,
+            "ccCoverage": 0.6666666666666666
+          },
+          "testCaseInfos": [
+            {
+              "testCaseName": "test_mapToRange_float_float_float_float_float_1_13",
+              "testResult": "SUCCESSFUL",
+              "coverageInfo": {
+                "lineCoverage": 0.2222222222222222,
+                "ccCoverage": 0.3333333333333333
+              }
+            },
+            {
+              "testCaseName": "test_mapToRange_float_float_float_float_float_2_15",
+              "testResult": "SUCCESSFUL",
+              "coverageInfo": {
+                "lineCoverage": 0.3333333333333333,
+                "ccCoverage": 0.3333333333333333
+              }
+            }
+          ]
+        },
+        {
+          "methodSig": "<com.android.gpstest.library.util.MathUtils: boolean isValidFloat(float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD",
+          "coverageInfo": {
+            "lineCoverage": 1.0,
+            "ccCoverage": 0.3333333333333333
+          },
+          "testCaseInfos": [
+            {
+              "testCaseName": "test_isValidFloat_float_1_17",
+              "testResult": "SUCCESSFUL",
+              "coverageInfo": {
+                "lineCoverage": 1.0,
+                "ccCoverage": 0.3333333333333333
+              }
+            }
+          ]
+        },
+        {
+          "methodSig": "<com.android.gpstest.library.util.MathUtils: double clamp(double,double,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD",
+          "coverageInfo": {
+            "lineCoverage": 0.75,
+            "ccCoverage": 0.25
+          },
+          "testCaseInfos": [
+            {
+              "testCaseName": "test_clamp_double_double_double_1_21",
+              "testResult": "SUCCESSFUL",
+              "coverageInfo": {
+                "lineCoverage": 0.75,
+                "ccCoverage": 0.25
+              }
+            }
+          ]
+        },
+        {
+          "methodSig": "<com.android.gpstest.library.util.MathUtils: java.lang.String fromBase64(java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD",
+          "coverageInfo": {
+            "lineCoverage": 0.0,
+            "ccCoverage": 0.0
+          },
+          "testCaseInfos": [
+            {
+              "testCaseName": "test_fromBase64_String_1_25",
+              "testResult": "FAILED",
+              "coverageInfo": {
+                "lineCoverage": 0.0,
+                "ccCoverage": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "methodSig": "<com.android.gpstest.library.util.MathUtils: java.lang.Double toDouble(java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD",
+          "coverageInfo": {
+            "lineCoverage": 1.0,
+            "ccCoverage": 1.0
+          },
+          "testCaseInfos": [
+            {
+              "testCaseName": "test_toDouble_String_1_29",
+              "testResult": "SUCCESSFUL",
+              "coverageInfo": {
+                "lineCoverage": 0.25,
+                "ccCoverage": 1.0
+              }
+            },
+            {
+              "testCaseName": "test_toDouble_String_2_31",
+              "testResult": "FAILED",
+              "coverageInfo": {
+                "lineCoverage": 0.75,
+                "ccCoverage": 1.0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

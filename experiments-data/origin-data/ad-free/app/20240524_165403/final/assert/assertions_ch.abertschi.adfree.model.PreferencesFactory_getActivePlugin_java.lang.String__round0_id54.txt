@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"","method":"test_getActivePlugin_1_305","class":"ch.abertschi.adfree.model.TempPreferencesFactoryGetActivePluginRound0ID54"}
+{"assert_type":"class java.lang.String","assert_value":"","method":"test_getActivePlugin_2_309","class":"ch.abertschi.adfree.model.TempPreferencesFactoryGetActivePluginRound0ID54"}

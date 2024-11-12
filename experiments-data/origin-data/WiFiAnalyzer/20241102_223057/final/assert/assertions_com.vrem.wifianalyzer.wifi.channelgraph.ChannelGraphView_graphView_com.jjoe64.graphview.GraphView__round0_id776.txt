@@ -1,0 +1,2 @@
+{"assert_type":"class com.jjoe64.graphview.GraphView","assert_value":"GraphView(child of #4#6)","method":"test_graphView_1_4892","class":"com.vrem.wifianalyzer.wifi.channelgraph.TempChannelGraphViewGraphViewRound0ID776"}
+{"assert_type":"class com.jjoe64.graphview.GraphView","assert_value":"GraphView(child of #4#6)","method":"test_graphView_2_4899","class":"com.vrem.wifianalyzer.wifi.channelgraph.TempChannelGraphViewGraphViewRound0ID776"}

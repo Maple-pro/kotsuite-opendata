@@ -1,0 +1,2 @@
+{"assert_type":"class kotlin.collections.EmptyList","assert_value":"[]","method":"test_scanResults_1_4316","class":"com.vrem.wifianalyzer.wifi.scanner.TempCacheScanResultsRound0ID718"}
+{"assert_type":"class kotlin.collections.EmptyList","assert_value":"[]","method":"test_scanResults_2_4319","class":"com.vrem.wifianalyzer.wifi.scanner.TempCacheScanResultsRound0ID718"}

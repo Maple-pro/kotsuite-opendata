@@ -1,0 +1,2 @@
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[GHZ2, GHZ5, GHZ6]","method":"test_getEntries_1_2001","class":"com.vrem.wifianalyzer.wifi.band.TempWiFiBandGetEntriesRound0ID372"}
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[GHZ2, GHZ5, GHZ6]","method":"test_getEntries_2_2003","class":"com.vrem.wifianalyzer.wifi.band.TempWiFiBandGetEntriesRound0ID372"}

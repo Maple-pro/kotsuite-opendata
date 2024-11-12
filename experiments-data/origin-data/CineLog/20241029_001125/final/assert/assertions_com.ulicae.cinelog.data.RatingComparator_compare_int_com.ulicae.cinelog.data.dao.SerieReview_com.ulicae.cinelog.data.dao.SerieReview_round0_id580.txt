@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Integer","assert_value":"1","method":"test_compare_SerieReview_SerieReview_1_4349","class":"com.ulicae.cinelog.data.TempRatingComparatorCompareRound0ID580"}
+{"assert_type":"class java.lang.Integer","assert_value":"1","method":"test_compare_SerieReview_SerieReview_2_4354","class":"com.ulicae.cinelog.data.TempRatingComparatorCompareRound0ID580"}

@@ -1,0 +1,2 @@
+{"assert_type":"class java.io.File","assert_value":"","method":"test_getFilesDir_1_4928","class":"com.ulicae.cinelog.utils.TempFileUtilsWrapperGetFilesDirRound0ID668"}
+{"assert_type":"class java.io.File","assert_value":"","method":"test_getFilesDir_2_4932","class":"com.ulicae.cinelog.utils.TempFileUtilsWrapperGetFilesDirRound0ID668"}

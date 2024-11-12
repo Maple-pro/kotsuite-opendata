@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"en","method":"test_getLanguage_1_4505","class":"com.ulicae.cinelog.utils.TempLocaleWrapperGetLanguageRound0ID604"}
+{"assert_type":"class java.lang.String","assert_value":"en","method":"test_getLanguage_2_4508","class":"com.ulicae.cinelog.utils.TempLocaleWrapperGetLanguageRound0ID604"}

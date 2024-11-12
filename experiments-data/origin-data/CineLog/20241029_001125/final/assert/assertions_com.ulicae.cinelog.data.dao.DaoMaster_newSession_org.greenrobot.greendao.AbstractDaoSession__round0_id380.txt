@@ -1,0 +1,2 @@
+{"assert_type":"class com.ulicae.cinelog.data.dao.DaoSession","assert_value":"com.ulicae.cinelog.data.dao.DaoSession@404dc999","method":"test_newSession_1_2937","class":"com.ulicae.cinelog.data.dao.TempDaoMasterNewSessionRound0ID380"}
+{"assert_type":"class com.ulicae.cinelog.data.dao.DaoSession","assert_value":"com.ulicae.cinelog.data.dao.DaoSession@404dc999","method":"test_newSession_2_2941","class":"com.ulicae.cinelog.data.dao.TempDaoMasterNewSessionRound0ID380"}

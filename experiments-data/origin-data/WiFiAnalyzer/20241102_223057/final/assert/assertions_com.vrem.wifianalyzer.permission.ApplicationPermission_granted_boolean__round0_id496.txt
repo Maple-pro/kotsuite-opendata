@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Integer","assert_value":"1","method":"test_granted_1_2580","class":"com.vrem.wifianalyzer.permission.TempApplicationPermissionGrantedRound0ID496"}
+{"assert_type":"class java.lang.Integer","assert_value":"1","method":"test_granted_2_2585","class":"com.vrem.wifianalyzer.permission.TempApplicationPermissionGrantedRound0ID496"}

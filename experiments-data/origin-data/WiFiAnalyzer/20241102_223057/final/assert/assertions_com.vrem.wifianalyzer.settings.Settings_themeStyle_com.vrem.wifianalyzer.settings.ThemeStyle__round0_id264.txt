@@ -1,0 +1,2 @@
+{"assert_type":"class com.vrem.wifianalyzer.settings.ThemeStyle","assert_value":"DARK","method":"test_themeStyle_1_1249","class":"com.vrem.wifianalyzer.settings.TempSettingsThemeStyleRound0ID264"}
+{"assert_type":"class com.vrem.wifianalyzer.settings.ThemeStyle","assert_value":"DARK","method":"test_themeStyle_2_1253","class":"com.vrem.wifianalyzer.settings.TempSettingsThemeStyleRound0ID264"}

@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"","method":"test_getLineTitle_CSVRecord_1_5293","class":"com.ulicae.cinelog.io.importdb.builder.TempKinoDtoFromRecordBuilderGetLineTitleRound0ID730"}
+{"assert_type":"class java.lang.String","assert_value":"","method":"test_getLineTitle_CSVRecord_2_5298","class":"com.ulicae.cinelog.io.importdb.builder.TempKinoDtoFromRecordBuilderGetLineTitleRound0ID730"}

@@ -1,0 +1,2 @@
+{"assert_type":"class kotlin.collections.EmptySet","assert_value":"[]","method":"test_active_1_3452","class":"com.vrem.wifianalyzer.wifi.timegraph.TempTimeGraphCacheActiveRound0ID632"}
+{"assert_type":"class kotlin.collections.EmptySet","assert_value":"[]","method":"test_active_2_3455","class":"com.vrem.wifianalyzer.wifi.timegraph.TempTimeGraphCacheActiveRound0ID632"}

@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"AudioPlayer","method":"test_getLoggerTag_1_2857","class":"ch.abertschi.adfree.plugin.TempAudioPlayerGetLoggerTagRound0ID396"}
+{"assert_type":"class java.lang.String","assert_value":"AudioPlayer","method":"test_getLoggerTag_2_2863","class":"ch.abertschi.adfree.plugin.TempAudioPlayerGetLoggerTagRound0ID396"}

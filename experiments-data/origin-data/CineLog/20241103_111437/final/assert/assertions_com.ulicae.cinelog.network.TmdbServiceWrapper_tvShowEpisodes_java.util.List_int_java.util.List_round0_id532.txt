@@ -1,0 +1,2 @@
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_tvShowEpisodes_int_List_1_4037","class":"com.ulicae.cinelog.network.TempTmdbServiceWrapperTvShowEpisodesRound0ID532"}
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_tvShowEpisodes_int_List_2_4042","class":"com.ulicae.cinelog.network.TempTmdbServiceWrapperTvShowEpisodesRound0ID532"}

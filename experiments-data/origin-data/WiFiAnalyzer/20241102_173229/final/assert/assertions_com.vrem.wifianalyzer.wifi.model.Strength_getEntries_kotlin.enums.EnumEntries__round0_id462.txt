@@ -1,0 +1,2 @@
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[ZERO, ONE, TWO, THREE, FOUR]","method":"test_getEntries_1_2399","class":"com.vrem.wifianalyzer.wifi.model.TempStrengthGetEntriesRound0ID462"}
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[ZERO, ONE, TWO, THREE, FOUR]","method":"test_getEntries_2_2401","class":"com.vrem.wifianalyzer.wifi.model.TempStrengthGetEntriesRound0ID462"}

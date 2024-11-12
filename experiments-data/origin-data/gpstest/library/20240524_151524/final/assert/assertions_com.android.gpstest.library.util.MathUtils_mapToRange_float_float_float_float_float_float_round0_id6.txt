@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Float","assert_value":"11.174835","method":"test_mapToRange_float_float_float_float_float_1_13","class":"com.android.gpstest.library.util.TempMathUtilsMapToRangeRound0ID6"}
+{"assert_type":"class java.lang.Float","assert_value":"-10.188255","method":"test_mapToRange_float_float_float_float_float_2_15","class":"com.android.gpstest.library.util.TempMathUtilsMapToRangeRound0ID6"}

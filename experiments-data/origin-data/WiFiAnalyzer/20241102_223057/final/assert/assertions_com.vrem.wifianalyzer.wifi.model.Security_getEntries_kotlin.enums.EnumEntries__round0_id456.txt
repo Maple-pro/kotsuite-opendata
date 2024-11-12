@@ -1,0 +1,2 @@
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[NONE, WPS, WEP, WPA, WPA2, WPA3]","method":"test_getEntries_1_2384","class":"com.vrem.wifianalyzer.wifi.model.TempSecurityGetEntriesRound0ID456"}
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[NONE, WPS, WEP, WPA, WPA2, WPA3]","method":"test_getEntries_2_2386","class":"com.vrem.wifianalyzer.wifi.model.TempSecurityGetEntriesRound0ID456"}

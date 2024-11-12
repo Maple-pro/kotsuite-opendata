@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"com.spotify","method":"test_getPackage_1_1981","class":"ch.abertschi.adfree.detector.TempSpotifyNotificationDebugTracerGetPackageRound0ID274"}
+{"assert_type":"class java.lang.String","assert_value":"com.spotify","method":"test_getPackage_2_1985","class":"ch.abertschi.adfree.detector.TempSpotifyNotificationDebugTracerGetPackageRound0ID274"}

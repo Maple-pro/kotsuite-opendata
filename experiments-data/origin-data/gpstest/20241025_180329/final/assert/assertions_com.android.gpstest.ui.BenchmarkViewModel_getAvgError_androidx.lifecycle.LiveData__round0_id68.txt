@@ -1,0 +1,2 @@
+{"assert_type":"class androidx.lifecycle.MutableLiveData","assert_value":"androidx.lifecycle.MutableLiveData@38826984","method":"test_getAvgError_1_457","class":"com.android.gpstest.ui.TempBenchmarkViewModelGetAvgErrorRound0ID68"}
+{"assert_type":"class androidx.lifecycle.MutableLiveData","assert_value":"androidx.lifecycle.MutableLiveData@38826984","method":"test_getAvgError_2_461","class":"com.android.gpstest.ui.TempBenchmarkViewModelGetAvgErrorRound0ID68"}

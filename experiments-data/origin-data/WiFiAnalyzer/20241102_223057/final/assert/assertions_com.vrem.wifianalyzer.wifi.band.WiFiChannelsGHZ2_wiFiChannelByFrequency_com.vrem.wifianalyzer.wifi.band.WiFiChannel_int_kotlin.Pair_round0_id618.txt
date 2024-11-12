@@ -1,0 +1,2 @@
+{"assert_type":"class com.vrem.wifianalyzer.wifi.band.WiFiChannel","assert_value":"WiFiChannel(channel\u003d0, frequency\u003d0)","method":"test_wiFiChannelByFrequency_int_Pair_1_3344","class":"com.vrem.wifianalyzer.wifi.band.TempWiFiChannelsGHZ2WiFiChannelByFrequencyRound0ID618"}
+{"assert_type":"class com.vrem.wifianalyzer.wifi.band.WiFiChannel","assert_value":"WiFiChannel(channel\u003d0, frequency\u003d0)","method":"test_wiFiChannelByFrequency_int_Pair_2_3348","class":"com.vrem.wifianalyzer.wifi.band.TempWiFiChannelsGHZ2WiFiChannelByFrequencyRound0ID618"}

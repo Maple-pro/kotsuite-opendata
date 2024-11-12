@@ -1,0 +1,2 @@
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[LEFT, RIGHT, HIDE]","method":"test_getEntries_1_2064","class":"com.vrem.wifianalyzer.wifi.graphutils.TempGraphLegendGetEntriesRound0ID402"}
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[LEFT, RIGHT, HIDE]","method":"test_getEntries_2_2066","class":"com.vrem.wifianalyzer.wifi.graphutils.TempGraphLegendGetEntriesRound0ID402"}

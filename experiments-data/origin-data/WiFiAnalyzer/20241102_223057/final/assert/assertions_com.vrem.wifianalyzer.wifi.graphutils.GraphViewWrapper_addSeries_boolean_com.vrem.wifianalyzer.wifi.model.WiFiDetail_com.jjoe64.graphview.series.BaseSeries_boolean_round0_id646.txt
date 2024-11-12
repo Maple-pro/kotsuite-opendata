@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Integer","assert_value":"1","method":"test_addSeries_WiFiDetail_BaseSeries_boolean_1_3564","class":"com.vrem.wifianalyzer.wifi.graphutils.TempGraphViewWrapperAddSeriesRound0ID646"}
+{"assert_type":"class java.lang.Integer","assert_value":"1","method":"test_addSeries_WiFiDetail_BaseSeries_boolean_2_3574","class":"com.vrem.wifianalyzer.wifi.graphutils.TempGraphViewWrapperAddSeriesRound0ID646"}

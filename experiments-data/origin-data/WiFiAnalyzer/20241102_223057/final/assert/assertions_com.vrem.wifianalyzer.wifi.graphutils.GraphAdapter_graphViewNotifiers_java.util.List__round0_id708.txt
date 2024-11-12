@@ -1,0 +1,2 @@
+{"assert_type":"class io.mockk.renamed.java.util.List$Subclass0","assert_value":"List(#1)","method":"test_graphViewNotifiers_1_4212","class":"com.vrem.wifianalyzer.wifi.graphutils.TempGraphAdapterGraphViewNotifiersRound0ID708"}
+{"assert_type":"class io.mockk.renamed.java.util.List$Subclass0","assert_value":"List(#1)","method":"test_graphViewNotifiers_2_4216","class":"com.vrem.wifianalyzer.wifi.graphutils.TempGraphAdapterGraphViewNotifiersRound0ID708"}

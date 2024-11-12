@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"com.slipstream.accuradio","method":"test_getPackageName_1_2525","class":"ch.abertschi.adfree.detector.TempAccuradioDetectorGetPackageNameRound0ID356"}
+{"assert_type":"class java.lang.String","assert_value":"com.slipstream.accuradio","method":"test_getPackageName_2_2528","class":"ch.abertschi.adfree.detector.TempAccuradioDetectorGetPackageNameRound0ID356"}

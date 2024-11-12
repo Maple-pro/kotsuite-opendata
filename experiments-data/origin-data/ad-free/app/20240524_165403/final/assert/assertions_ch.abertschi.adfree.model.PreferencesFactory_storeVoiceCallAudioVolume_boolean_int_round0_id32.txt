@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_storeVoiceCallAudioVolume_int_1_173","class":"ch.abertschi.adfree.model.TempPreferencesFactoryStoreVoiceCallAudioVolumeRound0ID32"}
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_storeVoiceCallAudioVolume_int_2_177","class":"ch.abertschi.adfree.model.TempPreferencesFactoryStoreVoiceCallAudioVolumeRound0ID32"}

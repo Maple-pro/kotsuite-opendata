@@ -1,0 +1,2 @@
+{"assert_type":"class kotlin.collections.EmptyList","assert_value":"[]","method":"test_findVendors_String_1_1685","class":"com.vrem.wifianalyzer.vendor.model.TempVendorServiceFindVendorsRound0ID320"}
+{"assert_type":"class kotlin.collections.EmptyList","assert_value":"[]","method":"test_findVendors_String_2_1689","class":"com.vrem.wifianalyzer.vendor.model.TempVendorServiceFindVendorsRound0ID320"}

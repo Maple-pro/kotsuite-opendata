@@ -1,0 +1,1170 @@
+{
+  "module": "/Users/oneplus/WorkSpace/SystemUi/log",
+  "classes": [
+    {
+      "className": "com.android.systemui.log.BuildConfig",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.BuildConfig: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.BuildConfig: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogcatEchoTrackerDebug",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebug: void <init>(android.content.ContentResolver)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebug: boolean getLogInBackgroundThread()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebug: void clearCache()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebug: void attach(android.os.Looper)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebug: boolean isBufferLoggable(java.lang.String,com.android.systemui.log.LogLevel)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebug: boolean isTagLoggable(java.lang.String,com.android.systemui.log.LogLevel)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebug: com.android.systemui.log.LogLevel getLogLevel(java.lang.String,java.lang.String,java.util.Map)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebug: com.android.systemui.log.LogLevel readSetting(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebug: com.android.systemui.log.LogLevel parseProp(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebug: com.android.systemui.log.LogcatEchoTrackerDebug create(android.content.ContentResolver,android.os.Looper)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebug: void <init>(android.content.ContentResolver,kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebug: void access$attach(com.android.systemui.log.LogcatEchoTrackerDebug,android.os.Looper)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebug: void access$clearCache(com.android.systemui.log.LogcatEchoTrackerDebug)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebug: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogcatEchoTracker",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTracker: boolean isBufferLoggable(java.lang.String,com.android.systemui.log.LogLevel)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTracker: boolean isTagLoggable(java.lang.String,com.android.systemui.log.LogLevel)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTracker: boolean getLogInBackgroundThread()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogcatEchoTrackerDebug$Factory",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebug$Factory: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebug$Factory: com.android.systemui.log.LogcatEchoTrackerDebug create(android.content.ContentResolver,android.os.Looper)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebug$Factory: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogLevel",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogLevel: void <init>(java.lang.String,int,int,java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogLevel: int getNativeLevel()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogLevel: java.lang.String getShortString()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogLevel: com.android.systemui.log.LogLevel[] values()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogLevel: com.android.systemui.log.LogLevel valueOf(java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogLevel: com.android.systemui.log.LogLevel[] $values()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogLevel: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogcatEchoTrackerDebugKt",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "PACKAGE_LEVEL_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebugKt: com.android.systemui.log.LogLevel access$getDEFAULT_LEVEL$p()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebugKt: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogcatEchoTrackerDebug$attach$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebug$attach$1: void <init>(com.android.systemui.log.LogcatEchoTrackerDebug,android.os.Handler)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebug$attach$1: void onChange(boolean,android.net.Uri)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogcatEchoTrackerDebug$attach$2",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebug$attach$2: void <init>(com.android.systemui.log.LogcatEchoTrackerDebug,android.os.Handler)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerDebug$attach$2: void onChange(boolean,android.net.Uri)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogBuffer$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer$1: void <init>(com.android.systemui.log.LogBuffer)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer$1: void invoke()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer$1: java.lang.Object invoke()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogBuffer",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: void <init>(java.lang.String,int,com.android.systemui.log.LogcatEchoTracker,boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: void <init>(java.lang.String,int,com.android.systemui.log.LogcatEchoTracker,boolean,int,kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: boolean getFrozen()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: boolean getMutable()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: void log(java.lang.String,com.android.systemui.log.LogLevel,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function1,java.lang.Throwable)>",
+          "methodType": "NEED_BUT_UNABLE",
+          "methodReason": "UNSUPPORTED_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: void log$default(com.android.systemui.log.LogBuffer,java.lang.String,com.android.systemui.log.LogLevel,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function1,java.lang.Throwable,int,java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: void log(java.lang.String,com.android.systemui.log.LogLevel,java.lang.String,java.lang.Throwable)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: void log$default(com.android.systemui.log.LogBuffer,java.lang.String,com.android.systemui.log.LogLevel,java.lang.String,java.lang.Throwable,int,java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: com.android.systemui.log.LogMessage obtain(java.lang.String,com.android.systemui.log.LogLevel,kotlin.jvm.functions.Function1,java.lang.Throwable)>",
+          "methodType": "NEED_BUT_UNABLE",
+          "methodReason": "UNSUPPORTED_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: com.android.systemui.log.LogMessage obtain$default(com.android.systemui.log.LogBuffer,java.lang.String,com.android.systemui.log.LogLevel,kotlin.jvm.functions.Function1,java.lang.Throwable,int,java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: void commit(com.android.systemui.log.LogMessage)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: void echoToDesiredEndpoints(com.android.systemui.log.LogMessage)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: void dump(java.io.PrintWriter,int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: void freeze()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: void unfreeze()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: void echo(com.android.systemui.log.LogMessage,boolean,boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: void echoToSystrace(com.android.systemui.log.LogMessage,java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: void echoToLogcat(com.android.systemui.log.LogMessage,java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: void <init>(java.lang.String,int,com.android.systemui.log.LogcatEchoTracker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: void log(java.lang.String,com.android.systemui.log.LogLevel,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function1)>",
+          "methodType": "NEED_BUT_UNABLE",
+          "methodReason": "UNSUPPORTED_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: void log(java.lang.String,com.android.systemui.log.LogLevel,java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: void access$echoToDesiredEndpoints(com.android.systemui.log.LogBuffer,com.android.systemui.log.LogMessage)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer: java.util.concurrent.BlockingQueue access$getEchoMessageQueue$p(com.android.systemui.log.LogBuffer)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogMessage",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: com.android.systemui.log.LogLevel getLevel()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: java.lang.String getTag()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: long getTimestamp()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: kotlin.jvm.functions.Function1 getMessagePrinter()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: java.lang.Throwable getException()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: java.lang.String getStr1()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: void setStr1(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: java.lang.String getStr2()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: void setStr2(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: java.lang.String getStr3()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: void setStr3(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: int getInt1()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: void setInt1(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: int getInt2()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: void setInt2(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: long getLong1()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: void setLong1(long)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: long getLong2()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: void setLong2(long)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: double getDouble1()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: void setDouble1(double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: boolean getBool1()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: void setBool1(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: boolean getBool2()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: void setBool2(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: boolean getBool3()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: void setBool3(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: boolean getBool4()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: void setBool4(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessage: void dump(java.io.PrintWriter)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.ConstantStringsLoggerImpl",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.ConstantStringsLoggerImpl: void <init>(com.android.systemui.log.LogBuffer,java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.ConstantStringsLoggerImpl: com.android.systemui.log.LogBuffer getBuffer()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.ConstantStringsLoggerImpl: java.lang.String getTag()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.ConstantStringsLoggerImpl: void v(java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.ConstantStringsLoggerImpl: void d(java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.ConstantStringsLoggerImpl: void w(java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.ConstantStringsLoggerImpl: void e(java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.ConstantStringsLogger",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.ConstantStringsLogger: void v(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.ConstantStringsLogger: void d(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.ConstantStringsLogger: void w(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.ConstantStringsLogger: void e(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogBuffer$buffer$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer$buffer$1: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer$buffer$1: com.android.systemui.log.LogMessageImpl invoke()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer$buffer$1: java.lang.Object invoke()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer$buffer$1: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogMessageImpl",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "DATA_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: void <init>(com.android.systemui.log.LogLevel,java.lang.String,long,kotlin.jvm.functions.Function1,java.lang.Throwable,java.lang.String,java.lang.String,java.lang.String,int,int,long,long,double,boolean,boolean,boolean,boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: com.android.systemui.log.LogLevel getLevel()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: void setLevel(com.android.systemui.log.LogLevel)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: java.lang.String getTag()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: void setTag(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: long getTimestamp()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: void setTimestamp(long)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: kotlin.jvm.functions.Function1 getMessagePrinter()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: void setMessagePrinter(kotlin.jvm.functions.Function1)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: java.lang.Throwable getException()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: void setException(java.lang.Throwable)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: java.lang.String getStr1()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: void setStr1(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: java.lang.String getStr2()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: void setStr2(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: java.lang.String getStr3()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: void setStr3(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: int getInt1()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: void setInt1(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: int getInt2()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: void setInt2(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: long getLong1()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: void setLong1(long)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: long getLong2()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: void setLong2(long)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: double getDouble1()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: void setDouble1(double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: boolean getBool1()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: void setBool1(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: boolean getBool2()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: void setBool2(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: boolean getBool3()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: void setBool3(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: boolean getBool4()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: void setBool4(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: void reset(java.lang.String,com.android.systemui.log.LogLevel,long,kotlin.jvm.functions.Function1,java.lang.Throwable)>",
+          "methodType": "NEED_BUT_UNABLE",
+          "methodReason": "UNSUPPORTED_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: void reset$default(com.android.systemui.log.LogMessageImpl,java.lang.String,com.android.systemui.log.LogLevel,long,kotlin.jvm.functions.Function1,java.lang.Throwable,int,java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: com.android.systemui.log.LogLevel component1()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "COMPONENT_N_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: java.lang.String component2()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "COMPONENT_N_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: long component3()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "COMPONENT_N_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: kotlin.jvm.functions.Function1 component4()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "COMPONENT_N_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: java.lang.Throwable component5()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "COMPONENT_N_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: java.lang.String component6()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "COMPONENT_N_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: java.lang.String component7()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "COMPONENT_N_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: java.lang.String component8()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "COMPONENT_N_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: int component9()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "COMPONENT_N_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: int component10()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "COMPONENT_N_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: long component11()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "COMPONENT_N_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: long component12()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "COMPONENT_N_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: double component13()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "COMPONENT_N_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: boolean component14()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "COMPONENT_N_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: boolean component15()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "COMPONENT_N_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: boolean component16()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "COMPONENT_N_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: boolean component17()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "COMPONENT_N_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: com.android.systemui.log.LogMessageImpl copy(com.android.systemui.log.LogLevel,java.lang.String,long,kotlin.jvm.functions.Function1,java.lang.Throwable,java.lang.String,java.lang.String,java.lang.String,int,int,long,long,double,boolean,boolean,boolean,boolean)>",
+          "methodType": "NEED_BUT_UNABLE",
+          "methodReason": "UNSUPPORTED_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: com.android.systemui.log.LogMessageImpl copy$default(com.android.systemui.log.LogMessageImpl,com.android.systemui.log.LogLevel,java.lang.String,long,kotlin.jvm.functions.Function1,java.lang.Throwable,java.lang.String,java.lang.String,java.lang.String,int,int,long,long,double,boolean,boolean,boolean,boolean,int,java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: java.lang.String toString()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: int hashCode()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: boolean equals(java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogMessageImpl$Factory",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl$Factory: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl$Factory: com.android.systemui.log.LogMessageImpl create()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImpl$Factory: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogMessageImplKt",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "PACKAGE_LEVEL_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImplKt: kotlin.jvm.functions.Function1 access$getDEFAULT_PRINTER$p()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImplKt: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogBuffer$freeze$2",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer$freeze$2: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer$freeze$2: java.lang.String invoke(com.android.systemui.log.LogMessage)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer$freeze$2: java.lang.Object invoke(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer$freeze$2: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogMessageKt",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "PACKAGE_LEVEL_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageKt: void printLikeLogcat(java.io.PrintWriter,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageKt: android.icu.text.SimpleDateFormat access$getDATE_FORMAT$p()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageKt: void access$printLikeLogcat(java.io.PrintWriter,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageKt: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogBuffer$WhenMappings",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer$WhenMappings: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogBufferKt",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "PACKAGE_LEVEL_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogBufferKt: com.android.systemui.log.LogMessageImpl access$getFROZEN_MESSAGE$p()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBufferKt: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogBuffer$unfreeze$2",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer$unfreeze$2: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer$unfreeze$2: java.lang.String invoke(com.android.systemui.log.LogMessage)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer$unfreeze$2: java.lang.Object invoke(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer$unfreeze$2: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogBuffer$log$2",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer$log$2: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer$log$2: java.lang.String invoke(com.android.systemui.log.LogMessage)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer$log$2: java.lang.Object invoke(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogBuffer$log$2: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogMessageImplKt$DEFAULT_PRINTER$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImplKt$DEFAULT_PRINTER$1: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImplKt$DEFAULT_PRINTER$1: java.lang.String invoke(com.android.systemui.log.LogMessage)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImplKt$DEFAULT_PRINTER$1: java.lang.Object invoke(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogMessageImplKt$DEFAULT_PRINTER$1: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.log.LogcatEchoTrackerProd",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerProd: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerProd: boolean getLogInBackgroundThread()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerProd: boolean isBufferLoggable(java.lang.String,com.android.systemui.log.LogLevel)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.log.LogcatEchoTrackerProd: boolean isTagLoggable(java.lang.String,com.android.systemui.log.LogLevel)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    }
+  ]
+}

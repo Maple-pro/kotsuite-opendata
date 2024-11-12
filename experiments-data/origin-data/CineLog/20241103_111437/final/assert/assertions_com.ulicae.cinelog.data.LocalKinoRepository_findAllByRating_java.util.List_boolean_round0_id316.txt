@@ -1,0 +1,2 @@
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_findAllByRating_boolean_1_2417","class":"com.ulicae.cinelog.data.TempLocalKinoRepositoryFindAllByRatingRound0ID316"}
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_findAllByRating_boolean_2_2421","class":"com.ulicae.cinelog.data.TempLocalKinoRepositoryFindAllByRatingRound0ID316"}

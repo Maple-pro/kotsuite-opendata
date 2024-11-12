@@ -1,0 +1,2 @@
+{"assert_type":"class com.vrem.wifianalyzer.wifi.filter.adapter.SSIDAdapter","assert_value":"com.vrem.wifianalyzer.wifi.filter.adapter.SSIDAdapter@2f0cab82","method":"test_ssidAdapter_1_1769","class":"com.vrem.wifianalyzer.wifi.filter.adapter.TempFiltersAdapterSsidAdapterRound0ID334"}
+{"assert_type":"class com.vrem.wifianalyzer.wifi.filter.adapter.SSIDAdapter","assert_value":"com.vrem.wifianalyzer.wifi.filter.adapter.SSIDAdapter@2f0cab82","method":"test_ssidAdapter_2_1773","class":"com.vrem.wifianalyzer.wifi.filter.adapter.TempFiltersAdapterSsidAdapterRound0ID334"}

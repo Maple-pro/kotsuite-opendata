@@ -1,0 +1,2 @@
+{"assert_type":"class com.ulicae.cinelog.data.dao.LocalKino","assert_value":"com.ulicae.cinelog.data.dao.LocalKino@9b78f867","method":"test_build_KinoDto_1_4337","class":"com.ulicae.cinelog.utils.TempKinoDtoToDbBuilderBuildRound0ID578"}
+{"assert_type":"class com.ulicae.cinelog.data.dao.LocalKino","assert_value":"com.ulicae.cinelog.data.dao.LocalKino@9b78f867","method":"test_build_KinoDto_2_4341","class":"com.ulicae.cinelog.utils.TempKinoDtoToDbBuilderBuildRound0ID578"}

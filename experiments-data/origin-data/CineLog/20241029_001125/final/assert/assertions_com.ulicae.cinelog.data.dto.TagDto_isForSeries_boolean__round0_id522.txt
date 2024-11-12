@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_isForSeries_1_3981","class":"com.ulicae.cinelog.data.dto.TempTagDtoIsForSeriesRound0ID522"}
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_isForSeries_2_3984","class":"com.ulicae.cinelog.data.dto.TempTagDtoIsForSeriesRound0ID522"}

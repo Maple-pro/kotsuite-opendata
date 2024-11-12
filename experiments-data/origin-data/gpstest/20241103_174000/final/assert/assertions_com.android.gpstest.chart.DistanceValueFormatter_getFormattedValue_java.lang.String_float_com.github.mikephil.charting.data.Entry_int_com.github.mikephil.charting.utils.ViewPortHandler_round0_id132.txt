@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"59 0C-gnI1AG7xJ","method":"test_getFormattedValue_float_Entry_int_ViewPortHandler_1_849","class":"com.android.gpstest.chart.TempDistanceValueFormatterGetFormattedValueRound0ID132"}
+{"assert_type":"class java.lang.String","assert_value":"-99 KBHrcaGNosGdMzdjPd5J2K7XOtKp+DGGVTPjC7mARHX2Gk","method":"test_getFormattedValue_float_Entry_int_ViewPortHandler_2_854","class":"com.android.gpstest.chart.TempDistanceValueFormatterGetFormattedValueRound0ID132"}

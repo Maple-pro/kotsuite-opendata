@@ -1,0 +1,2 @@
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_getKinosByTitle_boolean_1_4253","class":"com.ulicae.cinelog.data.services.reviews.TempKinoServiceGetKinosByTitleRound0ID566"}
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_getKinosByTitle_boolean_2_4257","class":"com.ulicae.cinelog.data.services.reviews.TempKinoServiceGetKinosByTitleRound0ID566"}

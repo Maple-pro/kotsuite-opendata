@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"ModPresenter","method":"test_getLoggerTag_1_4341","class":"ch.abertschi.adfree.view.mod.TempModPresenterGetLoggerTagRound0ID586"}
+{"assert_type":"class java.lang.String","assert_value":"ModPresenter","method":"test_getLoggerTag_2_4346","class":"ch.abertschi.adfree.view.mod.TempModPresenterGetLoggerTagRound0ID586"}

@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_channelAvailable_String_int_1_3336","class":"com.vrem.wifianalyzer.wifi.band.TempWiFiChannelsGHZ2ChannelAvailableRound0ID616"}
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_channelAvailable_String_int_2_3339","class":"com.vrem.wifianalyzer.wifi.band.TempWiFiChannelsGHZ2ChannelAvailableRound0ID616"}

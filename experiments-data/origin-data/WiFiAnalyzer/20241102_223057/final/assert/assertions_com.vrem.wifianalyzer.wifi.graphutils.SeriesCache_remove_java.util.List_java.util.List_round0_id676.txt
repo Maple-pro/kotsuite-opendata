@@ -1,0 +1,2 @@
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_remove_List_1_4000","class":"com.vrem.wifianalyzer.wifi.graphutils.TempSeriesCacheRemoveRound0ID676"}
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_remove_List_2_4004","class":"com.vrem.wifianalyzer.wifi.graphutils.TempSeriesCacheRemoveRound0ID676"}

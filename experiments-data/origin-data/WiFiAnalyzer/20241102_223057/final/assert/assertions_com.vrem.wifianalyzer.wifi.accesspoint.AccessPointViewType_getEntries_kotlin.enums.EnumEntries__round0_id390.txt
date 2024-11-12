@@ -1,0 +1,2 @@
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[COMPLETE, COMPACT]","method":"test_getEntries_1_2037","class":"com.vrem.wifianalyzer.wifi.accesspoint.TempAccessPointViewTypeGetEntriesRound0ID390"}
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[COMPLETE, COMPACT]","method":"test_getEntries_2_2039","class":"com.vrem.wifianalyzer.wifi.accesspoint.TempAccessPointViewTypeGetEntriesRound0ID390"}

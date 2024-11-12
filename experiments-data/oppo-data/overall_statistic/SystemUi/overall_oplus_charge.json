@@ -1,0 +1,2195 @@
+{
+  "module": "/Users/oneplus/WorkSpace/SystemUi/oplus_charge",
+  "classes": [
+    {
+      "className": "com.oplus.charge.BatteryLevelToDecimalHelper$2",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper$2: void <init>(com.oplus.charge.BatteryLevelToDecimalHelper)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper$2: void run()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.BatteryLevelToDecimalHelper",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper: com.oplus.charge.BatteryLevelToDecimalHelper getInstance()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper: void setCallback(com.oplus.charge.BatteryLevelToDecimalHelper$BatteryLevelToDecimalCallback)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper: void startCalculateBatteryRate()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper: boolean hasReadBatteryInfo()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper: void calculateBatteryRate()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper: void stopCalculateBatteryRate()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper: void readBatteryInfo()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper: void splitBatteryRate(float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper: void showBatteryRate(int,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper: void setCurrentShowPowerStatus(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper: int getCurrentShowPowerStatus()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper: void setWirelessCharing(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper: void access$000(com.oplus.charge.BatteryLevelToDecimalHelper)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper: boolean access$100(com.oplus.charge.BatteryLevelToDecimalHelper)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper: android.os.Handler access$200(com.oplus.charge.BatteryLevelToDecimalHelper)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper: float access$302(com.oplus.charge.BatteryLevelToDecimalHelper,float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper: float access$400(com.oplus.charge.BatteryLevelToDecimalHelper)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper: float access$300(com.oplus.charge.BatteryLevelToDecimalHelper)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper: void access$500(com.oplus.charge.BatteryLevelToDecimalHelper,float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper: float access$402(com.oplus.charge.BatteryLevelToDecimalHelper,float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.BatteryLevelToDecimalHelper$BatteryLevelToDecimalCallback",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper$BatteryLevelToDecimalCallback: void updateBatteryLevelView(int,int,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper$BatteryLevelToDecimalCallback: void updatePowerFormat(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.BatteryLevelToDecimalHelper$4",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper$4: void <init>(com.oplus.charge.BatteryLevelToDecimalHelper)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper$4: void onAnimationStart(android.animation.Animator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper$4: void onAnimationEnd(android.animation.Animator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper$4: void onAnimationCancel(android.animation.Animator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper$4: void onAnimationRepeat(android.animation.Animator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.util.ChargeLogUtilTest",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeLogUtilTest: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeLogUtilTest: void testInit()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.util.ChargeLogUtil",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeLogUtil: void <init>(android.os.Handler)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeLogUtil: void normal(java.lang.String,java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeLogUtil: void warning(java.lang.String,java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeLogUtil: void d(java.lang.String,java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeLogUtil: void i(java.lang.String,java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeLogUtil: void init(android.content.Context,android.os.Handler)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeLogUtil: void updateLevel()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeLogUtil: boolean isDebug(int,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeLogUtil: int getDebugState(java.lang.String,boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeLogUtil: void trace(java.lang.String,java.lang.String,java.lang.String,java.lang.Throwable)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeLogUtil: android.net.Uri access$000()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeLogUtil: void access$100()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeLogUtil: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.util.ChargeLogUtil$ChargeLogObserver",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeLogUtil$ChargeLogObserver: void <init>(android.os.Handler)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeLogUtil$ChargeLogObserver: void observer(android.content.Context)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeLogUtil$ChargeLogObserver: void onChange(boolean,android.net.Uri)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.util.ChargeUtil",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean isTabletShowWattage(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean isSuperVoocCharge(int,int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean isVoocCharge(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean isFastCharge(int,int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean isNormalCharge(int,int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean isPrivateUFCSCharge(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean isPublicUFCSCharge(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean isPublicPPSCharge(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean isPrivatePPSCharge(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean isSuperVoocTechnology(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean isHeatStateActive(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean isWiredCharge(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean isWirelessCharge(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: int getCurrentChargeType(boolean,int,int,int,int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: int getSuperVoocColor(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean showWattage(com.oplus.charge.model.ChargeInfoObserver,android.content.Context)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean isPublicTechnology(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean isPrivateTechnology(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean wattageMatched(int,android.content.Context)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: int getMaxChargeWattage(android.content.Context)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: int getPsyChargeTechIndex()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: int getInitialDisplayDensity(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: java.lang.String chargeTechnologyToString(android.content.Context,int,int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean isWirelessVoocCharge(boolean,int,int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: java.lang.String convertFontVariationToWeight(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: int getfontVariationNumber(java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean isFloatEqual(float,float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: android.graphics.Typeface getChargeLevelTypeFace(android.content.Context)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: void setTablet(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean getTablet()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: void setFoldDevice(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean showTechnology(com.oplus.charge.model.ChargeInfoObserver)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: android.content.Context updateDisplayConfiguration(android.content.Context)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean isSimpleMode(android.content.Context)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: void updateUser()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: int getCurrentUser()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: boolean isSmartCharge(int,boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: java.lang.String getTechnologyStr(android.content.Context,com.oplus.charge.model.ChargeInfoObserver)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeUtil: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.model.ChargeInfoObserver",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: boolean ismIsCharging()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: boolean ismIsWirelessCharge()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: boolean ismIsWirelessReverseCharge()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: boolean isZh()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setZh(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: boolean getIsNormalCharge()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setIsNormalCharge(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: boolean getIsVoocCharge()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setIsVoocCharge(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: boolean getIsSuperVoocCharge()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setIsSuperVoocCharge(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: boolean isIsWirelessVoocCharge()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setIsWirelessVoocCharge(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: int getmChargerTechnology()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setmChargerTechnology(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: java.lang.String getChargeWattage()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setChargeWattage(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: int getmPpsState()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setmPpsState(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: int getmHeatState()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setmHeatState(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: int getmWirelessFastChgType()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setmWirelessFastChgType(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: int getIntegerLevel()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setIntegerLevel(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: java.lang.String getmDecimalLevel()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setmDecimalLevel(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: boolean getmIsWirelessCharge()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setmIsWirelessCharge(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: boolean ismFastChargeState()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setmFastChargeState(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: java.lang.String getmTextTechnology()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setmTextTechnology(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: android.graphics.drawable.Drawable getmImageTechnology()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setmImageTechnology(android.graphics.drawable.Drawable)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: boolean getmIsCharging()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setmIsCharging(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: boolean getmIsWirelessReverseCharge()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setmIsWirelessReverseCharge(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: boolean getShowWattage()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setShowWattage(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: java.lang.String getChargeTechnologyStr()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setChargeTechnologyStr(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: boolean getShowTechnology()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setShowTechnology(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: boolean isPluggedIn()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.model.ChargeInfoObserver: void setPluggedIn(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.R$string",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.R$string: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.R$array",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.R$array: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.R",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.R: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.BatteryLevelToDecimalHelper$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper$1: void <init>(com.oplus.charge.BatteryLevelToDecimalHelper)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.BatteryLevelToDecimalHelper$3",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper$3: void <init>(com.oplus.charge.BatteryLevelToDecimalHelper)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BatteryLevelToDecimalHelper$3: void onAnimationUpdate(android.animation.ValueAnimator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.DataBinderMapperImpl",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.DataBinderMapperImpl: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.DataBinderMapperImpl: androidx.databinding.ViewDataBinding getDataBinder(androidx.databinding.DataBindingComponent,android.view.View,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.DataBinderMapperImpl: androidx.databinding.ViewDataBinding getDataBinder(androidx.databinding.DataBindingComponent,android.view.View[],int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.DataBinderMapperImpl: int getLayoutId(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.DataBinderMapperImpl: java.lang.String convertBrIdToString(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.DataBinderMapperImpl: java.util.List collectDependencies()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.DataBinderMapperImpl: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.DataBinderMapperImpl$InnerBrLookup",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.DataBinderMapperImpl$InnerBrLookup: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.DataBinderMapperImpl$InnerBrLookup: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.DataBinderMapperImpl$InnerLayoutIdLookup",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.DataBinderMapperImpl$InnerLayoutIdLookup: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.DataBinderMapperImpl$InnerLayoutIdLookup: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBindingImpl",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBindingImpl: void <init>(androidx.databinding.DataBindingComponent,android.view.View)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBindingImpl: void <init>(androidx.databinding.DataBindingComponent,android.view.View,java.lang.Object[])>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBindingImpl: void invalidateAll()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBindingImpl: boolean hasPendingBindings()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBindingImpl: boolean setVariable(int,java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBindingImpl: void setCharge(com.oplus.charge.model.ChargeInfoObserver)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBindingImpl: boolean onFieldChange(int,java.lang.Object,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBindingImpl: boolean onChangeCharge(com.oplus.charge.model.ChargeInfoObserver,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBindingImpl: void executeBindings()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBindingImpl: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.R$layout",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.R$layout: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.databinding.OplusChargeAnimLayoutBindingImpl",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeAnimLayoutBindingImpl: void <init>(androidx.databinding.DataBindingComponent,android.view.View)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeAnimLayoutBindingImpl: void <init>(androidx.databinding.DataBindingComponent,android.view.View,java.lang.Object[])>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeAnimLayoutBindingImpl: void invalidateAll()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeAnimLayoutBindingImpl: boolean hasPendingBindings()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeAnimLayoutBindingImpl: boolean setVariable(int,java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeAnimLayoutBindingImpl: void setCharge(com.oplus.charge.model.ChargeInfoObserver)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeAnimLayoutBindingImpl: void setLifecycleOwner(androidx.lifecycle.LifecycleOwner)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeAnimLayoutBindingImpl: boolean onFieldChange(int,java.lang.Object,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeAnimLayoutBindingImpl: boolean onChangeCharge(com.oplus.charge.model.ChargeInfoObserver,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeAnimLayoutBindingImpl: boolean onChangeOplusChargeLevelAndLogo(com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBinding,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeAnimLayoutBindingImpl: void executeBindings()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeAnimLayoutBindingImpl: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBinding",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBinding: void <init>(java.lang.Object,android.view.View,int,android.widget.LinearLayout,android.widget.TextView,android.widget.TextView,android.widget.TextView,android.widget.ImageView,android.widget.TextView,android.widget.LinearLayout)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBinding: void setCharge(com.oplus.charge.model.ChargeInfoObserver)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBinding: com.oplus.charge.model.ChargeInfoObserver getCharge()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBinding: com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBinding: com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean,java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBinding: com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBinding inflate(android.view.LayoutInflater)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBinding: com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBinding inflate(android.view.LayoutInflater,java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBinding: com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBinding bind(android.view.View)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBinding: com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBinding bind(android.view.View,java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.view.ChargeLevelAndLogoView",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: void setTechnology(boolean,boolean,boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: void <init>(android.content.Context)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: void <init>(android.content.Context,android.util.AttributeSet)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: void onFinishInflate()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: void setVisibility(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: void onConfigurationChanged(android.content.res.Configuration)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: void onLocaleChanged(java.lang.String,java.lang.String,int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: void updateLogo()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: void updatePowerFormat(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: void setOplusFontVariationSettings(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: void updateVisibility()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: void setTypeFace(android.graphics.Typeface)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: void updateBatteryLevelView()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: void updateBatteryLevelView(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: void updateBatteryLevelView(int,int,int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: void startCalculateBatteryRate()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: void startLevelAndLogoFadeinAnimation(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: void startLevelAndLogoFadeoutAnimation(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: android.animation.ValueAnimator createLevelAndLogoFadeAnimation(boolean,boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: void setCurrentLocale(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: boolean showTextLogo()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: void lambda$createLevelAndLogoFadeAnimation$0(android.animation.ValueAnimator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: android.animation.ValueAnimator access$002(com.oplus.charge.view.ChargeLevelAndLogoView,android.animation.ValueAnimator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.databinding.OplusChargeAnimLayoutBinding",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeAnimLayoutBinding: void <init>(java.lang.Object,android.view.View,int,android.widget.ImageView,android.widget.LinearLayout,android.widget.TextView,com.oplus.charge.databinding.OplusChargeLevelAndLogoViewBinding)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeAnimLayoutBinding: void setCharge(com.oplus.charge.model.ChargeInfoObserver)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeAnimLayoutBinding: com.oplus.charge.model.ChargeInfoObserver getCharge()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeAnimLayoutBinding: com.oplus.charge.databinding.OplusChargeAnimLayoutBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeAnimLayoutBinding: com.oplus.charge.databinding.OplusChargeAnimLayoutBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean,java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeAnimLayoutBinding: com.oplus.charge.databinding.OplusChargeAnimLayoutBinding inflate(android.view.LayoutInflater)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeAnimLayoutBinding: com.oplus.charge.databinding.OplusChargeAnimLayoutBinding inflate(android.view.LayoutInflater,java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeAnimLayoutBinding: com.oplus.charge.databinding.OplusChargeAnimLayoutBinding bind(android.view.View)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.databinding.OplusChargeAnimLayoutBinding: com.oplus.charge.databinding.OplusChargeAnimLayoutBinding bind(android.view.View,java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.view.ChargeAnimLayoutVfx",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void <init>(android.content.Context)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void <init>(android.content.Context,android.util.AttributeSet)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void onFinishInflate()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void onUpdateLevel(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void onResume(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void onPause()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void onCancel()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void registerCallback(com.oplus.charge.view.ChargeAnimLayoutVfx$IChargeAnimFadeOut)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void unRegisterCallback()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void setIsWirelessCharge(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void setChargeTechnology(int,int,int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void onChargingAnimChanged()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void setVisibility(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void onAttachedToWindow()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void onConfigurationChanged(android.content.res.Configuration)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void updateBatteryLevelView(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void resumeChargingAnimation(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void onFlashAnimationFinishedCallBack()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: boolean createVFXChargingView(android.content.Context,int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void pauseChargingAnimation()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void cancelChargingAnimation()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void showChargingAnimLayout()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void destroyChargingAnimLayout()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void pauseChargingAndReleaseMem()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void createChargingView()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void startFadeoutAnimation()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: android.content.Context updateDisplayConfiguration(android.content.Context)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void startVfxFadeinAnimation()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void lambda$startFadeoutAnimation$1(android.animation.ValueAnimator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void lambda$onFlashAnimationFinishedCallBack$0()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: boolean access$000(com.oplus.charge.view.ChargeAnimLayoutVfx)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: boolean access$002(com.oplus.charge.view.ChargeAnimLayoutVfx,boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: com.oplus.charge.view.ChargeLevelAndLogoView access$100(com.oplus.charge.view.ChargeAnimLayoutVfx)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.BR",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.BR: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BR: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.BuildConfig",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.BuildConfig: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.BuildConfig: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.DataBindingTriggerClass",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.DataBindingTriggerClass: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.R$drawable",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.R$drawable: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.view.ChargeLevelAndLogoView$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView$1: void <init>(com.oplus.charge.view.ChargeLevelAndLogoView,boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView$1: void onAnimationStart(android.animation.Animator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView$1: void onAnimationEnd(android.animation.Animator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView$1: void onAnimationCancel(android.animation.Animator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeLevelAndLogoView$1: void onAnimationRepeat(android.animation.Animator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.R$id",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.R$id: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.view.ChargeAnimLayoutVfx$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx$1: void <init>(com.oplus.charge.view.ChargeAnimLayoutVfx)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx$1: void run()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.view.ChargeAnimLayoutVfx$IChargeAnimFadeOut",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx$IChargeAnimFadeOut: void onAnimFadeOut()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.view.ChargeAnimLayoutVfx$2",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx$2: void <init>(com.oplus.charge.view.ChargeAnimLayoutVfx)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx$2: void onAnimationStart(android.animation.Animator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx$2: void onAnimationEnd(android.animation.Animator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx$2: void onAnimationCancel(android.animation.Animator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.view.ChargeAnimLayoutVfx$2: void onAnimationRepeat(android.animation.Animator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.viewmodel.IOplusChargeAnimController",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController: void init(android.content.Context)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController: void setSupportSubDisplay(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController: void updateOpenState(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController: void updateContext(android.content.Context)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController: void registerListener(com.oplus.charge.viewmodel.IChargeAnimStateChangedListener)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController: void isTablet(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController: void isFoldDevices(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController: void setPreventShow(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController: void cancelChargeAnim(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController: void updateSmartSwitchState(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController: void setKeyguardShowing(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController: void onUserSwitchComplete()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController: void updateFastCharge(android.content.Intent)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController: void updateChargeAnimState(int,java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController: void updateNormalCharge(boolean,boolean,boolean,int,boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.viewmodel.IChargeAnimStateChangedListener",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IChargeAnimStateChangedListener: void onAnimStateChanged(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.viewmodel.IOplusChargeAnimController$DefaultImpls",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController$DefaultImpls: void init(com.oplus.charge.viewmodel.IOplusChargeAnimController,android.content.Context)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController$DefaultImpls: void setSupportSubDisplay(com.oplus.charge.viewmodel.IOplusChargeAnimController,boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController$DefaultImpls: void updateOpenState(com.oplus.charge.viewmodel.IOplusChargeAnimController,boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController$DefaultImpls: void updateContext(com.oplus.charge.viewmodel.IOplusChargeAnimController,android.content.Context)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController$DefaultImpls: void registerListener(com.oplus.charge.viewmodel.IOplusChargeAnimController,com.oplus.charge.viewmodel.IChargeAnimStateChangedListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController$DefaultImpls: void isTablet(com.oplus.charge.viewmodel.IOplusChargeAnimController,boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController$DefaultImpls: void isFoldDevices(com.oplus.charge.viewmodel.IOplusChargeAnimController,boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController$DefaultImpls: void setPreventShow(com.oplus.charge.viewmodel.IOplusChargeAnimController,boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController$DefaultImpls: void cancelChargeAnim(com.oplus.charge.viewmodel.IOplusChargeAnimController,java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController$DefaultImpls: void updateSmartSwitchState(com.oplus.charge.viewmodel.IOplusChargeAnimController,boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController$DefaultImpls: void setKeyguardShowing(com.oplus.charge.viewmodel.IOplusChargeAnimController,boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController$DefaultImpls: void onUserSwitchComplete(com.oplus.charge.viewmodel.IOplusChargeAnimController)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController$DefaultImpls: void updateFastCharge(com.oplus.charge.viewmodel.IOplusChargeAnimController,android.content.Intent)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController$DefaultImpls: void updateChargeAnimState(com.oplus.charge.viewmodel.IOplusChargeAnimController,int,java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.IOplusChargeAnimController$DefaultImpls: void updateNormalCharge(com.oplus.charge.viewmodel.IOplusChargeAnimController,boolean,boolean,boolean,int,boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.viewmodel.OplusChargeAnimImpl",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void <init>(android.content.Context)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: android.content.Context getContext()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void setContext(android.content.Context)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: java.util.ArrayList getMListener()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void setMListener(java.util.ArrayList)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: com.oplus.charge.view.ChargeAnimLayoutVfx createChargingAnimLayout()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: com.oplus.charge.view.ChargeAnimLayoutVfx createSubChargingAnimLayout()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void updateFastCharge(android.content.Intent)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void updateNormalCharge(boolean,boolean,boolean,int,boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void updateChargeAnimState(int,java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void updateFastCharge(boolean,java.lang.String,int,int,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void clearChargeAnim(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void clearChargeInfo()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void cancelChargeAnim(com.oplus.charge.view.ChargeAnimLayoutVfx)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void onAnimFadeOut()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void updateContext(android.content.Context)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void updateOpenState(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void updateSupportSubDisplay(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void registerListener(com.oplus.charge.viewmodel.OplusChargeAnimImpl$IChargeAnimChangedListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void updateSmartSwitchState(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void notifyChargeAnimChanged(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: java.lang.String state2String(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void showSmartOrArcticChargeAnim(int,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: boolean mToucheListener$lambda$1(com.oplus.charge.viewmodel.OplusChargeAnimImpl,android.view.View,android.view.MotionEvent)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void mDelayCancelAnimRunnable$lambda$2(com.oplus.charge.viewmodel.OplusChargeAnimImpl)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void createChargingAnimLayout$lambda$7$lambda$6(com.oplus.charge.viewmodel.OplusChargeAnimImpl)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void cancelChargeAnim$lambda$15$lambda$14(com.oplus.charge.view.ChargeAnimLayoutVfx)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: com.oplus.charge.viewmodel.OplusChargeAnimImpl access$getInstance$cp()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void access$setInstance$cp(com.oplus.charge.viewmodel.OplusChargeAnimImpl)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void access$setBlurDrawable$p(com.oplus.charge.viewmodel.OplusChargeAnimImpl,com.android.internal.graphics.drawable.BackgroundBlurDrawable)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: com.oplus.charge.view.ChargeAnimLayoutVfx access$getMChargeAnimLayoutVfx$p(com.oplus.charge.viewmodel.OplusChargeAnimImpl)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.viewmodel.OplusChargeAnimImpl$Companion",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl$Companion: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl$Companion: com.oplus.charge.viewmodel.OplusChargeAnimImpl getInstance(android.content.Context)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl$Companion: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.viewmodel.OplusChargeAnimImpl$onAttachStateChangeListener$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl$onAttachStateChangeListener$1: void <init>(com.oplus.charge.viewmodel.OplusChargeAnimImpl)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl$onAttachStateChangeListener$1: void onViewAttachedToWindow(android.view.View)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl$onAttachStateChangeListener$1: void onViewDetachedFromWindow(android.view.View)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.viewmodel.OplusChargeAnimImpl$IChargeAnimChangedListener",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimImpl$IChargeAnimChangedListener: void onChargeAnimChange(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.util.ChargeAnimUtil",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeAnimUtil: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeAnimUtil: android.animation.AnimatorSet toastIn(android.view.View)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.util.ChargeAnimUtil: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.R$color",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.R$color: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.viewmodel.OplusChargeAnimController$Companion",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController$Companion: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController$Companion: com.oplus.charge.viewmodel.OplusChargeAnimController getInstance(android.content.Context)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController$Companion: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.viewmodel.OplusChargeAnimController",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: void <init>(android.content.Context)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: android.content.Context getMContext()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: void setMContext(android.content.Context)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: void updateFastCharge(android.content.Intent)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: void updateNormalCharge(boolean,boolean,boolean,int,boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: void setSupportSubDisplay(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: void updateOpenState(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: void updateContext(android.content.Context)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: void onUserSwitchComplete()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: void isTablet(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: void isFoldDevices(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: void registerListener(com.oplus.charge.viewmodel.IChargeAnimStateChangedListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: void updateSmartSwitchState(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: void updateChargeAnimState(int,java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: void chargeAnimChanged(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: void onChargeAnimChange(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: void init(android.content.Context)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: void setPreventShow(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: void cancelChargeAnim(java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: void setKeyguardShowing(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: com.oplus.charge.viewmodel.OplusChargeAnimController getInstance(android.content.Context)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: com.oplus.charge.viewmodel.OplusChargeAnimController access$getMOplusChargeAnimController$cp()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: void access$setMOplusChargeAnimController$cp(com.oplus.charge.viewmodel.OplusChargeAnimController)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.viewmodel.OplusChargeAnimController: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.charge.OplusChargeConstant",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.charge.OplusChargeConstant: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.charge.OplusChargeConstant: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    }
+  ]
+}

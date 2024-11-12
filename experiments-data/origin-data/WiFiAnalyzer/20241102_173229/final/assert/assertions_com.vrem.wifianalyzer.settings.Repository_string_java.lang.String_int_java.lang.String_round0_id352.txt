@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"","method":"test_string_int_String_1_1881","class":"com.vrem.wifianalyzer.settings.TempRepositoryStringRound0ID352"}
+{"assert_type":"class java.lang.String","assert_value":"","method":"test_string_int_String_2_1885","class":"com.vrem.wifianalyzer.settings.TempRepositoryStringRound0ID352"}

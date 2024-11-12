@@ -1,0 +1,2 @@
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[STRENGTH, SSID, CHANNEL]","method":"test_getEntries_1_2013","class":"com.vrem.wifianalyzer.wifi.model.TempSortByGetEntriesRound0ID378"}
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[STRENGTH, SSID, CHANNEL]","method":"test_getEntries_2_2015","class":"com.vrem.wifianalyzer.wifi.model.TempSortByGetEntriesRound0ID378"}

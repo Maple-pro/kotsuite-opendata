@@ -1,0 +1,2 @@
+{"assert_type":"class kotlin.collections.EmptySet","assert_value":"[]","method":"test_newSeries_List_Pair_1_4916","class":"com.vrem.wifianalyzer.wifi.channelgraph.TempDataManagerNewSeriesRound0ID778"}
+{"assert_type":"class kotlin.collections.EmptySet","assert_value":"[]","method":"test_newSeries_List_Pair_2_4921","class":"com.vrem.wifianalyzer.wifi.channelgraph.TempDataManagerNewSeriesRound0ID778"}

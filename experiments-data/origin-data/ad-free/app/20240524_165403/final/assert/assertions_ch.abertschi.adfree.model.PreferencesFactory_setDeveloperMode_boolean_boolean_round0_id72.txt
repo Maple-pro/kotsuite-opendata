@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_setDeveloperMode_boolean_1_421","class":"ch.abertschi.adfree.model.TempPreferencesFactorySetDeveloperModeRound0ID72"}
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_setDeveloperMode_boolean_2_425","class":"ch.abertschi.adfree.model.TempPreferencesFactorySetDeveloperModeRound0ID72"}

@@ -1,0 +1,2 @@
+{"assert_type":"class com.android.gpstest.databinding.NavdrawerSeparatorBinding","assert_value":"com.android.gpstest.databinding.NavdrawerSeparatorBinding@3f12676","method":"test_bind_View_1_1385","class":"com.android.gpstest.databinding.TempNavdrawerSeparatorBindingBindRound0ID232"}
+{"assert_type":"class com.android.gpstest.databinding.NavdrawerSeparatorBinding","assert_value":"com.android.gpstest.databinding.NavdrawerSeparatorBinding@3f12676","method":"test_bind_View_2_1388","class":"com.android.gpstest.databinding.TempNavdrawerSeparatorBindingBindRound0ID232"}

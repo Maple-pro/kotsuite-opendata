@@ -1,0 +1,2 @@
+{"assert_type":"class kotlin.collections.EmptyList","assert_value":"[]","method":"test_difference_Set_1_3988","class":"com.vrem.wifianalyzer.wifi.graphutils.TempSeriesCacheDifferenceRound0ID674"}
+{"assert_type":"class kotlin.collections.EmptyList","assert_value":"[]","method":"test_difference_Set_2_3992","class":"com.vrem.wifianalyzer.wifi.graphutils.TempSeriesCacheDifferenceRound0ID674"}

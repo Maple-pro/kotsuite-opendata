@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_enableWiFi_1_1417","class":"com.vrem.wifianalyzer.wifi.manager.TempWiFiManagerWrapperEnableWiFiRound0ID288"}
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_enableWiFi_2_1422","class":"com.vrem.wifianalyzer.wifi.manager.TempWiFiManagerWrapperEnableWiFiRound0ID288"}

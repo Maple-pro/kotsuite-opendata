@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_getBenchmarkCardCollapsed_1_445","class":"com.android.gpstest.ui.TempBenchmarkViewModelGetBenchmarkCardCollapsedRound0ID66"}
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_getBenchmarkCardCollapsed_2_449","class":"com.android.gpstest.ui.TempBenchmarkViewModelGetBenchmarkCardCollapsedRound0ID66"}

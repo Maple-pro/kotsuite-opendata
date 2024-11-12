@@ -1,0 +1,2 @@
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[INSTANCE]","method":"test_getEntries_1_1033","class":"com.vrem.wifianalyzer.TempMainContextGetEntriesRound0ID228"}
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[INSTANCE]","method":"test_getEntries_2_1035","class":"com.vrem.wifianalyzer.TempMainContextGetEntriesRound0ID228"}

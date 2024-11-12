@@ -1,0 +1,2 @@
+{"assert_type":"class java.util.Locale","assert_value":"en_US","method":"test_languageLocale_1_1129","class":"com.vrem.wifianalyzer.settings.TempSettingsLanguageLocaleRound0ID244"}
+{"assert_type":"class java.util.Locale","assert_value":"en_US","method":"test_languageLocale_2_1133","class":"com.vrem.wifianalyzer.settings.TempSettingsLanguageLocaleRound0ID244"}

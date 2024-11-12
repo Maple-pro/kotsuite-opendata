@@ -1,0 +1,2 @@
+{"assert_type":"class java.util.LinkedHashSet","assert_value":"[NONE, WPS, WEP, WPA, WPA2, WPA3]","method":"test_findSecurities_1_1373","class":"com.vrem.wifianalyzer.settings.TempSettingsFindSecuritiesRound0ID282"}
+{"assert_type":"class java.util.LinkedHashSet","assert_value":"[NONE, WPS, WEP, WPA, WPA2, WPA3]","method":"test_findSecurities_2_1377","class":"com.vrem.wifianalyzer.settings.TempSettingsFindSecuritiesRound0ID282"}

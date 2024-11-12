@@ -1,0 +1,2 @@
+{"assert_type":"class com.vrem.wifianalyzer.wifi.band.WiFiBand","assert_value":"GHZ2","method":"test_wiFiBand_1_1213","class":"com.vrem.wifianalyzer.settings.TempSettingsWiFiBandRound0ID258"}
+{"assert_type":"class com.vrem.wifianalyzer.wifi.band.WiFiBand","assert_value":"GHZ2","method":"test_wiFiBand_2_1217","class":"com.vrem.wifianalyzer.settings.TempSettingsWiFiBandRound0ID258"}

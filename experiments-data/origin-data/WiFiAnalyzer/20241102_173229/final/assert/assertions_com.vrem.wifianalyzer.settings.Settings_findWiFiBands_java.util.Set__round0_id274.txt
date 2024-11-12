@@ -1,0 +1,2 @@
+{"assert_type":"class java.util.LinkedHashSet","assert_value":"[GHZ2, GHZ5, GHZ6]","method":"test_findWiFiBands_1_1317","class":"com.vrem.wifianalyzer.settings.TempSettingsFindWiFiBandsRound0ID274"}
+{"assert_type":"class java.util.LinkedHashSet","assert_value":"[GHZ2, GHZ5, GHZ6]","method":"test_findWiFiBands_2_1321","class":"com.vrem.wifianalyzer.settings.TempSettingsFindWiFiBandsRound0ID274"}

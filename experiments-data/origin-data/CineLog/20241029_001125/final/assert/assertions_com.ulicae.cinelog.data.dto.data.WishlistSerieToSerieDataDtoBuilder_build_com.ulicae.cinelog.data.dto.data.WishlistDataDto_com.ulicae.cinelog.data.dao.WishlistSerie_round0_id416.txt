@@ -1,0 +1,2 @@
+{"assert_type":"class com.ulicae.cinelog.data.dto.data.WishlistDataDto","assert_value":"","method":"test_build_WishlistSerie_1_3169","class":"com.ulicae.cinelog.data.dto.data.TempWishlistSerieToSerieDataDtoBuilderBuildRound0ID416"}
+{"assert_type":"class com.ulicae.cinelog.data.dto.data.WishlistDataDto","assert_value":"","method":"test_build_WishlistSerie_2_3173","class":"com.ulicae.cinelog.data.dto.data.TempWishlistSerieToSerieDataDtoBuilderBuildRound0ID416"}

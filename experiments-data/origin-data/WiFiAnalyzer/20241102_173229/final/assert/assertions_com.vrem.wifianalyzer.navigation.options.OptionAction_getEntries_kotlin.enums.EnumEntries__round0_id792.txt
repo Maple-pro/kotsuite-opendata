@@ -1,0 +1,2 @@
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[NO_ACTION, SCANNER, FILTER, WIFI_BAND_2, WIFI_BAND_5, WIFI_BAND_6]","method":"test_getEntries_1_5000","class":"com.vrem.wifianalyzer.navigation.options.TempOptionActionGetEntriesRound0ID792"}
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[NO_ACTION, SCANNER, FILTER, WIFI_BAND_2, WIFI_BAND_5, WIFI_BAND_6]","method":"test_getEntries_2_5002","class":"com.vrem.wifianalyzer.navigation.options.TempOptionActionGetEntriesRound0ID792"}

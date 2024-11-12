@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Double","assert_value":"66.81851712933312","method":"test_clamp_double_double_double_1_21","class":"com.android.gpstest.library.util.TempMathUtilsClampRound0ID10"}
+{"assert_type":"class java.lang.Double","assert_value":"-21.405341321742227","method":"test_clamp_double_double_double_2_23","class":"com.android.gpstest.library.util.TempMathUtilsClampRound0ID10"}

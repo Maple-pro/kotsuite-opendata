@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Double","assert_value":"48.70160554550742","method":"test_mod_double_double_1_1","class":"com.android.gpstest.library.util.TempMathUtilsModRound0ID0"}
+{"assert_type":"class java.lang.Double","assert_value":"-13.298795582944493","method":"test_mod_double_double_2_3","class":"com.android.gpstest.library.util.TempMathUtilsModRound0ID0"}

@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"TrackRepository","method":"test_getLoggerTag_1_2377","class":"ch.abertschi.adfree.model.TempTrackRepositoryGetLoggerTagRound0ID336"}
+{"assert_type":"class java.lang.String","assert_value":"TrackRepository","method":"test_getLoggerTag_2_2382","class":"ch.abertschi.adfree.model.TempTrackRepositoryGetLoggerTagRound0ID336"}

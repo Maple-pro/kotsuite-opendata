@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"","method":"test_getTitle_AdPayload_1_2441","class":"ch.abertschi.adfree.detector.TempSpotifyTitleDetectorGetTitleRound0ID344"}
+{"assert_type":"class java.lang.String","assert_value":"","method":"test_getTitle_AdPayload_2_2446","class":"ch.abertschi.adfree.detector.TempSpotifyTitleDetectorGetTitleRound0ID344"}

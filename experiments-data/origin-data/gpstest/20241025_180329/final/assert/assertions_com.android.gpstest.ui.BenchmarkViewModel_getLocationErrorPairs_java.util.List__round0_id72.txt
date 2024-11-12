@@ -1,0 +1,2 @@
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_getLocationErrorPairs_1_481","class":"com.android.gpstest.ui.TempBenchmarkViewModelGetLocationErrorPairsRound0ID72"}
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_getLocationErrorPairs_2_485","class":"com.android.gpstest.ui.TempBenchmarkViewModelGetLocationErrorPairsRound0ID72"}

@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_registered_1_4736","class":"com.vrem.wifianalyzer.wifi.scanner.TempScannerRegisteredRound0ID762"}
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_registered_2_4743","class":"com.vrem.wifianalyzer.wifi.scanner.TempScannerRegisteredRound0ID762"}

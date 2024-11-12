@@ -1,0 +1,2 @@
+{"assert_type":"class com.google.android.gms.maps.model.LatLng","assert_value":"lat/lng: (10.795583393941072,45.65636044764341)","method":"test_makeLatLng_double_double_1_273","class":"com.android.gpstest.util.TempMapUtilsMakeLatLngRound0ID40"}
+{"assert_type":"class com.google.android.gms.maps.model.LatLng","assert_value":"lat/lng: (-90.0,-6.288458477686731)","method":"test_makeLatLng_double_double_2_275","class":"com.android.gpstest.util.TempMapUtilsMakeLatLngRound0ID40"}

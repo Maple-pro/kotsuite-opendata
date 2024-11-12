@@ -1,0 +1,2 @@
+{"assert_type":"class com.android.gpstest.ui.MapFragment_MembersInjector","assert_value":"com.android.gpstest.ui.MapFragment_MembersInjector@605c7a9e","method":"test_create_Provider_1_1085","class":"com.android.gpstest.ui.TempMapFragment_MembersInjectorCreateRound0ID176"}
+{"assert_type":"class com.android.gpstest.ui.MapFragment_MembersInjector","assert_value":"com.android.gpstest.ui.MapFragment_MembersInjector@605c7a9e","method":"test_create_Provider_2_1088","class":"com.android.gpstest.ui.TempMapFragment_MembersInjectorCreateRound0ID176"}

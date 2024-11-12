@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_wiFiOffOnExit_1_1225","class":"com.vrem.wifianalyzer.settings.TempSettingsWiFiOffOnExitRound0ID260"}
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_wiFiOffOnExit_2_1229","class":"com.vrem.wifianalyzer.settings.TempSettingsWiFiOffOnExitRound0ID260"}

@@ -1,0 +1,2 @@
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_graphViews_1_4184","class":"com.vrem.wifianalyzer.wifi.graphutils.TempGraphAdapterGraphViewsRound0ID704"}
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_graphViews_2_4188","class":"com.vrem.wifianalyzer.wifi.graphutils.TempGraphAdapterGraphViewsRound0ID704"}

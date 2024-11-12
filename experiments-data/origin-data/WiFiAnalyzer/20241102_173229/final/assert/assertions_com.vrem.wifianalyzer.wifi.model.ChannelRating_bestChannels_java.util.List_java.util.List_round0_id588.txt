@@ -1,0 +1,2 @@
+{"assert_type":"class kotlin.collections.EmptyList","assert_value":"[]","method":"test_bestChannels_List_1_3212","class":"com.vrem.wifianalyzer.wifi.model.TempChannelRatingBestChannelsRound0ID588"}
+{"assert_type":"class kotlin.collections.EmptyList","assert_value":"[]","method":"test_bestChannels_List_2_3216","class":"com.vrem.wifianalyzer.wifi.model.TempChannelRatingBestChannelsRound0ID588"}

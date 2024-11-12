@@ -1,0 +1,2 @@
+{"assert_type":"class com.vrem.wifianalyzer.wifi.model.WiFiData","assert_value":"com.vrem.wifianalyzer.wifi.model.WiFiData@45e69324","method":"test_wiFiData_1_4512","class":"com.vrem.wifianalyzer.wifi.scanner.TempScannerWiFiDataRound0ID744"}
+{"assert_type":"class com.vrem.wifianalyzer.wifi.model.WiFiData","assert_value":"com.vrem.wifianalyzer.wifi.model.WiFiData@45e69324","method":"test_wiFiData_2_4519","class":"com.vrem.wifianalyzer.wifi.scanner.TempScannerWiFiDataRound0ID744"}

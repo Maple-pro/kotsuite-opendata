@@ -1,0 +1,2 @@
+{"assert_type":"class com.ulicae.cinelog.data.dao.Tag","assert_value":"com.ulicae.cinelog.data.dao.Tag@66048ac4","method":"test_build_TagDto_1_4137","class":"com.ulicae.cinelog.utils.TempTagDtoToDbBuilderBuildRound0ID548"}
+{"assert_type":"class com.ulicae.cinelog.data.dao.Tag","assert_value":"com.ulicae.cinelog.data.dao.Tag@66048ac4","method":"test_build_TagDto_2_4141","class":"com.ulicae.cinelog.utils.TempTagDtoToDbBuilderBuildRound0ID548"}

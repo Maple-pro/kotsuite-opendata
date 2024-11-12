@@ -1,0 +1,2 @@
+{"assert_type":"class java.util.HashSet","assert_value":"[]","method":"test_findSSIDs_1_1289","class":"com.vrem.wifianalyzer.settings.TempSettingsFindSSIDsRound0ID270"}
+{"assert_type":"class java.util.HashSet","assert_value":"[]","method":"test_findSSIDs_2_1293","class":"com.vrem.wifianalyzer.settings.TempSettingsFindSSIDsRound0ID270"}

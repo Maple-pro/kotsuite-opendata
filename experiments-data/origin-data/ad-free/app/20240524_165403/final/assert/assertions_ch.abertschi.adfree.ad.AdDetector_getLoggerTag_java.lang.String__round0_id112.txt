@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"AdDetector","method":"test_getLoggerTag_1_757","class":"ch.abertschi.adfree.ad.TempAdDetectorGetLoggerTagRound0ID112"}
+{"assert_type":"class java.lang.String","assert_value":"AdDetector","method":"test_getLoggerTag_2_762","class":"ch.abertschi.adfree.ad.TempAdDetectorGetLoggerTagRound0ID112"}

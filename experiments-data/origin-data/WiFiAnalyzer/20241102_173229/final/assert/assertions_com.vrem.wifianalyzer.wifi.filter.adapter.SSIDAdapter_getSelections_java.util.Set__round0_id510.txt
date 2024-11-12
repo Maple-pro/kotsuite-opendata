@@ -1,0 +1,2 @@
+{"assert_type":"class io.mockk.renamed.java.util.Set$Subclass0","assert_value":"Set(#1)","method":"test_getSelections_1_2672","class":"com.vrem.wifianalyzer.wifi.filter.adapter.TempSSIDAdapterGetSelectionsRound0ID510"}
+{"assert_type":"class io.mockk.renamed.java.util.Set$Subclass0","assert_value":"Set(#1)","method":"test_getSelections_2_2676","class":"com.vrem.wifianalyzer.wifi.filter.adapter.TempSSIDAdapterGetSelectionsRound0ID510"}

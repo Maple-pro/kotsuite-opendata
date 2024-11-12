@@ -1,0 +1,2 @@
+{"assert_type":"class com.ulicae.cinelog.data.dao.TmdbSerie","assert_value":"com.ulicae.cinelog.data.dao.TmdbSerie@1b4d89f","method":"test_buildTmdbSerie_SerieDto_1_3521","class":"com.ulicae.cinelog.utils.TempSerieDtoToDbBuilderBuildTmdbSerieRound0ID464"}
+{"assert_type":"class com.ulicae.cinelog.data.dao.TmdbSerie","assert_value":"com.ulicae.cinelog.data.dao.TmdbSerie@1b4d89f","method":"test_buildTmdbSerie_SerieDto_2_3525","class":"com.ulicae.cinelog.utils.TempSerieDtoToDbBuilderBuildTmdbSerieRound0ID464"}

@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"mode_map","method":"test_getMode_1_785","class":"com.android.gpstest.map.TempMapViewModelControllerGetModeRound0ID124"}
+{"assert_type":"class java.lang.String","assert_value":"mode_map","method":"test_getMode_2_790","class":"com.android.gpstest.map.TempMapViewModelControllerGetModeRound0ID124"}

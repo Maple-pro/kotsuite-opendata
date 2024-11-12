@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_isForMovies_1_3973","class":"com.ulicae.cinelog.data.dto.TempTagDtoIsForMoviesRound0ID520"}
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_isForMovies_2_3976","class":"com.ulicae.cinelog.data.dto.TempTagDtoIsForMoviesRound0ID520"}

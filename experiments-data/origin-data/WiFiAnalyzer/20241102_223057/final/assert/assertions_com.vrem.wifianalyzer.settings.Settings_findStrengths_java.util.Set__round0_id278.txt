@@ -1,0 +1,2 @@
+{"assert_type":"class java.util.LinkedHashSet","assert_value":"[ZERO, ONE, TWO, THREE, FOUR]","method":"test_findStrengths_1_1345","class":"com.vrem.wifianalyzer.settings.TempSettingsFindStrengthsRound0ID278"}
+{"assert_type":"class java.util.LinkedHashSet","assert_value":"[ZERO, ONE, TWO, THREE, FOUR]","method":"test_findStrengths_2_1349","class":"com.vrem.wifianalyzer.settings.TempSettingsFindStrengthsRound0ID278"}

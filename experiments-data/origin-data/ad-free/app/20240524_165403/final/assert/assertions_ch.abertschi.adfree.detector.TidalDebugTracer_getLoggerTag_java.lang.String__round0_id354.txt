@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"TidalDebugTracer","method":"test_getLoggerTag_1_2513","class":"ch.abertschi.adfree.detector.TempTidalDebugTracerGetLoggerTagRound0ID354"}
+{"assert_type":"class java.lang.String","assert_value":"TidalDebugTracer","method":"test_getLoggerTag_2_2517","class":"ch.abertschi.adfree.detector.TempTidalDebugTracerGetLoggerTagRound0ID354"}

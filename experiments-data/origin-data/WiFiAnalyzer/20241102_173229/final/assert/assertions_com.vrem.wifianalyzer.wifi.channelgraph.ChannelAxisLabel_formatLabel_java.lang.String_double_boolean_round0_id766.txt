@@ -1,0 +1,1 @@
+{"assert_type":"class java.lang.String","assert_value":"-4","method":"test_formatLabel_double_boolean_2_4781","class":"com.vrem.wifianalyzer.wifi.channelgraph.TempChannelAxisLabelFormatLabelRound0ID766"}

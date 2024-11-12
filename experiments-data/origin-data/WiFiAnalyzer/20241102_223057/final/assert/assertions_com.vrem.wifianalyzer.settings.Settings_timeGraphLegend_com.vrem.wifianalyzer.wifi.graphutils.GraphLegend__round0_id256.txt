@@ -1,0 +1,2 @@
+{"assert_type":"class com.vrem.wifianalyzer.wifi.graphutils.GraphLegend","assert_value":"LEFT","method":"test_timeGraphLegend_1_1201","class":"com.vrem.wifianalyzer.settings.TempSettingsTimeGraphLegendRound0ID256"}
+{"assert_type":"class com.vrem.wifianalyzer.wifi.graphutils.GraphLegend","assert_value":"LEFT","method":"test_timeGraphLegend_2_1205","class":"com.vrem.wifianalyzer.settings.TempSettingsTimeGraphLegendRound0ID256"}

@@ -1,0 +1,21 @@
+[submodule "experiments-data/repos/thor"]
+	path = experiments-data/repos/thor
+	url = https://gitlab.com/lp2p/thor
+[submodule "experiments-data/repos/ad-free"]
+	path = experiments-data/repos/ad-free
+	url = https://github.com/abertschi/ad-free.git
+[submodule "experiments-data/repos/Battery-Live"]
+	path = experiments-data/repos/Battery-Live
+	url = https://github.com/enricocid/Battery-Live.git
+[submodule "experiments-data/repos/gpstest"]
+	path = experiments-data/repos/gpstest
+	url = https://github.com/barbeau/gpstest.git
+[submodule "experiments-data/repos/CineLog"]
+	path = experiments-data/repos/CineLog
+	url = https://github.com/Alcidauk/CineLog.git
+[submodule "experiments-data/repos/open-event-attendee-android"]
+	path = experiments-data/repos/open-event-attendee-android
+	url = https://github.com/fossasia/open-event-attendee-android.git
+[submodule "experiments-data/repos/WiFiAnalyzer"]
+	path = experiments-data/repos/WiFiAnalyzer
+	url = https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer.git

@@ -1,0 +1,2 @@
+{"assert_type":"class com.vrem.wifianalyzer.wifi.accesspoint.ConnectionViewType","assert_value":"COMPLETE","method":"test_connectionViewType_1_1177","class":"com.vrem.wifianalyzer.settings.TempSettingsConnectionViewTypeRound0ID252"}
+{"assert_type":"class com.vrem.wifianalyzer.wifi.accesspoint.ConnectionViewType","assert_value":"COMPLETE","method":"test_connectionViewType_2_1181","class":"com.vrem.wifianalyzer.settings.TempSettingsConnectionViewTypeRound0ID252"}

@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"TextRepository","method":"test_getLoggerTag_1_1453","class":"ch.abertschi.adfree.model.TempTextRepositoryGetLoggerTagRound0ID190"}
+{"assert_type":"class java.lang.String","assert_value":"TextRepository","method":"test_getLoggerTag_2_1458","class":"ch.abertschi.adfree.model.TempTextRepositoryGetLoggerTagRound0ID190"}

@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_parentsCount_1_2944","class":"com.vrem.wifianalyzer.wifi.accesspoint.TempAccessPointsAdapterDataParentsCountRound0ID546"}
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_parentsCount_2_2949","class":"com.vrem.wifianalyzer.wifi.accesspoint.TempAccessPointsAdapterDataParentsCountRound0ID546"}

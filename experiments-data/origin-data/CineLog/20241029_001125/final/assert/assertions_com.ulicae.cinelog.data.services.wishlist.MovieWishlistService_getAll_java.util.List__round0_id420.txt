@@ -1,0 +1,2 @@
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_getAll_1_3197","class":"com.ulicae.cinelog.data.services.wishlist.TempMovieWishlistServiceGetAllRound0ID420"}
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_getAll_2_3201","class":"com.ulicae.cinelog.data.services.wishlist.TempMovieWishlistServiceGetAllRound0ID420"}

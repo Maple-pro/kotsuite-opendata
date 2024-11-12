@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"-Unknown","method":"test_countryName_Locale_1_2436","class":"com.vrem.wifianalyzer.wifi.band.TempWiFiChannelCountryCountryNameRound0ID472"}
+{"assert_type":"class java.lang.String","assert_value":"-Unknown","method":"test_countryName_Locale_2_2441","class":"com.vrem.wifianalyzer.wifi.band.TempWiFiChannelCountryCountryNameRound0ID472"}

@@ -1,0 +1,610 @@
+{
+  "module": "/Users/oneplus/WorkSpace/SystemUi/tileservice",
+  "classes": [
+    {
+      "className": "com.oplus.systemui.plugins.tileservice.util.TileThreadUtil",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.util.TileThreadUtil: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.util.TileThreadUtil: void runOnWorkThread(java.lang.Runnable)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.util.TileThreadUtil: android.os.Handler getWorkHandler()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.util.TileThreadUtil: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.systemui.plugins.tileservice.DataBinderMapperImpl",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.DataBinderMapperImpl: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.DataBinderMapperImpl: androidx.databinding.ViewDataBinding getDataBinder(androidx.databinding.DataBindingComponent,android.view.View,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.DataBinderMapperImpl: androidx.databinding.ViewDataBinding getDataBinder(androidx.databinding.DataBindingComponent,android.view.View[],int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.DataBinderMapperImpl: int getLayoutId(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.DataBinderMapperImpl: java.lang.String convertBrIdToString(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.DataBinderMapperImpl: java.util.List collectDependencies()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.DataBinderMapperImpl: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.systemui.plugins.tileservice.DataBinderMapperImpl$InnerLayoutIdLookup",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.DataBinderMapperImpl$InnerLayoutIdLookup: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.DataBinderMapperImpl$InnerLayoutIdLookup: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.systemui.plugins.tileservice.DataBinderMapperImpl$InnerBrLookup",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.DataBinderMapperImpl$InnerBrLookup: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.DataBinderMapperImpl$InnerBrLookup: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.systemui.plugins.tileservice.BR",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.BR: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.BR: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.systemui.plugins.tileservice.BuildConfig",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.BuildConfig: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.BuildConfig: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.systemui.plugins.tileservice.DataBindingTriggerClass",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.DataBindingTriggerClass: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.systemui.plugins.tileservice.util.OplusTileXMLParser$Companion",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.util.OplusTileXMLParser$Companion: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.util.OplusTileXMLParser$Companion: com.oplus.systemui.plugins.tileservice.util.OplusTileXMLParser getInstance()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.util.OplusTileXMLParser$Companion: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.systemui.plugins.tileservice.util.OplusTileXMLParser",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.util.OplusTileXMLParser: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.util.OplusTileXMLParser: com.oplus.systemui.plugins.tileservice.plugin.TileStateController$OplusCustomTileServiceInfo parse(android.content.ComponentName,android.content.Context)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.util.OplusTileXMLParser: org.xmlpull.v1.XmlPullParser getXmlPullParser(android.content.Intent,android.content.Context)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.util.OplusTileXMLParser: com.oplus.systemui.plugins.tileservice.plugin.TileStateController$OplusCustomTileServiceInfo parseForTileService(org.xmlpull.v1.XmlPullParser)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.util.OplusTileXMLParser: com.oplus.systemui.plugins.tileservice.plugin.TileStateController$CustomTileContentProviderInfo parseForContentProvider(org.xmlpull.v1.XmlPullParser)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.util.OplusTileXMLParser: com.oplus.systemui.plugins.tileservice.plugin.TileStateController$OplusCustomTileServiceInfo parse(org.xmlpull.v1.XmlPullParser)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.util.OplusTileXMLParser: com.oplus.systemui.plugins.tileservice.util.OplusTileXMLParser access$getInstance$cp()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.util.OplusTileXMLParser: void access$setInstance$cp(com.oplus.systemui.plugins.tileservice.util.OplusTileXMLParser)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.util.OplusTileXMLParser: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.util.OplusTileXMLParser: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.systemui.plugins.tileservice.plugin.TileStateController$OplusCustomTileServiceInfo",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$OplusCustomTileServiceInfo: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$OplusCustomTileServiceInfo: boolean getAvailableWhenLock()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$OplusCustomTileServiceInfo: void setAvailableWhenLock(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$OplusCustomTileServiceInfo: com.oplus.systemui.plugins.tileservice.plugin.TileStateController$CustomTileContentProviderInfo getCustomTileContentProviderInfo()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$OplusCustomTileServiceInfo: void setCustomTileContentProviderInfo(com.oplus.systemui.plugins.tileservice.plugin.TileStateController$CustomTileContentProviderInfo)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$OplusCustomTileServiceInfo: boolean getBindAppWhenListening()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$OplusCustomTileServiceInfo: void setBindAppWhenListening(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$OplusCustomTileServiceInfo: void setDeathRecipientToken(android.os.IBinder)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$OplusCustomTileServiceInfo: void deathRecipient$lambda$0(com.oplus.systemui.plugins.tileservice.plugin.TileStateController$OplusCustomTileServiceInfo)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.systemui.plugins.tileservice.plugin.TileStateController$CustomTileContentProviderInfo",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$CustomTileContentProviderInfo: void <init>(android.net.Uri,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$CustomTileContentProviderInfo: void <init>(android.net.Uri,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$CustomTileContentProviderInfo: void registerObserver(android.content.Context,kotlin.jvm.functions.Function1)>",
+          "methodType": "NEED_BUT_UNABLE",
+          "methodReason": "UNSUPPORTED_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$CustomTileContentProviderInfo: void unRegisterObserver()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$CustomTileContentProviderInfo: java.lang.String queryContentProviderValue(android.content.Context)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$CustomTileContentProviderInfo: int getStatus(android.content.Context)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$CustomTileContentProviderInfo: void registerObserver$lambda$0(kotlin.jvm.functions.Function1,com.oplus.systemui.plugins.tileservice.plugin.TileStateController$CustomTileContentProviderInfo,android.content.Context)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$CustomTileContentProviderInfo: int access$getStatus(com.oplus.systemui.plugins.tileservice.plugin.TileStateController$CustomTileContentProviderInfo,android.content.Context)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.systemui.plugins.tileservice.plugin.TileStateController",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController: void <init>(android.content.Context)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController: void addInfo(android.content.ComponentName,com.oplus.systemui.plugins.tileservice.plugin.TileStateController$OplusCustomTileServiceInfo)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController: void removeInfo(android.content.ComponentName)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController: boolean bindAppWhenListening(android.content.ComponentName)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController: void setListening(boolean,android.content.ComponentName,android.content.Context)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController: boolean shouldDisableTile(android.content.ComponentName)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController: void setDeathRecipientToken(android.os.IBinder,android.content.ComponentName)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController: void updateCurrentStateIsNotDirty(android.content.ComponentName)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController: void setTileStateChangeListener(com.oplus.systemui.plugins.tileservice.plugin.TileStateController$TileStateChangeListener)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController: void destroy()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController: com.oplus.systemui.plugins.tileservice.plugin.TileStateController$TileStateChangeListener access$getListener$p(com.oplus.systemui.plugins.tileservice.plugin.TileStateController)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.systemui.plugins.tileservice.plugin.TileStateController$Companion",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$Companion: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$Companion: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.systemui.plugins.tileservice.plugin.TileStateController$TileStateChangeListener",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$TileStateChangeListener: void onSettingsStateChange(android.content.ComponentName,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin: void onCreate(android.content.Context,android.content.Context)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin: void setWrapper(com.android.systemui.plugins.qs.OplusTileController$ITileServicesWrapper)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin: void addTile(android.content.ComponentName,android.content.Context)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin: void removeTile(android.content.ComponentName)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin: void setListening(boolean,android.content.ComponentName,android.content.Context)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin: void updateCurrentStateIsNotDirty(android.content.ComponentName)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin: boolean bindAppWhenListening(android.content.ComponentName)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin: boolean shouldDisableTile(android.content.ComponentName)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin: void onDestroy()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin: void addTile$lambda$3(android.content.Context,android.content.ComponentName,com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin: void removeTile$lambda$4(com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin,android.content.ComponentName)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin: com.android.systemui.plugins.qs.OplusTileController$ITileServicesWrapper access$getWrapper$p(com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin: com.oplus.systemui.plugins.tileservice.plugin.TileStateController access$getTileStateController$p(com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin$Companion",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin$Companion: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin$Companion: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin$tileStateChangeListener$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin$tileStateChangeListener$1: void <init>(com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin$tileStateChangeListener$1: void onSettingsStateChange(android.content.ComponentName,int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin$service$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin$service$1: void <init>(com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin$service$1: android.service.quicksettings.Tile getOplusTile(android.content.ComponentName)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin$service$1: void updateOplusTile(android.service.quicksettings.Tile,android.content.ComponentName)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.OplusTileControllerPlugin$service$1: void setDeathRecipientToken(android.os.IBinder,android.content.ComponentName)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.systemui.plugins.tileservice.plugin.TileStateController$setListening$1$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$setListening$1$1: void <init>(com.oplus.systemui.plugins.tileservice.plugin.TileStateController,android.content.ComponentName)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$setListening$1$1: void invoke(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$setListening$1$1: java.lang.Object invoke(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.oplus.systemui.plugins.tileservice.plugin.TileStateController$CustomTileContentProviderInfo$registerObserver$2",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$CustomTileContentProviderInfo$registerObserver$2: void <init>(kotlin.jvm.functions.Function1,com.oplus.systemui.plugins.tileservice.plugin.TileStateController$CustomTileContentProviderInfo,android.content.Context,android.os.Handler)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.oplus.systemui.plugins.tileservice.plugin.TileStateController$CustomTileContentProviderInfo$registerObserver$2: void onChange(boolean,android.net.Uri,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        }
+      ]
+    }
+  ]
+}

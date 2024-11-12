@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Integer","assert_value":"1147798476","method":"test_calculateGraphType_1_3848","class":"com.vrem.wifianalyzer.wifi.graphutils.TempGraphViewWrapperCalculateGraphTypeRound0ID664"}
+{"assert_type":"class java.lang.Integer","assert_value":"1147798476","method":"test_calculateGraphType_2_3856","class":"com.vrem.wifianalyzer.wifi.graphutils.TempGraphViewWrapperCalculateGraphTypeRound0ID664"}

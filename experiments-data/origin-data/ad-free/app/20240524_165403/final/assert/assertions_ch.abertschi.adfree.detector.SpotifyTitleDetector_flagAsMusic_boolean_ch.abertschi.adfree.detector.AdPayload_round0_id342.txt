@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_flagAsMusic_AdPayload_1_2425","class":"ch.abertschi.adfree.detector.TempSpotifyTitleDetectorFlagAsMusicRound0ID342"}
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_flagAsMusic_AdPayload_2_2430","class":"ch.abertschi.adfree.detector.TempSpotifyTitleDetectorFlagAsMusicRound0ID342"}

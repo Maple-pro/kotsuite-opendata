@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_useReflectionForMatch_1_1349","class":"ch.abertschi.adfree.model.TempTextRepositoryUseReflectionForMatchRound0ID178"}
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_useReflectionForMatch_2_1354","class":"ch.abertschi.adfree.model.TempTextRepositoryUseReflectionForMatchRound0ID178"}

@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Double","assert_value":"7.127233048616296E-5","method":"test_toMhz_double_1_5","class":"com.android.gpstest.library.util.TempMathUtilsToMhzRound0ID2"}
+{"assert_type":"class java.lang.Double","assert_value":"8.776276272380426E-5","method":"test_toMhz_double_2_7","class":"com.android.gpstest.library.util.TempMathUtilsToMhzRound0ID2"}

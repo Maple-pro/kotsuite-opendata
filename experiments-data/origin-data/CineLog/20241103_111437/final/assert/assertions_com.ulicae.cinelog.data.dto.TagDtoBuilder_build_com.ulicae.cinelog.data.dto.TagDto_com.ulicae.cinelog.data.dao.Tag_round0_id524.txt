@@ -1,0 +1,2 @@
+{"assert_type":"class com.ulicae.cinelog.data.dto.TagDto","assert_value":"com.ulicae.cinelog.data.dto.TagDto@1b5733f","method":"test_build_Tag_1_3989","class":"com.ulicae.cinelog.data.dto.TempTagDtoBuilderBuildRound0ID524"}
+{"assert_type":"class com.ulicae.cinelog.data.dto.TagDto","assert_value":"com.ulicae.cinelog.data.dto.TagDto@1b5733f","method":"test_build_Tag_2_3993","class":"com.ulicae.cinelog.data.dto.TempTagDtoBuilderBuildRound0ID524"}

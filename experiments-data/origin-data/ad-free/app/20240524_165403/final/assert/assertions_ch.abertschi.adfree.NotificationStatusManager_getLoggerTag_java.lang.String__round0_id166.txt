@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"NotificationStatusManag","method":"test_getLoggerTag_1_1273","class":"ch.abertschi.adfree.TempNotificationStatusManagerGetLoggerTagRound0ID166"}
+{"assert_type":"class java.lang.String","assert_value":"NotificationStatusManag","method":"test_getLoggerTag_2_1277","class":"ch.abertschi.adfree.TempNotificationStatusManagerGetLoggerTagRound0ID166"}

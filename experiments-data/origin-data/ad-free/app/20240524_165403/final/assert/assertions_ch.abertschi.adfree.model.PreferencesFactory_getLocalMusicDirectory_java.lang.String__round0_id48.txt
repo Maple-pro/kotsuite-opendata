@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"","method":"test_getLocalMusicDirectory_1_269","class":"ch.abertschi.adfree.model.TempPreferencesFactoryGetLocalMusicDirectoryRound0ID48"}
+{"assert_type":"class java.lang.String","assert_value":"","method":"test_getLocalMusicDirectory_2_273","class":"ch.abertschi.adfree.model.TempPreferencesFactoryGetLocalMusicDirectoryRound0ID48"}

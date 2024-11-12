@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_isAdDetectableEnabled_AdDetectable_1_377","class":"ch.abertschi.adfree.model.TempPreferencesFactoryIsAdDetectableEnabledRound0ID66"}
+{"assert_type":"class java.lang.Integer","assert_value":"0","method":"test_isAdDetectableEnabled_AdDetectable_2_382","class":"ch.abertschi.adfree.model.TempPreferencesFactoryIsAdDetectableEnabledRound0ID66"}

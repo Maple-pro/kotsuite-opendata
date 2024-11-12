@@ -1,0 +1,2 @@
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[DARK, LIGHT, SYSTEM]","method":"test_getEntries_1_2076","class":"com.vrem.wifianalyzer.settings.TempThemeStyleGetEntriesRound0ID408"}
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[DARK, LIGHT, SYSTEM]","method":"test_getEntries_2_2078","class":"com.vrem.wifianalyzer.settings.TempThemeStyleGetEntriesRound0ID408"}

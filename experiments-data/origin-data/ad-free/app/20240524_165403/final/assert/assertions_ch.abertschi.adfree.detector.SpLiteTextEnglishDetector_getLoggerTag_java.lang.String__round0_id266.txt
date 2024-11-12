@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"SpLiteTextEnglishDetect","method":"test_getLoggerTag_1_1941","class":"ch.abertschi.adfree.detector.TempSpLiteTextEnglishDetectorGetLoggerTagRound0ID266"}
+{"assert_type":"class java.lang.String","assert_value":"SpLiteTextEnglishDetect","method":"test_getLoggerTag_2_1944","class":"ch.abertschi.adfree.detector.TempSpLiteTextEnglishDetectorGetLoggerTagRound0ID266"}

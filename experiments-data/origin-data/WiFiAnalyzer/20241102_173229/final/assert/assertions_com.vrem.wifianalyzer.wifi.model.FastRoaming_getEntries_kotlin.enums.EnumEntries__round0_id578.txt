@@ -1,0 +1,2 @@
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[FR_802_11K, FR_802_11R, FR_802_11V]","method":"test_getEntries_1_3164","class":"com.vrem.wifianalyzer.wifi.model.TempFastRoamingGetEntriesRound0ID578"}
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[FR_802_11K, FR_802_11R, FR_802_11V]","method":"test_getEntries_2_3166","class":"com.vrem.wifianalyzer.wifi.model.TempFastRoamingGetEntriesRound0ID578"}

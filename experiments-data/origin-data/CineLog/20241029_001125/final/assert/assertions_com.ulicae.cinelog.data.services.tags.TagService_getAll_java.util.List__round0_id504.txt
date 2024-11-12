@@ -1,0 +1,2 @@
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_getAll_1_3849","class":"com.ulicae.cinelog.data.services.tags.TempTagServiceGetAllRound0ID504"}
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_getAll_2_3853","class":"com.ulicae.cinelog.data.services.tags.TempTagServiceGetAllRound0ID504"}

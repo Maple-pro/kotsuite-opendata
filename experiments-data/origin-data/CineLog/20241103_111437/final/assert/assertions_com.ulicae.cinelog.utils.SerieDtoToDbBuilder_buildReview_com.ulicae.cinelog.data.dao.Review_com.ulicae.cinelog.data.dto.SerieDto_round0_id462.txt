@@ -1,0 +1,2 @@
+{"assert_type":"class com.ulicae.cinelog.data.dao.Review","assert_value":"com.ulicae.cinelog.data.dao.Review@53188ede","method":"test_buildReview_SerieDto_1_3509","class":"com.ulicae.cinelog.utils.TempSerieDtoToDbBuilderBuildReviewRound0ID462"}
+{"assert_type":"class com.ulicae.cinelog.data.dao.Review","assert_value":"com.ulicae.cinelog.data.dao.Review@aabbe956","method":"test_buildReview_SerieDto_2_3513","class":"com.ulicae.cinelog.utils.TempSerieDtoToDbBuilderBuildReviewRound0ID462"}

@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Integer","assert_value":"1","method":"test_hasSettingsView_1_2949","class":"ch.abertschi.adfree.plugin.interdimcable.TempInterdimCablePluginHasSettingsViewRound0ID408"}
+{"assert_type":"class java.lang.Integer","assert_value":"1","method":"test_hasSettingsView_2_2956","class":"ch.abertschi.adfree.plugin.interdimcable.TempInterdimCablePluginHasSettingsViewRound0ID408"}

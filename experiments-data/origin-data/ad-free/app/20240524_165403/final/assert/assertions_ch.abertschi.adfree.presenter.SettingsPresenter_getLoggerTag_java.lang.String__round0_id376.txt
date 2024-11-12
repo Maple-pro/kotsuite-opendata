@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"SettingsPresenter","method":"test_getLoggerTag_1_2653","class":"ch.abertschi.adfree.presenter.TempSettingsPresenterGetLoggerTagRound0ID376"}
+{"assert_type":"class java.lang.String","assert_value":"SettingsPresenter","method":"test_getLoggerTag_2_2660","class":"ch.abertschi.adfree.presenter.TempSettingsPresenterGetLoggerTagRound0ID376"}

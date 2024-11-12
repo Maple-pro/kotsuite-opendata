@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"-80","method":"test_formatLabel_double_boolean_1_3356","class":"com.vrem.wifianalyzer.wifi.timegraph.TempTimeAxisLabelFormatLabelRound0ID620"}
+{"assert_type":"class java.lang.String","assert_value":"","method":"test_formatLabel_double_boolean_2_3359","class":"com.vrem.wifianalyzer.wifi.timegraph.TempTimeAxisLabelFormatLabelRound0ID620"}

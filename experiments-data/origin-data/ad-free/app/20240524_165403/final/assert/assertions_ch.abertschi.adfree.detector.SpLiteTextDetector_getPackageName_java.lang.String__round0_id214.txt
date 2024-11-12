@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"com.spotify.lite","method":"test_getPackageName_1_1633","class":"ch.abertschi.adfree.detector.TempSpLiteTextDetectorGetPackageNameRound0ID214"}
+{"assert_type":"class java.lang.String","assert_value":"com.spotify.lite","method":"test_getPackageName_2_1636","class":"ch.abertschi.adfree.detector.TempSpLiteTextDetectorGetPackageNameRound0ID214"}

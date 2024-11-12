@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"com.soundcloud.android","method":"test_getPackage_1_2245","class":"ch.abertschi.adfree.detector.TempScNotificationDebugTracerGetPackageRound0ID316"}
+{"assert_type":"class java.lang.String","assert_value":"com.soundcloud.android","method":"test_getPackage_2_2249","class":"ch.abertschi.adfree.detector.TempScNotificationDebugTracerGetPackageRound0ID316"}

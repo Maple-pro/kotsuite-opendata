@@ -1,0 +1,2 @@
+{"assert_type":"class java.util.HashSet","assert_value":"[]","method":"test_stringSet_int_Set_1_1929","class":"com.vrem.wifianalyzer.settings.TempRepositoryStringSetRound0ID360"}
+{"assert_type":"class java.util.HashSet","assert_value":"[]","method":"test_stringSet_int_Set_2_1934","class":"com.vrem.wifianalyzer.settings.TempRepositoryStringSetRound0ID360"}

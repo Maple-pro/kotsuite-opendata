@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"HomeActivity","method":"test_getLoggerTag_1_3985","class":"ch.abertschi.adfree.view.home.TempHomeActivityGetLoggerTagRound0ID528"}
+{"assert_type":"class java.lang.String","assert_value":"HomeActivity","method":"test_getLoggerTag_2_3988","class":"ch.abertschi.adfree.view.home.TempHomeActivityGetLoggerTagRound0ID528"}

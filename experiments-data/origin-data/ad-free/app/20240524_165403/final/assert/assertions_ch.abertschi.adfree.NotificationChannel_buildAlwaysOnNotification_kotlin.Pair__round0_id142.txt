@@ -1,0 +1,2 @@
+{"assert_type":"class kotlin.Pair","assert_value":"(Notification(child of #1#4), 1001)","method":"test_buildAlwaysOnNotification_1_1105","class":"ch.abertschi.adfree.TempNotificationChannelBuildAlwaysOnNotificationRound0ID142"}
+{"assert_type":"class kotlin.Pair","assert_value":"(Notification(child of #1#4), 1001)","method":"test_buildAlwaysOnNotification_2_1110","class":"ch.abertschi.adfree.TempNotificationChannelBuildAlwaysOnNotificationRound0ID142"}

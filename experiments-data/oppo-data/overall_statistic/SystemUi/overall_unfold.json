@@ -1,0 +1,3362 @@
+{
+  "module": "/Users/oneplus/WorkSpace/SystemUi/unfold",
+  "classes": [
+    {
+      "className": "com.android.systemui.unfold.UnfoldRemoteModule_UseReceivingFilterFactory",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldRemoteModule_UseReceivingFilterFactory: void <init>(com.android.systemui.unfold.UnfoldRemoteModule)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldRemoteModule_UseReceivingFilterFactory: java.lang.Boolean get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldRemoteModule_UseReceivingFilterFactory: com.android.systemui.unfold.UnfoldRemoteModule_UseReceivingFilterFactory create(com.android.systemui.unfold.UnfoldRemoteModule)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldRemoteModule_UseReceivingFilterFactory: boolean useReceivingFilter(com.android.systemui.unfold.UnfoldRemoteModule)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldRemoteModule_UseReceivingFilterFactory: java.lang.Object get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.UnfoldRemoteModule",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldRemoteModule: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldRemoteModule: java.util.Optional provideTransitionProvider(com.android.systemui.unfold.config.UnfoldTransitionConfig,com.android.systemui.unfold.util.ATraceLoggerTransitionProgressListener,javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldRemoteModule: boolean useReceivingFilter()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.config.UnfoldTransitionConfig",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.config.UnfoldTransitionConfig: boolean isEnabled()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.config.UnfoldTransitionConfig: boolean isHingeAngleEnabled()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.config.UnfoldTransitionConfig: int getHalfFoldedTimeoutMillis()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.util.ATraceLoggerTransitionProgressListener",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ATraceLoggerTransitionProgressListener: void <init>(java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ATraceLoggerTransitionProgressListener: void onTransitionStarted()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ATraceLoggerTransitionProgressListener: void onTransitionFinished()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ATraceLoggerTransitionProgressListener: void onTransitionProgress(float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.UnfoldTransitionProgressProvider$TransitionProgressListener",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldTransitionProgressProvider$TransitionProgressListener: void onTransitionStarted()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldTransitionProgressProvider$TransitionProgressListener: void onTransitionProgress(float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldTransitionProgressProvider$TransitionProgressListener: void onTransitionFinishing()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldTransitionProgressProvider$TransitionProgressListener: void onTransitionFinished()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.UnfoldTransitionProgressProvider",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldTransitionProgressProvider: void destroy()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.util.CallbackController",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.util.CallbackController: void addCallback(java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.CallbackController: void removeCallback(java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.DaggerUnfoldSharedComponent",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.DaggerUnfoldSharedComponent: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.DaggerUnfoldSharedComponent: com.android.systemui.unfold.UnfoldSharedComponent$Factory factory()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.UnfoldSharedComponent$Factory",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedComponent$Factory: com.android.systemui.unfold.UnfoldSharedComponent create(android.content.Context,com.android.systemui.unfold.config.UnfoldTransitionConfig,com.android.systemui.unfold.updates.screen.ScreenStatusProvider,com.android.systemui.unfold.updates.FoldProvider,com.android.systemui.unfold.util.CurrentActivityTypeProvider,android.hardware.SensorManager,android.os.Handler,java.util.concurrent.Executor,java.util.concurrent.Executor,java.lang.String,android.hardware.display.DisplayManager,android.content.ContentResolver)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedComponent$Factory: com.android.systemui.unfold.UnfoldSharedComponent create$default(com.android.systemui.unfold.UnfoldSharedComponent$Factory,android.content.Context,com.android.systemui.unfold.config.UnfoldTransitionConfig,com.android.systemui.unfold.updates.screen.ScreenStatusProvider,com.android.systemui.unfold.updates.FoldProvider,com.android.systemui.unfold.util.CurrentActivityTypeProvider,android.hardware.SensorManager,android.os.Handler,java.util.concurrent.Executor,java.util.concurrent.Executor,java.lang.String,android.hardware.display.DisplayManager,android.content.ContentResolver,int,java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.UnfoldSharedComponent",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedComponent: java.util.Optional getUnfoldTransitionProvider()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedComponent: com.android.systemui.unfold.updates.hinge.HingeAngleProvider getHingeAngleProvider()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedComponent: com.android.systemui.unfold.updates.RotationChangeProvider getRotationChangeProvider()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.DaggerUnfoldSharedComponent$UnfoldSharedComponentImpl",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.DaggerUnfoldSharedComponent$UnfoldSharedComponentImpl: void <init>(com.android.systemui.unfold.UnfoldSharedModule,com.android.systemui.unfold.UnfoldSharedInternalModule,android.content.Context,com.android.systemui.unfold.config.UnfoldTransitionConfig,com.android.systemui.unfold.updates.screen.ScreenStatusProvider,com.android.systemui.unfold.updates.FoldProvider,com.android.systemui.unfold.util.CurrentActivityTypeProvider,android.hardware.SensorManager,android.os.Handler,java.util.concurrent.Executor,java.util.concurrent.Executor,java.lang.String,android.hardware.display.DisplayManager,android.content.ContentResolver)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.DaggerUnfoldSharedComponent$UnfoldSharedComponentImpl: void initialize(com.android.systemui.unfold.UnfoldSharedModule,com.android.systemui.unfold.UnfoldSharedInternalModule,android.content.Context,com.android.systemui.unfold.config.UnfoldTransitionConfig,com.android.systemui.unfold.updates.screen.ScreenStatusProvider,com.android.systemui.unfold.updates.FoldProvider,com.android.systemui.unfold.util.CurrentActivityTypeProvider,android.hardware.SensorManager,android.os.Handler,java.util.concurrent.Executor,java.util.concurrent.Executor,java.lang.String,android.hardware.display.DisplayManager,android.content.ContentResolver)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.DaggerUnfoldSharedComponent$UnfoldSharedComponentImpl: java.util.Optional getUnfoldTransitionProvider()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.DaggerUnfoldSharedComponent$UnfoldSharedComponentImpl: com.android.systemui.unfold.updates.hinge.HingeAngleProvider getHingeAngleProvider()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.DaggerUnfoldSharedComponent$UnfoldSharedComponentImpl: com.android.systemui.unfold.updates.RotationChangeProvider getRotationChangeProvider()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.DaggerUnfoldSharedComponent$UnfoldSharedComponentImpl: void <init>(com.android.systemui.unfold.UnfoldSharedModule,com.android.systemui.unfold.UnfoldSharedInternalModule,android.content.Context,com.android.systemui.unfold.config.UnfoldTransitionConfig,com.android.systemui.unfold.updates.screen.ScreenStatusProvider,com.android.systemui.unfold.updates.FoldProvider,com.android.systemui.unfold.util.CurrentActivityTypeProvider,android.hardware.SensorManager,android.os.Handler,java.util.concurrent.Executor,java.util.concurrent.Executor,java.lang.String,android.hardware.display.DisplayManager,android.content.ContentResolver,com.android.systemui.unfold.DaggerUnfoldSharedComponent$1)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.DaggerUnfoldSharedComponent$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": []
+    },
+    {
+      "className": "com.android.systemui.unfold.DaggerUnfoldSharedComponent$Factory",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.DaggerUnfoldSharedComponent$Factory: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.DaggerUnfoldSharedComponent$Factory: com.android.systemui.unfold.UnfoldSharedComponent create(android.content.Context,com.android.systemui.unfold.config.UnfoldTransitionConfig,com.android.systemui.unfold.updates.screen.ScreenStatusProvider,com.android.systemui.unfold.updates.FoldProvider,com.android.systemui.unfold.util.CurrentActivityTypeProvider,android.hardware.SensorManager,android.os.Handler,java.util.concurrent.Executor,java.util.concurrent.Executor,java.lang.String,android.hardware.display.DisplayManager,android.content.ContentResolver)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.DaggerUnfoldSharedComponent$Factory: void <init>(com.android.systemui.unfold.DaggerUnfoldSharedComponent$1)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.UnfoldSharedInternalModule",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedInternalModule: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedInternalModule: java.util.Optional unfoldTransitionProgressProvider(com.android.systemui.unfold.config.UnfoldTransitionConfig,com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider$Factory,com.android.systemui.unfold.util.ATraceLoggerTransitionProgressListener,javax.inject.Provider,javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedInternalModule: com.android.systemui.unfold.updates.hinge.HingeAngleProvider hingeAngleProvider(com.android.systemui.unfold.config.UnfoldTransitionConfig,javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedInternalModule: java.util.Optional provideProgressForwarder(com.android.systemui.unfold.config.UnfoldTransitionConfig,javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider_Factory",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider_Factory: void <init>(javax.inject.Provider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider_Factory: com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider get(com.android.systemui.unfold.UnfoldTransitionProgressProvider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider_Factory: com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider_Factory create(javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider_Factory: com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider newInstance(com.android.systemui.unfold.UnfoldTransitionProgressProvider,android.content.ContentResolver)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.UnfoldSharedModule",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedModule: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedModule: com.android.systemui.unfold.updates.FoldStateProvider provideFoldStateProvider(com.android.systemui.unfold.updates.DeviceFoldStateProvider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedModule: com.android.systemui.unfold.util.UnfoldKeyguardVisibilityProvider unfoldKeyguardVisibilityProvider(com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedModule: com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManager unfoldKeyguardVisibilityManager(com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.screen.ScreenStatusProvider",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": []
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.FoldProvider",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.FoldProvider: void registerCallback(com.android.systemui.unfold.updates.FoldProvider$FoldCallback,java.util.concurrent.Executor)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.FoldProvider: void unregisterCallback(com.android.systemui.unfold.updates.FoldProvider$FoldCallback)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.util.CurrentActivityTypeProvider",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.util.CurrentActivityTypeProvider: java.lang.Boolean isHomeActivity()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.CurrentActivityTypeProvider: void init()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.CurrentActivityTypeProvider: void uninit()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.hinge.HingeAngleProvider",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeAngleProvider: void start()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeAngleProvider: void stop()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.RotationChangeProvider",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider: void <init>(android.hardware.display.DisplayManager,android.content.Context,android.os.Handler)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider: void addCallback(com.android.systemui.unfold.updates.RotationChangeProvider$RotationListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider: void removeCallback(com.android.systemui.unfold.updates.RotationChangeProvider$RotationListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider: void subscribeToRotation()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider: void unsubscribeToRotation()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider: void addCallback$lambda$0(com.android.systemui.unfold.updates.RotationChangeProvider,com.android.systemui.unfold.updates.RotationChangeProvider$RotationListener)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider: void removeCallback$lambda$1(com.android.systemui.unfold.updates.RotationChangeProvider,com.android.systemui.unfold.updates.RotationChangeProvider$RotationListener)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider: void addCallback(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider: void removeCallback(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider: android.content.Context access$getContext$p(com.android.systemui.unfold.updates.RotationChangeProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider: java.lang.Integer access$getLastRotation$p(com.android.systemui.unfold.updates.RotationChangeProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider: java.util.List access$getListeners$p(com.android.systemui.unfold.updates.RotationChangeProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider: void access$setLastRotation$p(com.android.systemui.unfold.updates.RotationChangeProvider,java.lang.Integer)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.DaggerRemoteUnfoldSharedComponent",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.DaggerRemoteUnfoldSharedComponent: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.DaggerRemoteUnfoldSharedComponent: com.android.systemui.unfold.RemoteUnfoldSharedComponent$Factory factory()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.RemoteUnfoldSharedComponent$Factory",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.RemoteUnfoldSharedComponent$Factory: com.android.systemui.unfold.RemoteUnfoldSharedComponent create(android.content.Context,com.android.systemui.unfold.config.UnfoldTransitionConfig,java.util.concurrent.Executor,android.os.Handler,java.util.concurrent.Executor,android.hardware.display.DisplayManager,java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.RemoteUnfoldSharedComponent",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.RemoteUnfoldSharedComponent: java.util.Optional getRemoteTransitionProgress()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.RemoteUnfoldSharedComponent: com.android.systemui.unfold.updates.RotationChangeProvider getRotationChangeProvider()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.DaggerRemoteUnfoldSharedComponent$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": []
+    },
+    {
+      "className": "com.android.systemui.unfold.DaggerRemoteUnfoldSharedComponent$RemoteUnfoldSharedComponentImpl",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.DaggerRemoteUnfoldSharedComponent$RemoteUnfoldSharedComponentImpl: void <init>(com.android.systemui.unfold.UnfoldRemoteModule,android.content.Context,com.android.systemui.unfold.config.UnfoldTransitionConfig,java.util.concurrent.Executor,android.os.Handler,java.util.concurrent.Executor,android.hardware.display.DisplayManager,java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.DaggerRemoteUnfoldSharedComponent$RemoteUnfoldSharedComponentImpl: void initialize(com.android.systemui.unfold.UnfoldRemoteModule,android.content.Context,com.android.systemui.unfold.config.UnfoldTransitionConfig,java.util.concurrent.Executor,android.os.Handler,java.util.concurrent.Executor,android.hardware.display.DisplayManager,java.lang.String)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.DaggerRemoteUnfoldSharedComponent$RemoteUnfoldSharedComponentImpl: java.util.Optional getRemoteTransitionProgress()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.DaggerRemoteUnfoldSharedComponent$RemoteUnfoldSharedComponentImpl: com.android.systemui.unfold.updates.RotationChangeProvider getRotationChangeProvider()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.DaggerRemoteUnfoldSharedComponent$RemoteUnfoldSharedComponentImpl: void <init>(com.android.systemui.unfold.UnfoldRemoteModule,android.content.Context,com.android.systemui.unfold.config.UnfoldTransitionConfig,java.util.concurrent.Executor,android.os.Handler,java.util.concurrent.Executor,android.hardware.display.DisplayManager,java.lang.String,com.android.systemui.unfold.DaggerRemoteUnfoldSharedComponent$1)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.DaggerRemoteUnfoldSharedComponent$Factory",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.DaggerRemoteUnfoldSharedComponent$Factory: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.DaggerRemoteUnfoldSharedComponent$Factory: com.android.systemui.unfold.RemoteUnfoldSharedComponent create(android.content.Context,com.android.systemui.unfold.config.UnfoldTransitionConfig,java.util.concurrent.Executor,android.os.Handler,java.util.concurrent.Executor,android.hardware.display.DisplayManager,java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.DaggerRemoteUnfoldSharedComponent$Factory: void <init>(com.android.systemui.unfold.DaggerRemoteUnfoldSharedComponent$1)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.UnfoldSharedModule_UnfoldKeyguardVisibilityProviderFactory",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedModule_UnfoldKeyguardVisibilityProviderFactory: void <init>(com.android.systemui.unfold.UnfoldSharedModule,javax.inject.Provider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedModule_UnfoldKeyguardVisibilityProviderFactory: com.android.systemui.unfold.util.UnfoldKeyguardVisibilityProvider get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedModule_UnfoldKeyguardVisibilityProviderFactory: com.android.systemui.unfold.UnfoldSharedModule_UnfoldKeyguardVisibilityProviderFactory create(com.android.systemui.unfold.UnfoldSharedModule,javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedModule_UnfoldKeyguardVisibilityProviderFactory: com.android.systemui.unfold.util.UnfoldKeyguardVisibilityProvider unfoldKeyguardVisibilityProvider(com.android.systemui.unfold.UnfoldSharedModule,com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedModule_UnfoldKeyguardVisibilityProviderFactory: java.lang.Object get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.util.UnfoldKeyguardVisibilityProvider",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.util.UnfoldKeyguardVisibilityProvider: java.lang.Boolean isKeyguardVisible()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl: void setKeyguardVisibleDelegate(kotlin.jvm.functions.Function0)>",
+          "methodType": "NEED_BUT_UNABLE",
+          "methodReason": "UNSUPPORTED_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl: java.lang.Boolean isKeyguardVisible()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManager",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManager: void setKeyguardVisibleDelegate(kotlin.jvm.functions.Function0)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.FoldStateProvider",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.FoldStateProvider: void start()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.FoldStateProvider: void stop()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.FoldStateProvider: boolean isFinishedOpening()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.DeviceFoldStateProvider",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void <init>(com.android.systemui.unfold.config.UnfoldTransitionConfig,com.android.systemui.unfold.updates.hinge.HingeAngleProvider,com.android.systemui.unfold.updates.screen.ScreenStatusProvider,com.android.systemui.unfold.updates.FoldProvider,com.android.systemui.unfold.util.CurrentActivityTypeProvider,com.android.systemui.unfold.util.UnfoldKeyguardVisibilityProvider,com.android.systemui.unfold.updates.RotationChangeProvider,android.content.Context,java.util.concurrent.Executor,android.os.Handler)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void getLastFoldUpdate$annotations()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void start()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void stop()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void addCallback(com.android.systemui.unfold.updates.FoldStateProvider$FoldUpdatesListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void removeCallback(com.android.systemui.unfold.updates.FoldStateProvider$FoldUpdatesListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: boolean isFinishedOpening()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: boolean isTransitionInProgress()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void onHingeAngle(float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: boolean isClosingThresholdMet(float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: java.lang.Integer getClosingThreshold()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void notifyFoldUpdate(int,float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void rescheduleAbortAnimationTimeout()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void cancelTimeout()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void cancelAnimation()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: boolean isOnLargeScreen()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void updateHingeAngleProviderState()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void timeoutRunnable$lambda$0(com.android.systemui.unfold.updates.DeviceFoldStateProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void rotationListener$lambda$1(com.android.systemui.unfold.updates.DeviceFoldStateProvider,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void addCallback(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void removeCallback(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void access$setFolded$p(com.android.systemui.unfold.updates.DeviceFoldStateProvider,boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void access$setLastHingeAngle$p(com.android.systemui.unfold.updates.DeviceFoldStateProvider,float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: com.android.systemui.unfold.updates.hinge.HingeAngleProvider access$getHingeAngleProvider$p(com.android.systemui.unfold.updates.DeviceFoldStateProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void access$notifyFoldUpdate(com.android.systemui.unfold.updates.DeviceFoldStateProvider,int,float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: float access$getLastHingeAngle$p(com.android.systemui.unfold.updates.DeviceFoldStateProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void access$cancelTimeout(com.android.systemui.unfold.updates.DeviceFoldStateProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void access$setUnfoldHandled$p(com.android.systemui.unfold.updates.DeviceFoldStateProvider,boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void access$rescheduleAbortAnimationTimeout(com.android.systemui.unfold.updates.DeviceFoldStateProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: boolean access$isFolded$p(com.android.systemui.unfold.updates.DeviceFoldStateProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: boolean access$isUnfoldHandled$p(com.android.systemui.unfold.updates.DeviceFoldStateProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: java.util.List access$getOutputListeners$p(com.android.systemui.unfold.updates.DeviceFoldStateProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void access$setScreenOn$p(com.android.systemui.unfold.updates.DeviceFoldStateProvider,boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void access$updateHingeAngleProviderState(com.android.systemui.unfold.updates.DeviceFoldStateProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider: void access$onHingeAngle(com.android.systemui.unfold.updates.DeviceFoldStateProvider,float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider_Factory",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider_Factory: void <init>(javax.inject.Provider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider_Factory: com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider_Factory: com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider_Factory create(javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider_Factory: com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider newInstance(com.android.systemui.unfold.updates.FoldStateProvider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider_Factory: java.lang.Object get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider: void <init>(com.android.systemui.unfold.updates.FoldStateProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider: void setTransitionProgress(float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider: void destroy()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider: void onFoldUpdate(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider: void onUnfoldedScreenAvailable()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider: void addCallback(com.android.systemui.unfold.UnfoldTransitionProgressProvider$TransitionProgressListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider: void removeCallback(com.android.systemui.unfold.UnfoldTransitionProgressProvider$TransitionProgressListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider: void addCallback(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider: void removeCallback(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider: void access$setTransitionProgress(com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider,float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider: float access$getTransitionProgress$p(com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider: java.util.List access$getListeners$p(com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.FoldStateProvider$FoldUpdatesListener",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.FoldStateProvider$FoldUpdatesListener: void onHingeAngleUpdate(float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.FoldStateProvider$FoldUpdatesListener: void onFoldUpdate(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.FoldStateProvider$FoldUpdatesListener: void onUnfoldedScreenAvailable()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider$Companion",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider$Companion: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider$Companion: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider$AnimatorListener",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider$AnimatorListener: void <init>(com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider$AnimatorListener: void onAnimationStart(android.animation.Animator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider$AnimatorListener: void onAnimationEnd(android.animation.Animator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider$AnimatorListener: void onAnimationRepeat(android.animation.Animator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider$AnimatorListener: void onAnimationCancel(android.animation.Animator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider_Factory",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider_Factory: void <init>(javax.inject.Provider,javax.inject.Provider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider_Factory: com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider_Factory: com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider_Factory create(javax.inject.Provider,javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider_Factory: com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider newInstance(android.content.Context,com.android.systemui.unfold.updates.FoldStateProvider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider_Factory: java.lang.Object get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider: void <init>(android.content.Context,com.android.systemui.unfold.updates.FoldStateProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider: void setTransitionProgress(float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider: void destroy()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider: void onHingeAngleUpdate(float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider: float saturate(float,float,float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider: float saturate$default(com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider,float,float,float,int,java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider: void onFoldUpdate(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider: void onUnfoldedScreenAvailable()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider: void cancelTransition(float,boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider: void onAnimationEnd(androidx.dynamicanimation.animation.DynamicAnimation,boolean,float,float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider: void onStartTransition()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider: void startTransition(float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider: void addCallback(com.android.systemui.unfold.UnfoldTransitionProgressProvider$TransitionProgressListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider: void removeCallback(com.android.systemui.unfold.UnfoldTransitionProgressProvider$TransitionProgressListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider: void startCannedCancelAnimation()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider: void addCallback(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider: void removeCallback(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider: void access$cancelTransition(com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider,float,boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider: void access$setTransitionProgress(com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider,float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider: float access$getTransitionProgress$p(com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.IUnfoldTransitionListener",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldTransitionListener: void onTransitionStarted()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldTransitionListener: void onTransitionProgress(float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldTransitionListener: void onTransitionFinished()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.IUnfoldTransitionListener$Stub",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldTransitionListener$Stub: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldTransitionListener$Stub: com.android.systemui.unfold.progress.IUnfoldTransitionListener asInterface(android.os.IBinder)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldTransitionListener$Stub: android.os.IBinder asBinder()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldTransitionListener$Stub: boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.IUnfoldTransitionListener$Default",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldTransitionListener$Default: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldTransitionListener$Default: void onTransitionStarted()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldTransitionListener$Default: void onTransitionProgress(float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldTransitionListener$Default: void onTransitionFinished()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldTransitionListener$Default: android.os.IBinder asBinder()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.IUnfoldAnimation$Stub",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldAnimation$Stub: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldAnimation$Stub: com.android.systemui.unfold.progress.IUnfoldAnimation asInterface(android.os.IBinder)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldAnimation$Stub: android.os.IBinder asBinder()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldAnimation$Stub: boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.IUnfoldAnimation",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldAnimation: void setListener(com.android.systemui.unfold.progress.IUnfoldTransitionListener)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.IUnfoldAnimation$Stub$Proxy",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldAnimation$Stub$Proxy: void <init>(android.os.IBinder)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldAnimation$Stub$Proxy: android.os.IBinder asBinder()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldAnimation$Stub$Proxy: java.lang.String getInterfaceDescriptor()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldAnimation$Stub$Proxy: void setListener(com.android.systemui.unfold.progress.IUnfoldTransitionListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.IUnfoldAnimation$Default",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldAnimation$Default: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldAnimation$Default: void setListener(com.android.systemui.unfold.progress.IUnfoldTransitionListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldAnimation$Default: android.os.IBinder asBinder()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder_Factory",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder_Factory: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder_Factory: com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder_Factory: com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder_Factory create()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder_Factory: com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder newInstance()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder_Factory: java.lang.Object get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder: void onTransitionStarted()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder: void onTransitionFinished()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder: void onTransitionProgress(float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder: void setListener(com.android.systemui.unfold.progress.IUnfoldTransitionListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder_Factory$InstanceHolder",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder_Factory$InstanceHolder: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder_Factory$InstanceHolder: com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder_Factory access$000()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder_Factory$InstanceHolder: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder$Companion",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder$Companion: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldTransitionProgressForwarder$Companion: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver_Factory",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver_Factory: void <init>(javax.inject.Provider,javax.inject.Provider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver_Factory: com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver_Factory: com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver_Factory create(javax.inject.Provider,javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver_Factory: com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver newInstance(boolean,java.util.concurrent.Executor)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver_Factory: java.lang.Object get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver: void <init>(boolean,java.util.concurrent.Executor)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver: void onTransitionStarted()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver: void onTransitionProgress(float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver: void onTransitionFinished()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver: void addCallback(com.android.systemui.unfold.UnfoldTransitionProgressProvider$TransitionProgressListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver: void removeCallback(com.android.systemui.unfold.UnfoldTransitionProgressProvider$TransitionProgressListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver: void destroy()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver: void log(kotlin.jvm.functions.Function0)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver: void onTransitionStarted$lambda$0(com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver: void onTransitionProgress$lambda$1(com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver,float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver: void onTransitionFinished$lambda$2(com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver: void addCallback(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver: void removeCallback(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver: void access$log(com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver,kotlin.jvm.functions.Function0)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver: java.util.Set access$getListeners$p(com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver$ProcessedProgressListener",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver$ProcessedProgressListener: void <init>(com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver$ProcessedProgressListener: void onTransitionStarted()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver$ProcessedProgressListener: void onTransitionProgress(float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver$ProcessedProgressListener: void onTransitionFinished()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.IUnfoldTransitionListener$Stub$Proxy",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldTransitionListener$Stub$Proxy: void <init>(android.os.IBinder)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldTransitionListener$Stub$Proxy: android.os.IBinder asBinder()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldTransitionListener$Stub$Proxy: java.lang.String getInterfaceDescriptor()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldTransitionListener$Stub$Proxy: void onTransitionStarted()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldTransitionListener$Stub$Proxy: void onTransitionProgress(float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.IUnfoldTransitionListener$Stub$Proxy: void onTransitionFinished()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.util.ATraceLoggerTransitionProgressListener_Factory",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ATraceLoggerTransitionProgressListener_Factory: void <init>(javax.inject.Provider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ATraceLoggerTransitionProgressListener_Factory: com.android.systemui.unfold.util.ATraceLoggerTransitionProgressListener get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ATraceLoggerTransitionProgressListener_Factory: com.android.systemui.unfold.util.ATraceLoggerTransitionProgressListener_Factory create(javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ATraceLoggerTransitionProgressListener_Factory: com.android.systemui.unfold.util.ATraceLoggerTransitionProgressListener newInstance(java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ATraceLoggerTransitionProgressListener_Factory: java.lang.Object get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider: void <init>(com.android.systemui.unfold.UnfoldTransitionProgressProvider,android.content.ContentResolver)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider: void onAnimatorScaleChanged()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider: void addCallback(com.android.systemui.unfold.UnfoldTransitionProgressProvider$TransitionProgressListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider: void removeCallback(com.android.systemui.unfold.UnfoldTransitionProgressProvider$TransitionProgressListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider: void destroy()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider: void addCallback(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider: void removeCallback(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider: void access$onAnimatorScaleChanged(com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider$Companion",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider$Companion: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider$Companion: boolean areAnimationsEnabled(android.content.ContentResolver)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider$Companion: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider: void <init>(com.android.systemui.unfold.UnfoldTransitionProgressProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider: void <init>(com.android.systemui.unfold.UnfoldTransitionProgressProvider,int,kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider: void setSourceProvider(com.android.systemui.unfold.UnfoldTransitionProgressProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider: void setReadyToHandleTransition(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider: void addCallback(com.android.systemui.unfold.UnfoldTransitionProgressProvider$TransitionProgressListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider: void removeCallback(com.android.systemui.unfold.UnfoldTransitionProgressProvider$TransitionProgressListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider: void destroy()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider: void onTransitionStarted()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider: void onTransitionProgress(float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider: void onTransitionFinishing()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider: void onTransitionFinished()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider: void addCallback(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider: void removeCallback(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider$animatorDurationScaleObserver$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider$animatorDurationScaleObserver$1: void <init>(com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider$animatorDurationScaleObserver$1: void onChange(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl_Factory",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl_Factory: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl_Factory: com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl_Factory: com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl_Factory create()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl_Factory: com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl newInstance()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl_Factory: java.lang.Object get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl_Factory$InstanceHolder",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl_Factory$InstanceHolder: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl_Factory$InstanceHolder: com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl_Factory access$000()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl_Factory$InstanceHolder: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider_Factory_Impl",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider_Factory_Impl: void <init>(com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider_Factory)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider_Factory_Impl: com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider wrap(com.android.systemui.unfold.UnfoldTransitionProgressProvider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider_Factory_Impl: javax.inject.Provider create(com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider_Factory)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider$Factory",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider$Factory: com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider wrap(com.android.systemui.unfold.UnfoldTransitionProgressProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.UnfoldSharedInternalModule_UnfoldTransitionProgressProviderFactory",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedInternalModule_UnfoldTransitionProgressProviderFactory: void <init>(com.android.systemui.unfold.UnfoldSharedInternalModule,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedInternalModule_UnfoldTransitionProgressProviderFactory: java.util.Optional get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedInternalModule_UnfoldTransitionProgressProviderFactory: com.android.systemui.unfold.UnfoldSharedInternalModule_UnfoldTransitionProgressProviderFactory create(com.android.systemui.unfold.UnfoldSharedInternalModule,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedInternalModule_UnfoldTransitionProgressProviderFactory: java.util.Optional unfoldTransitionProgressProvider(com.android.systemui.unfold.UnfoldSharedInternalModule,com.android.systemui.unfold.config.UnfoldTransitionConfig,com.android.systemui.unfold.util.ScaleAwareTransitionProgressProvider$Factory,com.android.systemui.unfold.util.ATraceLoggerTransitionProgressListener,javax.inject.Provider,javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedInternalModule_UnfoldTransitionProgressProviderFactory: java.lang.Object get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig_Factory$InstanceHolder",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig_Factory$InstanceHolder: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig_Factory$InstanceHolder: com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig_Factory access$000()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig_Factory$InstanceHolder: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig_Factory",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig_Factory: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig_Factory: com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig_Factory: com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig_Factory create()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig_Factory: com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig newInstance()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig_Factory: java.lang.Object get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig: boolean isEnabled()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig: boolean isHingeAngleEnabled()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig: int getHalfFoldedTimeoutMillis()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.UnfoldSharedModule_ProvideFoldStateProviderFactory",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedModule_ProvideFoldStateProviderFactory: void <init>(com.android.systemui.unfold.UnfoldSharedModule,javax.inject.Provider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedModule_ProvideFoldStateProviderFactory: com.android.systemui.unfold.updates.FoldStateProvider get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedModule_ProvideFoldStateProviderFactory: com.android.systemui.unfold.UnfoldSharedModule_ProvideFoldStateProviderFactory create(com.android.systemui.unfold.UnfoldSharedModule,javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedModule_ProvideFoldStateProviderFactory: com.android.systemui.unfold.updates.FoldStateProvider provideFoldStateProvider(com.android.systemui.unfold.UnfoldSharedModule,com.android.systemui.unfold.updates.DeviceFoldStateProvider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedModule_ProvideFoldStateProviderFactory: java.lang.Object get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.DeviceFoldStateProvider$HingeAngleListener",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider$HingeAngleListener: void <init>(com.android.systemui.unfold.updates.DeviceFoldStateProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider$HingeAngleListener: void accept(float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider$HingeAngleListener: void accept(java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.DeviceFoldStateProvider$ScreenStatusListener",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider$ScreenStatusListener: void <init>(com.android.systemui.unfold.updates.DeviceFoldStateProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider$ScreenStatusListener: void onScreenTurnedOn()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider$ScreenStatusListener: void markScreenAsTurnedOn()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider$ScreenStatusListener: void onScreenTurningOn()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider$ScreenStatusListener: void onScreenTurningOff()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.DeviceFoldStateProvider$FoldStateListener",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider$FoldStateListener: void <init>(com.android.systemui.unfold.updates.DeviceFoldStateProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider$FoldStateListener: void onFoldUpdated(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.RotationChangeProvider$RotationListener",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider$RotationListener: void onRotationChanged(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.screen.ScreenStatusProvider$ScreenListener",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.screen.ScreenStatusProvider$ScreenListener: void onScreenTurnedOn()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.screen.ScreenStatusProvider$ScreenListener: void onScreenTurningOff()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.screen.ScreenStatusProvider$ScreenListener: void onScreenTurningOn()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.screen.ScreenStatusProvider$ScreenListener: void markScreenAsTurnedOn()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.FoldProvider$FoldCallback",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.FoldProvider$FoldCallback: void onFoldUpdated(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.UnfoldSharedInternalModule_HingeAngleProviderFactory",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedInternalModule_HingeAngleProviderFactory: void <init>(com.android.systemui.unfold.UnfoldSharedInternalModule,javax.inject.Provider,javax.inject.Provider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedInternalModule_HingeAngleProviderFactory: com.android.systemui.unfold.updates.hinge.HingeAngleProvider get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedInternalModule_HingeAngleProviderFactory: com.android.systemui.unfold.UnfoldSharedInternalModule_HingeAngleProviderFactory create(com.android.systemui.unfold.UnfoldSharedInternalModule,javax.inject.Provider,javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedInternalModule_HingeAngleProviderFactory: com.android.systemui.unfold.updates.hinge.HingeAngleProvider hingeAngleProvider(com.android.systemui.unfold.UnfoldSharedInternalModule,com.android.systemui.unfold.config.UnfoldTransitionConfig,javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedInternalModule_HingeAngleProviderFactory: java.lang.Object get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.DeviceFoldStateProvider_Factory",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider_Factory: void <init>(javax.inject.Provider,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider_Factory: com.android.systemui.unfold.updates.DeviceFoldStateProvider get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider_Factory: com.android.systemui.unfold.updates.DeviceFoldStateProvider_Factory create(javax.inject.Provider,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider_Factory: com.android.systemui.unfold.updates.DeviceFoldStateProvider newInstance(com.android.systemui.unfold.config.UnfoldTransitionConfig,com.android.systemui.unfold.updates.hinge.HingeAngleProvider,com.android.systemui.unfold.updates.screen.ScreenStatusProvider,com.android.systemui.unfold.updates.FoldProvider,com.android.systemui.unfold.util.CurrentActivityTypeProvider,com.android.systemui.unfold.util.UnfoldKeyguardVisibilityProvider,com.android.systemui.unfold.updates.RotationChangeProvider,android.content.Context,java.util.concurrent.Executor,android.os.Handler)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProvider_Factory: java.lang.Object get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.RotationChangeProvider$RotationDisplayListener",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider$RotationDisplayListener: void <init>(com.android.systemui.unfold.updates.RotationChangeProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider$RotationDisplayListener: void onDisplayChanged(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider$RotationDisplayListener: void onDisplayAdded(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider$RotationDisplayListener: void onDisplayRemoved(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.RotationChangeProvider_Factory",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider_Factory: void <init>(javax.inject.Provider,javax.inject.Provider,javax.inject.Provider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider_Factory: com.android.systemui.unfold.updates.RotationChangeProvider get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider_Factory: com.android.systemui.unfold.updates.RotationChangeProvider_Factory create(javax.inject.Provider,javax.inject.Provider,javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider_Factory: com.android.systemui.unfold.updates.RotationChangeProvider newInstance(android.hardware.display.DisplayManager,android.content.Context,android.os.Handler)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.RotationChangeProvider_Factory: java.lang.Object get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider_Factory",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider_Factory: void <init>(javax.inject.Provider,javax.inject.Provider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider_Factory: com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider_Factory: com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider_Factory create(javax.inject.Provider,javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider_Factory: com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider newInstance(android.hardware.SensorManager,java.util.concurrent.Executor)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider_Factory: java.lang.Object get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider: void <init>(android.hardware.SensorManager,java.util.concurrent.Executor)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider: boolean getStarted()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider: void setStarted(boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider: void start()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider: void stop()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider: void removeCallback(androidx.core.util.Consumer)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider: void addCallback(androidx.core.util.Consumer)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider: void start$lambda$0(com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider: void stop$lambda$1(com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider: void removeCallback(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider: void addCallback(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider: java.util.List access$getListeners$p(com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener: void <init>(com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener: void onAccuracyChanged(android.hardware.Sensor,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener: void onSensorChanged(android.hardware.SensorEvent)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.BuildConfig",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.BuildConfig: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.BuildConfig: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.UnfoldRemoteModule_ProvideTransitionProviderFactory",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldRemoteModule_ProvideTransitionProviderFactory: void <init>(com.android.systemui.unfold.UnfoldRemoteModule,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldRemoteModule_ProvideTransitionProviderFactory: java.util.Optional get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldRemoteModule_ProvideTransitionProviderFactory: com.android.systemui.unfold.UnfoldRemoteModule_ProvideTransitionProviderFactory create(com.android.systemui.unfold.UnfoldRemoteModule,javax.inject.Provider,javax.inject.Provider,javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldRemoteModule_ProvideTransitionProviderFactory: java.util.Optional provideTransitionProvider(com.android.systemui.unfold.UnfoldRemoteModule,com.android.systemui.unfold.config.UnfoldTransitionConfig,com.android.systemui.unfold.util.ATraceLoggerTransitionProgressListener,javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldRemoteModule_ProvideTransitionProviderFactory: java.lang.Object get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.UnfoldSharedModule_UnfoldKeyguardVisibilityManagerFactory",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedModule_UnfoldKeyguardVisibilityManagerFactory: void <init>(com.android.systemui.unfold.UnfoldSharedModule,javax.inject.Provider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedModule_UnfoldKeyguardVisibilityManagerFactory: com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManager get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedModule_UnfoldKeyguardVisibilityManagerFactory: com.android.systemui.unfold.UnfoldSharedModule_UnfoldKeyguardVisibilityManagerFactory create(com.android.systemui.unfold.UnfoldSharedModule,javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedModule_UnfoldKeyguardVisibilityManagerFactory: com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManager unfoldKeyguardVisibilityManager(com.android.systemui.unfold.UnfoldSharedModule,com.android.systemui.unfold.util.UnfoldKeyguardVisibilityManagerImpl)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedModule_UnfoldKeyguardVisibilityManagerFactory: java.lang.Object get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.UnfoldSharedInternalModule_ProvideProgressForwarderFactory",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedInternalModule_ProvideProgressForwarderFactory: void <init>(com.android.systemui.unfold.UnfoldSharedInternalModule,javax.inject.Provider,javax.inject.Provider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedInternalModule_ProvideProgressForwarderFactory: java.util.Optional get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedInternalModule_ProvideProgressForwarderFactory: com.android.systemui.unfold.UnfoldSharedInternalModule_ProvideProgressForwarderFactory create(com.android.systemui.unfold.UnfoldSharedInternalModule,javax.inject.Provider,javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedInternalModule_ProvideProgressForwarderFactory: java.util.Optional provideProgressForwarder(com.android.systemui.unfold.UnfoldSharedInternalModule,com.android.systemui.unfold.config.UnfoldTransitionConfig,javax.inject.Provider)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldSharedInternalModule_ProvideProgressForwarderFactory: java.lang.Object get()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.compat.ScreenSizeFoldProviderKt",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "PACKAGE_LEVEL_CLASS",
+      "methods": []
+    },
+    {
+      "className": "com.android.systemui.unfold.compat.ScreenSizeFoldProvider",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.compat.ScreenSizeFoldProvider: void <init>(android.content.Context)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.compat.ScreenSizeFoldProvider: void registerCallback(com.android.systemui.unfold.updates.FoldProvider$FoldCallback,java.util.concurrent.Executor)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.compat.ScreenSizeFoldProvider: void unregisterCallback(com.android.systemui.unfold.updates.FoldProvider$FoldCallback)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.compat.ScreenSizeFoldProvider: void onConfigurationChange(android.content.res.Configuration)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.compat.SizeScreenStatusProvider$callback$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.compat.SizeScreenStatusProvider$callback$1: void <init>(com.android.systemui.unfold.compat.SizeScreenStatusProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.compat.SizeScreenStatusProvider$callback$1: void onFoldUpdated(boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.compat.SizeScreenStatusProvider",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.compat.SizeScreenStatusProvider: void <init>(com.android.systemui.unfold.updates.FoldProvider,java.util.concurrent.Executor)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.compat.SizeScreenStatusProvider: void start()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.compat.SizeScreenStatusProvider: void stop()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.compat.SizeScreenStatusProvider: void addCallback(com.android.systemui.unfold.updates.screen.ScreenStatusProvider$ScreenListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.compat.SizeScreenStatusProvider: void removeCallback(com.android.systemui.unfold.updates.screen.ScreenStatusProvider$ScreenListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.compat.SizeScreenStatusProvider: void addCallback(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.compat.SizeScreenStatusProvider: void removeCallback(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.compat.SizeScreenStatusProvider: java.util.List access$getListeners$p(com.android.systemui.unfold.compat.SizeScreenStatusProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.UnfoldRemoteFilterKt",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "PACKAGE_LEVEL_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilterKt: java.lang.String access$getTAG$p()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilterKt: boolean access$getDEBUG$p()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilterKt: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver$ProcessedProgressListener$onTransitionProgress$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver$ProcessedProgressListener$onTransitionProgress$1: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver$ProcessedProgressListener$onTransitionProgress$1: java.lang.String invoke()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver$ProcessedProgressListener$onTransitionProgress$1: java.lang.Object invoke()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver$ProcessedProgressListener$onTransitionProgress$1: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.UnfoldRemoteFilter$onTransitionProgress$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter$onTransitionProgress$1: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter$onTransitionProgress$1: java.lang.String invoke()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter$onTransitionProgress$1: java.lang.Object invoke()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter$onTransitionProgress$1: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.UnfoldRemoteFilter",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter: void <init>(com.android.systemui.unfold.UnfoldTransitionProgressProvider$TransitionProgressListener)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter: void setProcessedProgress(float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter: void onTransitionStarted()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter: void onTransitionProgress(float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter: void onTransitionFinished()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter: void logCounter(kotlin.jvm.functions.Function0,float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter: void access$setProcessedProgress(com.android.systemui.unfold.progress.UnfoldRemoteFilter,float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter: float access$getProcessedProgress$p(com.android.systemui.unfold.progress.UnfoldRemoteFilter)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider$AnimationProgressProperty",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider$AnimationProgressProperty: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider$AnimationProgressProperty: void setValue(com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider,float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider$AnimationProgressProperty: java.lang.Float get(com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider$AnimationProgressProperty: void setValue(java.lang.Object,float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider$AnimationProgressProperty: java.lang.Object get(java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider$AnimationProgressProperty: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver$ProcessedProgressListener$onTransitionFinished$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver$ProcessedProgressListener$onTransitionFinished$1: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver$ProcessedProgressListener$onTransitionFinished$1: java.lang.String invoke()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver$ProcessedProgressListener$onTransitionFinished$1: java.lang.Object invoke()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver$ProcessedProgressListener$onTransitionFinished$1: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider$AnimationProgressProperty",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider$AnimationProgressProperty: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider$AnimationProgressProperty: void setValue(com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider,float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider$AnimationProgressProperty: java.lang.Float get(com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider$AnimationProgressProperty: void setValue(java.lang.Object,float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider$AnimationProgressProperty: java.lang.Object get(java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.FixedTimingTransitionProgressProvider$AnimationProgressProperty: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider$CannedAnimationListener",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider$CannedAnimationListener: void <init>(com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider$CannedAnimationListener: void onAnimationStart(android.animation.Animator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProvider$CannedAnimationListener: void onAnimationEnd(android.animation.Animator)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.DeviceFoldStateProviderKt",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "PACKAGE_LEVEL_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProviderKt: java.lang.String name(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProviderKt: void getFULLY_OPEN_THRESHOLD_DEGREES$annotations()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProviderKt: void getHINGE_ANGLE_CHANGE_THRESHOLD_DEGREES$annotations()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProviderKt: void getSTART_CLOSING_ON_APPS_THRESHOLD_DEGREES$annotations()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProviderKt: boolean access$getDEBUG$p()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.DeviceFoldStateProviderKt: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver$ProcessedProgressListener$onTransitionStarted$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver$ProcessedProgressListener$onTransitionStarted$1: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver$ProcessedProgressListener$onTransitionStarted$1: java.lang.String invoke()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver$ProcessedProgressListener$onTransitionStarted$1: java.lang.Object invoke()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiver$ProcessedProgressListener$onTransitionStarted$1: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.UnfoldRemoteFilter$AnimationProgressProperty",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter$AnimationProgressProperty: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter$AnimationProgressProperty: void setValue(com.android.systemui.unfold.progress.UnfoldRemoteFilter,float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter$AnimationProgressProperty: float getValue(com.android.systemui.unfold.progress.UnfoldRemoteFilter)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter$AnimationProgressProperty: void setValue(java.lang.Object,float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter$AnimationProgressProperty: float getValue(java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter$AnimationProgressProperty: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.PhysicsBasedUnfoldTransitionProgressProviderKt",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "PACKAGE_LEVEL_CLASS",
+      "methods": []
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.UnfoldRemoteFilter$processedProgress$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter$processedProgress$1: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter$processedProgress$1: java.lang.String invoke()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter$processedProgress$1: java.lang.Object invoke()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.UnfoldRemoteFilter$processedProgress$1: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiverKt",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "PACKAGE_LEVEL_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiverKt: boolean access$getDEBUG$p()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.progress.RemoteUnfoldTransitionReceiverKt: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.util.UnfoldTransitionATracePrefix",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": []
+    },
+    {
+      "className": "com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider$Companion",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider$Companion: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider$Companion: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.util.EmptyCurrentActivityTypeProvider",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.util.EmptyCurrentActivityTypeProvider: void <init>(java.lang.Boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.EmptyCurrentActivityTypeProvider: void <init>(java.lang.Boolean,int,kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.EmptyCurrentActivityTypeProvider: java.lang.Boolean isHomeActivity()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.util.EmptyCurrentActivityTypeProvider: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.util.ATraceLoggerTransitionProgressListenerKt",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "PACKAGE_LEVEL_CLASS",
+      "methods": []
+    },
+    {
+      "className": "com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig$isHingeAngleEnabled$2",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig$isHingeAngleEnabled$2: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig$isHingeAngleEnabled$2: java.lang.Boolean invoke()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig$isHingeAngleEnabled$2: java.lang.Object invoke()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig$isHingeAngleEnabled$2: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig$isEnabled$2",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig$isEnabled$2: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig$isEnabled$2: java.lang.Boolean invoke()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig$isEnabled$2: java.lang.Object invoke()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig$isEnabled$2: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig$halfFoldedTimeoutMillis$2",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig$halfFoldedTimeoutMillis$2: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig$halfFoldedTimeoutMillis$2: java.lang.Integer invoke()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig$halfFoldedTimeoutMillis$2: java.lang.Object invoke()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.config.ResourceUnfoldTransitionConfig$halfFoldedTimeoutMillis$2: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.dagger.UnfoldSingleThreadBg",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": []
+    },
+    {
+      "className": "com.android.systemui.unfold.dagger.UnfoldMain",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": []
+    },
+    {
+      "className": "com.android.systemui.unfold.dagger.UseReceivingFilter",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": []
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.FoldStateProviderKt",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "PACKAGE_LEVEL_CLASS",
+      "methods": []
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.FoldStateProvider$FoldUpdate",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": []
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.hinge.EmptyHingeAngleProvider",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.EmptyHingeAngleProvider: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.EmptyHingeAngleProvider: void start()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.EmptyHingeAngleProvider: void stop()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.EmptyHingeAngleProvider: void removeCallback(androidx.core.util.Consumer)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.EmptyHingeAngleProvider: void addCallback(androidx.core.util.Consumer)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.EmptyHingeAngleProvider: void removeCallback(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.EmptyHingeAngleProvider: void addCallback(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.updates.hinge.EmptyHingeAngleProvider: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.updates.hinge.HingeAngleProviderKt",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "PACKAGE_LEVEL_CLASS",
+      "methods": []
+    },
+    {
+      "className": "com.android.systemui.unfold.UnfoldTransitionFactory",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldTransitionFactory: com.android.systemui.unfold.UnfoldSharedComponent createUnfoldSharedComponent(android.content.Context,com.android.systemui.unfold.config.UnfoldTransitionConfig,com.android.systemui.unfold.updates.screen.ScreenStatusProvider,com.android.systemui.unfold.updates.FoldProvider,com.android.systemui.unfold.util.CurrentActivityTypeProvider,android.hardware.SensorManager,android.os.Handler,java.util.concurrent.Executor,java.util.concurrent.Executor,java.lang.String,android.hardware.display.DisplayManager)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.UnfoldTransitionFactory: com.android.systemui.unfold.RemoteUnfoldSharedComponent createRemoteUnfoldSharedComponent(android.content.Context,com.android.systemui.unfold.config.UnfoldTransitionConfig,java.util.concurrent.Executor,android.os.Handler,java.util.concurrent.Executor,java.lang.String,android.hardware.display.DisplayManager)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.unfold.RemoteTransitionProgress",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "DATA_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.unfold.RemoteTransitionProgress: void <init>(com.android.systemui.unfold.UnfoldTransitionProgressProvider,com.android.systemui.unfold.UnfoldTransitionProgressProvider$TransitionProgressListener)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.RemoteTransitionProgress: com.android.systemui.unfold.UnfoldTransitionProgressProvider getLocalProvider()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.RemoteTransitionProgress: com.android.systemui.unfold.UnfoldTransitionProgressProvider$TransitionProgressListener getRemoteReceiver()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.RemoteTransitionProgress: com.android.systemui.unfold.UnfoldTransitionProgressProvider component1()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "COMPONENT_N_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.RemoteTransitionProgress: com.android.systemui.unfold.UnfoldTransitionProgressProvider$TransitionProgressListener component2()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "COMPONENT_N_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.RemoteTransitionProgress: com.android.systemui.unfold.RemoteTransitionProgress copy(com.android.systemui.unfold.UnfoldTransitionProgressProvider,com.android.systemui.unfold.UnfoldTransitionProgressProvider$TransitionProgressListener)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.RemoteTransitionProgress: com.android.systemui.unfold.RemoteTransitionProgress copy$default(com.android.systemui.unfold.RemoteTransitionProgress,com.android.systemui.unfold.UnfoldTransitionProgressProvider,com.android.systemui.unfold.UnfoldTransitionProgressProvider$TransitionProgressListener,int,java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.RemoteTransitionProgress: java.lang.String toString()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.RemoteTransitionProgress: int hashCode()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.unfold.RemoteTransitionProgress: boolean equals(java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        }
+      ]
+    }
+  ]
+}

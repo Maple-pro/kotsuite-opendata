@@ -1,0 +1,2 @@
+{"assert_type":"class androidx.lifecycle.MutableLiveData","assert_value":"androidx.lifecycle.MutableLiveData@38826984","method":"test_getGroundTruthLocation_1_397","class":"com.android.gpstest.ui.TempBenchmarkViewModelGetGroundTruthLocationRound0ID58"}
+{"assert_type":"class androidx.lifecycle.MutableLiveData","assert_value":"androidx.lifecycle.MutableLiveData@38826984","method":"test_getGroundTruthLocation_2_401","class":"com.android.gpstest.ui.TempBenchmarkViewModelGetGroundTruthLocationRound0ID58"}

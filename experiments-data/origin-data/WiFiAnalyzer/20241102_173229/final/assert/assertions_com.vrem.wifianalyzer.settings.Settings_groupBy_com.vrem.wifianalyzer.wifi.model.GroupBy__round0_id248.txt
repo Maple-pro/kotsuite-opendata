@@ -1,0 +1,2 @@
+{"assert_type":"class com.vrem.wifianalyzer.wifi.model.GroupBy","assert_value":"NONE","method":"test_groupBy_1_1153","class":"com.vrem.wifianalyzer.settings.TempSettingsGroupByRound0ID248"}
+{"assert_type":"class com.vrem.wifianalyzer.wifi.model.GroupBy","assert_value":"NONE","method":"test_groupBy_2_1157","class":"com.vrem.wifianalyzer.settings.TempSettingsGroupByRound0ID248"}

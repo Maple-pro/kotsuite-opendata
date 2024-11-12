@@ -1,0 +1,2 @@
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_wiFiDetails_1_3192","class":"com.vrem.wifianalyzer.wifi.model.TempChannelRatingWiFiDetailsRound0ID584"}
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_wiFiDetails_2_3195","class":"com.vrem.wifianalyzer.wifi.model.TempChannelRatingWiFiDetailsRound0ID584"}

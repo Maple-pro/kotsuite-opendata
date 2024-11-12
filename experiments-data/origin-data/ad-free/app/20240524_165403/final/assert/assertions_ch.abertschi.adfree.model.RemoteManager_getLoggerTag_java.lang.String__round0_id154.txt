@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"RemoteManager","method":"test_getLoggerTag_1_1193","class":"ch.abertschi.adfree.model.TempRemoteManagerGetLoggerTagRound0ID154"}
+{"assert_type":"class java.lang.String","assert_value":"RemoteManager","method":"test_getLoggerTag_2_1197","class":"ch.abertschi.adfree.model.TempRemoteManagerGetLoggerTagRound0ID154"}

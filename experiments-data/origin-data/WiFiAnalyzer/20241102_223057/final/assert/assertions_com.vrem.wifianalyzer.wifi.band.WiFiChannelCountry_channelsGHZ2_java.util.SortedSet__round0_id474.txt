@@ -1,0 +1,2 @@
+{"assert_type":"class java.util.TreeSet","assert_value":"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","method":"test_channelsGHZ2_1_2452","class":"com.vrem.wifianalyzer.wifi.band.TempWiFiChannelCountryChannelsGHZ2Round0ID474"}
+{"assert_type":"class java.util.TreeSet","assert_value":"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","method":"test_channelsGHZ2_2_2456","class":"com.vrem.wifianalyzer.wifi.band.TempWiFiChannelCountryChannelsGHZ2Round0ID474"}

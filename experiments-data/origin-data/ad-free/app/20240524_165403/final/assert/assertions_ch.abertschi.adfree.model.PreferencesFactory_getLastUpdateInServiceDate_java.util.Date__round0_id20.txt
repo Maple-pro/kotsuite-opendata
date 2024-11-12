@@ -1,0 +1,2 @@
+{"assert_type":"class java.util.Date","assert_value":"Thu Jan 01 08:00:00 CST 1970","method":"test_getLastUpdateInServiceDate_1_97","class":"ch.abertschi.adfree.model.TempPreferencesFactoryGetLastUpdateInServiceDateRound0ID20"}
+{"assert_type":"class java.util.Date","assert_value":"Thu Jan 01 08:00:00 CST 1970","method":"test_getLastUpdateInServiceDate_2_101","class":"ch.abertschi.adfree.model.TempPreferencesFactoryGetLastUpdateInServiceDateRound0ID20"}

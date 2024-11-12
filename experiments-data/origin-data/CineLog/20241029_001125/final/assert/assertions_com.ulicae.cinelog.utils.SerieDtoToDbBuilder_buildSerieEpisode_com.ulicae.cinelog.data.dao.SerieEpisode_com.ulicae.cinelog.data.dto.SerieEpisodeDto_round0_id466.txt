@@ -1,0 +1,2 @@
+{"assert_type":"class com.ulicae.cinelog.data.dao.SerieEpisode","assert_value":"com.ulicae.cinelog.data.dao.SerieEpisode@2d172c7","method":"test_buildSerieEpisode_SerieEpisodeDto_1_3533","class":"com.ulicae.cinelog.utils.TempSerieDtoToDbBuilderBuildSerieEpisodeRound0ID466"}
+{"assert_type":"class com.ulicae.cinelog.data.dao.SerieEpisode","assert_value":"com.ulicae.cinelog.data.dao.SerieEpisode@2d172c7","method":"test_buildSerieEpisode_SerieEpisodeDto_2_3537","class":"com.ulicae.cinelog.utils.TempSerieDtoToDbBuilderBuildSerieEpisodeRound0ID466"}

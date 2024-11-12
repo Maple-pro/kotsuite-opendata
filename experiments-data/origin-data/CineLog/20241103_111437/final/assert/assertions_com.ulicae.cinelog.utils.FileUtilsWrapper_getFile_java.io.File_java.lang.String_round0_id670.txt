@@ -1,0 +1,2 @@
+{"assert_type":"class java.io.File","assert_value":"pG5nqy","method":"test_getFile_String_1_4940","class":"com.ulicae.cinelog.utils.TempFileUtilsWrapperGetFileRound0ID670"}
+{"assert_type":"class java.io.File","assert_value":"dnJNA9+D5MC3+2QqLLbk8dNbWbN4J8exfmSCNSqmQu-THybkzjsUuej9w5GtkQoZqLdskffqD-YYc","method":"test_getFile_String_2_4944","class":"com.ulicae.cinelog.utils.TempFileUtilsWrapperGetFileRound0ID670"}

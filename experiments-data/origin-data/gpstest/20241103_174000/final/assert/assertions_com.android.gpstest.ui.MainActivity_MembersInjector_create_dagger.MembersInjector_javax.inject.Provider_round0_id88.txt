@@ -1,0 +1,2 @@
+{"assert_type":"class com.android.gpstest.ui.MainActivity_MembersInjector","assert_value":"com.android.gpstest.ui.MainActivity_MembersInjector@605c7a9e","method":"test_create_Provider_1_573","class":"com.android.gpstest.ui.TempMainActivity_MembersInjectorCreateRound0ID88"}
+{"assert_type":"class com.android.gpstest.ui.MainActivity_MembersInjector","assert_value":"com.android.gpstest.ui.MainActivity_MembersInjector@605c7a9e","method":"test_create_Provider_2_576","class":"com.android.gpstest.ui.TempMainActivity_MembersInjectorCreateRound0ID88"}

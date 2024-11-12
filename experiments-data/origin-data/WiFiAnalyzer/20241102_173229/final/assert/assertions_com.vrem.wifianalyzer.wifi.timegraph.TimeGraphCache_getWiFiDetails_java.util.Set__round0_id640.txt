@@ -1,0 +1,2 @@
+{"assert_type":"class java.util.LinkedHashMap$LinkedKeySet","assert_value":"[]","method":"test_getWiFiDetails_1_3492","class":"com.vrem.wifianalyzer.wifi.timegraph.TempTimeGraphCacheGetWiFiDetailsRound0ID640"}
+{"assert_type":"class java.util.LinkedHashMap$LinkedKeySet","assert_value":"[]","method":"test_getWiFiDetails_2_3495","class":"com.vrem.wifianalyzer.wifi.timegraph.TempTimeGraphCacheGetWiFiDetailsRound0ID640"}

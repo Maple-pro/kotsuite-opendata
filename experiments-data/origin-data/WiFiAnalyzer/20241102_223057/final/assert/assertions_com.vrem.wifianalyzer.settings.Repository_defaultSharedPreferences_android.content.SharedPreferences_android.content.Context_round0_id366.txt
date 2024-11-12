@@ -1,0 +1,2 @@
+{"assert_type":"class android.content.SharedPreferences$Subclass1","assert_value":"SharedPreferences(child of #3#4)","method":"test_defaultSharedPreferences_Context_1_1977","class":"com.vrem.wifianalyzer.settings.TempRepositoryDefaultSharedPreferencesRound0ID366"}
+{"assert_type":"class android.content.SharedPreferences$Subclass1","assert_value":"SharedPreferences(child of #3#4)","method":"test_defaultSharedPreferences_Context_2_1982","class":"com.vrem.wifianalyzer.settings.TempRepositoryDefaultSharedPreferencesRound0ID366"}

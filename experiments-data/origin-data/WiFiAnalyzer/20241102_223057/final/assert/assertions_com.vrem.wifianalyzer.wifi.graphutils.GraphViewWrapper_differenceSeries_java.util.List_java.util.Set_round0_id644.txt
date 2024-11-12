@@ -1,0 +1,2 @@
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_differenceSeries_Set_1_3532","class":"com.vrem.wifianalyzer.wifi.graphutils.TempGraphViewWrapperDifferenceSeriesRound0ID644"}
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_differenceSeries_Set_2_3541","class":"com.vrem.wifianalyzer.wifi.graphutils.TempGraphViewWrapperDifferenceSeriesRound0ID644"}

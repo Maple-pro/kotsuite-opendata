@@ -1,0 +1,2 @@
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_getKinosByYear_boolean_1_4229","class":"com.ulicae.cinelog.data.services.reviews.TempKinoServiceGetKinosByYearRound0ID562"}
+{"assert_type":"class java.util.ArrayList","assert_value":"[]","method":"test_getKinosByYear_boolean_2_4233","class":"com.ulicae.cinelog.data.services.reviews.TempKinoServiceGetKinosByYearRound0ID562"}

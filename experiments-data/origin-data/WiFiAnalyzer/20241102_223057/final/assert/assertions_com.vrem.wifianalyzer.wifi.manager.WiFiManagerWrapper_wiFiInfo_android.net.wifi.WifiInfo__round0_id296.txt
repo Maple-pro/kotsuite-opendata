@@ -1,0 +1,2 @@
+{"assert_type":"class android.net.wifi.WifiInfo","assert_value":"WifiInfo(child of #1#4)","method":"test_wiFiInfo_1_1481","class":"com.vrem.wifianalyzer.wifi.manager.TempWiFiManagerWrapperWiFiInfoRound0ID296"}
+{"assert_type":"class android.net.wifi.WifiInfo","assert_value":"WifiInfo(child of #1#4)","method":"test_wiFiInfo_2_1486","class":"com.vrem.wifianalyzer.wifi.manager.TempWiFiManagerWrapperWiFiInfoRound0ID296"}

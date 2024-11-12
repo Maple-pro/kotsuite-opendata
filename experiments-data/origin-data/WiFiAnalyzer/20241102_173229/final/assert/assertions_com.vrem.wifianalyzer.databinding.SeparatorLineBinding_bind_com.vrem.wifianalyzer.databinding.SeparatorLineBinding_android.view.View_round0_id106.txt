@@ -1,0 +1,2 @@
+{"assert_type":"class com.vrem.wifianalyzer.databinding.SeparatorLineBinding","assert_value":"com.vrem.wifianalyzer.databinding.SeparatorLineBinding@74901d7","method":"test_bind_View_1_497","class":"com.vrem.wifianalyzer.databinding.TempSeparatorLineBindingBindRound0ID106"}
+{"assert_type":"class com.vrem.wifianalyzer.databinding.SeparatorLineBinding","assert_value":"com.vrem.wifianalyzer.databinding.SeparatorLineBinding@74901d7","method":"test_bind_View_2_500","class":"com.vrem.wifianalyzer.databinding.TempSeparatorLineBindingBindRound0ID106"}

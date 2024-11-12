@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"LocalMusicPlugin","method":"test_getLoggerTag_1_3465","class":"ch.abertschi.adfree.plugin.localmusic.TempLocalMusicPluginGetLoggerTagRound0ID450"}
+{"assert_type":"class java.lang.String","assert_value":"LocalMusicPlugin","method":"test_getLoggerTag_2_3472","class":"ch.abertschi.adfree.plugin.localmusic.TempLocalMusicPluginGetLoggerTagRound0ID450"}

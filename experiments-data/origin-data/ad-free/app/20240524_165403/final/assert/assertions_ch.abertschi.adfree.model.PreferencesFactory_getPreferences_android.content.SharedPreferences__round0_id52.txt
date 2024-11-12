@@ -1,0 +1,2 @@
+{"assert_type":"class android.content.SharedPreferences$Subclass1","assert_value":"SharedPreferences(child of #1#2)","method":"test_getPreferences_1_293","class":"ch.abertschi.adfree.model.TempPreferencesFactoryGetPreferencesRound0ID52"}
+{"assert_type":"class android.content.SharedPreferences$Subclass1","assert_value":"SharedPreferences(child of #1#2)","method":"test_getPreferences_2_297","class":"ch.abertschi.adfree.model.TempPreferencesFactoryGetPreferencesRound0ID52"}

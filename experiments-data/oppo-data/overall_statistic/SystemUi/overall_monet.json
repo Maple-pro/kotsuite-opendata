@@ -1,0 +1,4166 @@
+{
+  "module": "/Users/oneplus/WorkSpace/SystemUi/monet",
+  "classes": [
+    {
+      "className": "com.android.systemui.monet.scheme.SchemeContent",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.SchemeContent: void <init>(com.android.systemui.monet.hct.Hct,boolean,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.scheme.DynamicScheme",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.DynamicScheme: void <init>(com.android.systemui.monet.hct.Hct,com.android.systemui.monet.scheme.Variant,boolean,double,com.android.systemui.monet.palettes.TonalPalette,com.android.systemui.monet.palettes.TonalPalette,com.android.systemui.monet.palettes.TonalPalette,com.android.systemui.monet.palettes.TonalPalette,com.android.systemui.monet.palettes.TonalPalette)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.DynamicScheme: double getRotatedHue(com.android.systemui.monet.hct.Hct,double[],double[])>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.hct.Hct",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Hct: com.android.systemui.monet.hct.Hct 'from'(double,double,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Hct: com.android.systemui.monet.hct.Hct fromInt(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Hct: void <init>(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Hct: double getHue()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Hct: double getChroma()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Hct: double getTone()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Hct: int toInt()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Hct: void setHue(double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Hct: void setChroma(double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Hct: void setTone(double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Hct: com.android.systemui.monet.hct.Hct inViewingConditions(com.android.systemui.monet.hct.ViewingConditions)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Hct: void setInternalState(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.scheme.Variant",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Variant: com.android.systemui.monet.scheme.Variant[] values()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Variant: com.android.systemui.monet.scheme.Variant valueOf(java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Variant: void <init>(java.lang.String,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Variant: com.android.systemui.monet.scheme.Variant[] $values()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Variant: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.palettes.TonalPalette",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.palettes.TonalPalette: com.android.systemui.monet.palettes.TonalPalette fromInt(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.palettes.TonalPalette: com.android.systemui.monet.palettes.TonalPalette fromHct(com.android.systemui.monet.hct.Hct)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.palettes.TonalPalette: com.android.systemui.monet.palettes.TonalPalette fromHueAndChroma(double,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.palettes.TonalPalette: void <init>(double,double,com.android.systemui.monet.hct.Hct)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.palettes.TonalPalette: com.android.systemui.monet.hct.Hct createKeyColor(double,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.palettes.TonalPalette: int tone(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.palettes.TonalPalette: com.android.systemui.monet.hct.Hct getHct(double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.palettes.TonalPalette: double getChroma()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.palettes.TonalPalette: double getHue()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.palettes.TonalPalette: com.android.systemui.monet.hct.Hct getKeyColor()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.dislike.DislikeAnalyzer",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.dislike.DislikeAnalyzer: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dislike.DislikeAnalyzer: boolean isDisliked(com.android.systemui.monet.hct.Hct)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dislike.DislikeAnalyzer: com.android.systemui.monet.hct.Hct fixIfDisliked(com.android.systemui.monet.hct.Hct)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.temperature.TemperatureCache",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.temperature.TemperatureCache: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.temperature.TemperatureCache: void <init>(com.android.systemui.monet.hct.Hct)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.temperature.TemperatureCache: com.android.systemui.monet.hct.Hct getComplement()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.temperature.TemperatureCache: java.util.List getAnalogousColors()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.temperature.TemperatureCache: java.util.List getAnalogousColors(int,int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.temperature.TemperatureCache: double getRelativeTemperature(com.android.systemui.monet.hct.Hct)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.temperature.TemperatureCache: double rawTemperature(com.android.systemui.monet.hct.Hct)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.temperature.TemperatureCache: com.android.systemui.monet.hct.Hct getColdest()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.temperature.TemperatureCache: java.util.List getHctsByHue()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.temperature.TemperatureCache: java.util.List getHctsByTemp()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.temperature.TemperatureCache: java.util.Map getTempsByHct()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.temperature.TemperatureCache: com.android.systemui.monet.hct.Hct getWarmest()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.temperature.TemperatureCache: boolean isBetween(double,double,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.temperature.TemperatureCache: java.lang.Double lambda$getHctsByTemp$0(com.android.systemui.monet.hct.Hct)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.hct.ViewingConditions",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.hct.ViewingConditions: double getAw()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.ViewingConditions: double getN()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.ViewingConditions: double getNbb()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.ViewingConditions: double getNcb()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.ViewingConditions: double getC()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.ViewingConditions: double getNc()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.ViewingConditions: double[] getRgbD()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.ViewingConditions: double getFl()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.ViewingConditions: double getFlRoot()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.ViewingConditions: double getZ()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.ViewingConditions: com.android.systemui.monet.hct.ViewingConditions make(double[],double,double,double,boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.ViewingConditions: com.android.systemui.monet.hct.ViewingConditions defaultWithBackgroundLstar(double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.ViewingConditions: void <init>(double,double,double,double,double,double,double[],double,double,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.ViewingConditions: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.scheme.SchemeVibrant",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.SchemeVibrant: void <init>(com.android.systemui.monet.hct.Hct,boolean,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.SchemeVibrant: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.utils.MathUtils",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.utils.MathUtils: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.MathUtils: int signum(double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.MathUtils: double lerp(double,double,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.MathUtils: int clampInt(int,int,int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.MathUtils: double clampDouble(double,double,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.MathUtils: int sanitizeDegreesInt(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.MathUtils: double sanitizeDegreesDouble(double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.MathUtils: double rotationDirection(double,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.MathUtils: double differenceDegrees(double,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.MathUtils: double[] matrixMultiply(double[],double[][])>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.scheme.DynamicSchemeTest",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.DynamicSchemeTest: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.DynamicSchemeTest: void test_getRotatedHue_Hct_double_double_1_1()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.scheme.Scheme",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void <init>(int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme light(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme dark(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme lightContent(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme darkContent(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme lightFromCorePalette(com.android.systemui.monet.palettes.CorePalette)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme darkFromCorePalette(com.android.systemui.monet.palettes.CorePalette)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getPrimary()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setPrimary(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withPrimary(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getOnPrimary()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setOnPrimary(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withOnPrimary(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getPrimaryContainer()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setPrimaryContainer(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withPrimaryContainer(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getOnPrimaryContainer()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setOnPrimaryContainer(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withOnPrimaryContainer(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getSecondary()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setSecondary(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withSecondary(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getOnSecondary()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setOnSecondary(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withOnSecondary(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getSecondaryContainer()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setSecondaryContainer(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withSecondaryContainer(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getOnSecondaryContainer()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setOnSecondaryContainer(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withOnSecondaryContainer(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getTertiary()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setTertiary(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withTertiary(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getOnTertiary()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setOnTertiary(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withOnTertiary(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getTertiaryContainer()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setTertiaryContainer(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withTertiaryContainer(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getOnTertiaryContainer()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setOnTertiaryContainer(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withOnTertiaryContainer(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getError()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setError(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withError(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getOnError()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setOnError(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withOnError(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getErrorContainer()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setErrorContainer(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withErrorContainer(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getOnErrorContainer()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setOnErrorContainer(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withOnErrorContainer(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getBackground()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setBackground(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withBackground(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getOnBackground()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setOnBackground(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withOnBackground(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getSurface()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setSurface(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withSurface(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getOnSurface()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setOnSurface(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withOnSurface(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getSurfaceVariant()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setSurfaceVariant(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withSurfaceVariant(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getOnSurfaceVariant()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setOnSurfaceVariant(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withOnSurfaceVariant(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getOutline()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setOutline(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withOutline(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getOutlineVariant()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setOutlineVariant(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withOutlineVariant(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getShadow()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setShadow(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withShadow(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getScrim()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setScrim(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withScrim(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getInverseSurface()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setInverseSurface(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withInverseSurface(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getInverseOnSurface()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setInverseOnSurface(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withInverseOnSurface(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int getInversePrimary()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: void setInversePrimary(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: com.android.systemui.monet.scheme.Scheme withInversePrimary(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: java.lang.String toString()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: boolean equals(java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.Scheme: int hashCode()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.palettes.CorePalette",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.palettes.CorePalette: com.android.systemui.monet.palettes.CorePalette of(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.palettes.CorePalette: com.android.systemui.monet.palettes.CorePalette contentOf(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.palettes.CorePalette: void <init>(int,boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.scheme.SchemeFidelity",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.SchemeFidelity: void <init>(com.android.systemui.monet.hct.Hct,boolean,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.scheme.SchemeNeutral",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.SchemeNeutral: void <init>(com.android.systemui.monet.hct.Hct,boolean,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.scheme.SchemeFruitSalad",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.SchemeFruitSalad: void <init>(com.android.systemui.monet.hct.Hct,boolean,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.scheme.SchemeMonochrome",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.SchemeMonochrome: void <init>(com.android.systemui.monet.hct.Hct,boolean,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.scheme.SchemeTonalSpot",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.SchemeTonalSpot: void <init>(com.android.systemui.monet.hct.Hct,boolean,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.scheme.SchemeRainbow",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.SchemeRainbow: void <init>(com.android.systemui.monet.hct.Hct,boolean,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.scheme.SchemeExpressive",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.SchemeExpressive: void <init>(com.android.systemui.monet.hct.Hct,boolean,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.scheme.SchemeExpressive: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.quantize.QuantizerMap",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerMap: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerMap: com.android.systemui.monet.quantize.QuantizerResult quantize(int[],int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerMap: java.util.Map getColorToCount()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.quantize.Quantizer",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "NON_PUBLIC_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.Quantizer: com.android.systemui.monet.quantize.QuantizerResult quantize(int[],int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.quantize.QuantizerResult",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerResult: void <init>(java.util.Map)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.quantize.PointProviderLab",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.PointProviderLab: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.PointProviderLab: double[] fromInt(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.PointProviderLab: int toInt(double[])>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.PointProviderLab: double distance(double[],double[])>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.quantize.PointProvider",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.PointProvider: double[] fromInt(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.PointProvider: int toInt(double[])>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.PointProvider: double distance(double[],double[])>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.utils.ColorUtils",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: int argbFromRgb(int,int,int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: int argbFromLinrgb(double[])>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: int alphaFromArgb(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: int redFromArgb(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: int greenFromArgb(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: int blueFromArgb(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: boolean isOpaque(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: int argbFromXyz(double,double,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: double[] xyzFromArgb(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: int argbFromLab(double,double,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: double[] labFromArgb(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: int argbFromLstar(double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: double lstarFromArgb(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: double yFromLstar(double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: double lstarFromY(double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: double linearized(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: int delinearized(double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: double[] whitePointD65()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: double labF(double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: double labInvf(double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.ColorUtils: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.quantize.QuantizerWu$Direction",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu$Direction: com.android.systemui.monet.quantize.QuantizerWu$Direction[] values()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu$Direction: com.android.systemui.monet.quantize.QuantizerWu$Direction valueOf(java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu$Direction: void <init>(java.lang.String,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu$Direction: com.android.systemui.monet.quantize.QuantizerWu$Direction[] $values()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu$Direction: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.quantize.QuantizerWu",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu: com.android.systemui.monet.quantize.QuantizerResult quantize(int[],int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu: int getIndex(int,int,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu: void constructHistogram(java.util.Map)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu: void createMoments()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu: com.android.systemui.monet.quantize.QuantizerWu$CreateBoxesResult createBoxes(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu: java.util.List createResult(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu: double variance(com.android.systemui.monet.quantize.QuantizerWu$Box)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu: java.lang.Boolean cut(com.android.systemui.monet.quantize.QuantizerWu$Box,com.android.systemui.monet.quantize.QuantizerWu$Box)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu: com.android.systemui.monet.quantize.QuantizerWu$MaximizeResult maximize(com.android.systemui.monet.quantize.QuantizerWu$Box,com.android.systemui.monet.quantize.QuantizerWu$Direction,int,int,int,int,int,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu: int volume(com.android.systemui.monet.quantize.QuantizerWu$Box,int[])>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu: int bottom(com.android.systemui.monet.quantize.QuantizerWu$Box,com.android.systemui.monet.quantize.QuantizerWu$Direction,int[])>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu: int top(com.android.systemui.monet.quantize.QuantizerWu$Box,com.android.systemui.monet.quantize.QuantizerWu$Direction,int,int[])>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.quantize.QuantizerWu$Box",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu$Box: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu$Box: void <init>(com.android.systemui.monet.quantize.QuantizerWu$1)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.quantize.QuantizerWu$CreateBoxesResult",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu$CreateBoxesResult: void <init>(int,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.quantize.QuantizerWu$MaximizeResult",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu$MaximizeResult: void <init>(int,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.quantize.QuantizerCelebi",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerCelebi: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerCelebi: java.util.Map quantize(int[],int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.quantize.QuantizerWsmeans",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWsmeans: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWsmeans: java.util.Map quantize(int[],int[],int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.quantize.QuantizerWsmeans$Distance",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWsmeans$Distance: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWsmeans$Distance: int compareTo(com.android.systemui.monet.quantize.QuantizerWsmeans$Distance)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWsmeans$Distance: int compareTo(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.quantize.QuantizerWu$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.quantize.QuantizerWu$1: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.hct.Cam16",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: double distance(com.android.systemui.monet.hct.Cam16)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: double getHue()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: double getChroma()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: double getJ()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: double getQ()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: double getM()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: double getS()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: double getJstar()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: double getAstar()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: double getBstar()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: void <init>(double,double,double,double,double,double,double,double,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: com.android.systemui.monet.hct.Cam16 fromInt(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: com.android.systemui.monet.hct.Cam16 fromIntInViewingConditions(int,com.android.systemui.monet.hct.ViewingConditions)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: com.android.systemui.monet.hct.Cam16 fromXyzInViewingConditions(double,double,double,com.android.systemui.monet.hct.ViewingConditions)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: com.android.systemui.monet.hct.Cam16 fromJch(double,double,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: com.android.systemui.monet.hct.Cam16 fromJchInViewingConditions(double,double,double,com.android.systemui.monet.hct.ViewingConditions)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: com.android.systemui.monet.hct.Cam16 fromUcs(double,double,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: com.android.systemui.monet.hct.Cam16 fromUcsInViewingConditions(double,double,double,com.android.systemui.monet.hct.ViewingConditions)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: int toInt()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: int viewed(com.android.systemui.monet.hct.ViewingConditions)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: double[] xyzInViewingConditions(com.android.systemui.monet.hct.ViewingConditions,double[])>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.Cam16: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.hct.HctSolver",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.hct.HctSolver: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.HctSolver: double sanitizeRadians(double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.HctSolver: double trueDelinearized(double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.HctSolver: double chromaticAdaptation(double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.HctSolver: double hueOf(double[])>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.HctSolver: boolean areInCyclicOrder(double,double,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.HctSolver: double intercept(double,double,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.HctSolver: double[] lerpPoint(double[],double,double[])>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.HctSolver: double[] setCoordinate(double[],double,double[],int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.HctSolver: boolean isBounded(double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.HctSolver: double[] nthVertex(double,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.HctSolver: double[][] bisectToSegment(double,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.HctSolver: double[] midpoint(double[],double[])>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.HctSolver: int criticalPlaneBelow(double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.HctSolver: int criticalPlaneAbove(double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.HctSolver: double[] bisectToLimit(double,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.HctSolver: double inverseChromaticAdaptation(double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.HctSolver: int findResultByJ(double,double,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.HctSolver: int solveToInt(double,double,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.HctSolver: com.android.systemui.monet.hct.Cam16 solveToCam(double,double,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.hct.HctSolver: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.utils.StringUtils",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "NON_PUBLIC_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.utils.StringUtils: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.utils.StringUtils: java.lang.String hexFromArgb(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.BuildConfig",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.BuildConfig: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.BuildConfig: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.blend.Blend",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.blend.Blend: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.blend.Blend: int harmonize(int,int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.blend.Blend: int hctHue(int,int,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.blend.Blend: int cam16Ucs(int,int,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.score.Score",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.score.Score: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.score.Score: java.util.List score(java.util.Map)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.score.Score: java.util.List filter(java.util.Map,java.util.Map)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.score.Score$ScoredComparator",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.score.Score$ScoredComparator: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.score.Score$ScoredComparator: int compare(java.util.Map$Entry,java.util.Map$Entry)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.score.Score$ScoredComparator: int compare(java.lang.Object,java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.dynamiccolor.DynamicColor$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor$1: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.dynamiccolor.DynamicColor",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: void <init>(java.util.function.Function,java.util.function.Function,java.util.function.Function,java.util.function.Function,java.util.function.Function,java.util.function.Function,java.util.function.Function,java.util.function.Function)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: com.android.systemui.monet.dynamiccolor.DynamicColor fromArgb(int)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: com.android.systemui.monet.dynamiccolor.DynamicColor fromArgb(int,java.util.function.Function)>",
+          "methodType": "NEED_BUT_UNABLE",
+          "methodReason": "UNSUPPORTED_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: com.android.systemui.monet.dynamiccolor.DynamicColor fromArgb(int,java.util.function.Function,java.util.function.Function)>",
+          "methodType": "NEED_BUT_UNABLE",
+          "methodReason": "UNSUPPORTED_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: com.android.systemui.monet.dynamiccolor.DynamicColor fromArgb(int,java.util.function.Function,java.util.function.Function,java.util.function.Function)>",
+          "methodType": "NEED_BUT_UNABLE",
+          "methodReason": "UNSUPPORTED_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: com.android.systemui.monet.dynamiccolor.DynamicColor fromPalette(java.util.function.Function,java.util.function.Function)>",
+          "methodType": "NEED_BUT_UNABLE",
+          "methodReason": "UNSUPPORTED_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: com.android.systemui.monet.dynamiccolor.DynamicColor fromPalette(java.util.function.Function,java.util.function.Function,java.util.function.Function)>",
+          "methodType": "NEED_BUT_UNABLE",
+          "methodReason": "UNSUPPORTED_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: com.android.systemui.monet.dynamiccolor.DynamicColor fromPalette(java.util.function.Function,java.util.function.Function,java.util.function.Function,java.util.function.Function)>",
+          "methodType": "NEED_BUT_UNABLE",
+          "methodReason": "UNSUPPORTED_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: double toneMinContrastDefault(java.util.function.Function,java.util.function.Function,com.android.systemui.monet.scheme.DynamicScheme,java.util.function.Function)>",
+          "methodType": "NEED_BUT_UNABLE",
+          "methodReason": "UNSUPPORTED_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: double toneMaxContrastDefault(java.util.function.Function,java.util.function.Function,com.android.systemui.monet.scheme.DynamicScheme,java.util.function.Function)>",
+          "methodType": "NEED_BUT_UNABLE",
+          "methodReason": "UNSUPPORTED_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: double calculateDynamicTone(com.android.systemui.monet.scheme.DynamicScheme,java.util.function.Function,java.util.function.Function,java.util.function.BiFunction,java.util.function.Function,java.util.function.Function,java.util.function.Function,java.util.function.Function)>",
+          "methodType": "NEED_BUT_UNABLE",
+          "methodReason": "UNSUPPORTED_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: double ensureToneDelta(double,double,com.android.systemui.monet.scheme.DynamicScheme,java.util.function.Function,java.util.function.Function)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: double contrastingTone(double,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: double enableLightForeground(double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: boolean tonePrefersLightForeground(double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: boolean toneAllowsLightForeground(double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: int getArgb(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: com.android.systemui.monet.hct.Hct getHct(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: double getTone(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: java.lang.Double lambda$getTone$18(double,java.lang.Double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: java.lang.Double lambda$getTone$17(double,java.lang.Double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: com.android.systemui.monet.dynamiccolor.DynamicColor lambda$getTone$16(com.android.systemui.monet.dynamiccolor.DynamicColor,com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: java.lang.Double lambda$getTone$15(double,java.lang.Double,java.lang.Double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: java.lang.Double lambda$getTone$14(com.android.systemui.monet.scheme.DynamicScheme,com.android.systemui.monet.dynamiccolor.DynamicColor)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: java.lang.Double lambda$toneMaxContrastDefault$13(java.util.function.Function,com.android.systemui.monet.scheme.DynamicScheme,java.lang.Double,java.lang.Double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: java.lang.Double lambda$toneMaxContrastDefault$12(com.android.systemui.monet.scheme.DynamicScheme,com.android.systemui.monet.dynamiccolor.DynamicColor)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: java.lang.Double lambda$toneMinContrastDefault$11(java.lang.Double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: java.lang.Double lambda$toneMinContrastDefault$10(java.util.function.Function,com.android.systemui.monet.scheme.DynamicScheme,java.util.function.Function,java.lang.Double,java.lang.Double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: java.lang.Double lambda$toneMinContrastDefault$9(com.android.systemui.monet.scheme.DynamicScheme,com.android.systemui.monet.dynamiccolor.DynamicColor)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: java.lang.Double lambda$fromPalette$8(java.util.function.Function,java.util.function.Function,java.util.function.Function,com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: java.lang.Double lambda$fromPalette$7(java.util.function.Function,java.util.function.Function,java.util.function.Function,com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: java.lang.Double lambda$fromPalette$6(java.util.function.Function,com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: java.lang.Double lambda$fromPalette$5(java.util.function.Function,com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: com.android.systemui.monet.palettes.TonalPalette lambda$fromArgb$4(int,com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: com.android.systemui.monet.palettes.TonalPalette lambda$fromArgb$3(int,com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: com.android.systemui.monet.palettes.TonalPalette lambda$fromArgb$2(int,com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: java.lang.Double lambda$fromArgb$1(com.android.systemui.monet.hct.Hct,com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.DynamicColor: com.android.systemui.monet.palettes.TonalPalette lambda$fromArgb$0(com.android.systemui.monet.palettes.TonalPalette,com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.dynamiccolor.TonePolarity",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.TonePolarity: com.android.systemui.monet.dynamiccolor.TonePolarity[] values()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.TonePolarity: com.android.systemui.monet.dynamiccolor.TonePolarity valueOf(java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.TonePolarity: void <init>(java.lang.String,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.TonePolarity: com.android.systemui.monet.dynamiccolor.TonePolarity[] $values()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.TonePolarity: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.dynamiccolor.MaterialDynamicColors",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor primaryPaletteKeyColor()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor secondaryPaletteKeyColor()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor tertiaryPaletteKeyColor()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor neutralPaletteKeyColor()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor neutralVariantPaletteKeyColor()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor highestSurface(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor background()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor onBackground()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor surface()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor inverseSurface()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor surfaceBright()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor surfaceDim()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor surfaceContainerLowest()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor surfaceContainerLow()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor surfaceContainer()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor surfaceContainerHigh()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor surfaceContainerHighest()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor onSurface()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor inverseOnSurface()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor surfaceVariant()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor onSurfaceVariant()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor outline()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor outlineVariant()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor shadow()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor scrim()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor surfaceTint()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor primaryContainer()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor onPrimaryContainer()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor primary()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor inversePrimary()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor onPrimary()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor secondaryContainer()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor onSecondaryContainer()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor secondary()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor onSecondary()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor tertiaryContainer()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor onTertiaryContainer()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor tertiary()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor onTertiary()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor errorContainer()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor onErrorContainer()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor error()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor onError()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor primaryFixed()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor primaryFixedDim()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor onPrimaryFixed()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor onPrimaryFixedVariant()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor secondaryFixed()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor secondaryFixedDim()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor onSecondaryFixed()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor onSecondaryFixedVariant()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor tertiaryFixed()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor tertiaryFixedDim()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor onTertiaryFixed()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor onTertiaryFixedVariant()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor controlActivated()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor controlNormal()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor controlHighlight()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor textPrimaryInverse()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor textSecondaryAndTertiaryInverse()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor textPrimaryInverseDisableOnly()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor textSecondaryAndTertiaryInverseDisabled()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor textHintInverse()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.hct.ViewingConditions viewingConditionsForAlbers(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: boolean isFidelity(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: boolean isMonochrome(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: double findDesiredChromaByTone(double,double,double,boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: double performAlbers(com.android.systemui.monet.hct.Hct,com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$textHintInverse$151(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$textHintInverse$150(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$textSecondaryAndTertiaryInverseDisabled$149(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$textSecondaryAndTertiaryInverseDisabled$148(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$textPrimaryInverseDisableOnly$147(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$textPrimaryInverseDisableOnly$146(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$textSecondaryAndTertiaryInverse$145(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$textSecondaryAndTertiaryInverse$144(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$textPrimaryInverse$143(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$textPrimaryInverse$142(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$controlHighlight$141(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$controlHighlight$140(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$controlHighlight$139(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$controlHighlight$138(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$controlHighlight$137(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$controlHighlight$136(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$controlHighlight$135(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$controlHighlight$134(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$controlNormal$133(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$controlNormal$132(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$controlActivated$131(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$controlActivated$130(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor lambda$onTertiaryFixedVariant$129(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$onTertiaryFixedVariant$128(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$onTertiaryFixedVariant$127(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor lambda$onTertiaryFixed$126(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$onTertiaryFixed$125(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$onTertiaryFixed$124(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$tertiaryFixedDim$123(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$tertiaryFixedDim$122(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$tertiaryFixed$121(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$tertiaryFixed$120(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor lambda$onSecondaryFixedVariant$119(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$onSecondaryFixedVariant$118(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$onSecondaryFixedVariant$117(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor lambda$onSecondaryFixed$116(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$onSecondaryFixed$115(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$onSecondaryFixed$114(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$secondaryFixedDim$113(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$secondaryFixedDim$112(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$secondaryFixed$111(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$secondaryFixed$110(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor lambda$onPrimaryFixedVariant$109(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$onPrimaryFixedVariant$108(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$onPrimaryFixedVariant$107(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor lambda$onPrimaryFixed$106(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$onPrimaryFixed$105(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$onPrimaryFixed$104(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$primaryFixedDim$103(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$primaryFixedDim$102(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$primaryFixed$101(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$primaryFixed$100(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor lambda$onError$99(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$onError$98(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$onError$97(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.ToneDeltaConstraint lambda$error$96(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$error$95(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$error$94(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor lambda$onErrorContainer$93(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$onErrorContainer$92(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$onErrorContainer$91(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$errorContainer$90(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$errorContainer$89(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor lambda$onTertiary$88(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$onTertiary$87(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$onTertiary$86(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.ToneDeltaConstraint lambda$tertiary$85(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$tertiary$84(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$tertiary$83(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor lambda$onTertiaryContainer$82(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$onTertiaryContainer$81(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$onTertiaryContainer$80(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$tertiaryContainer$79(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$tertiaryContainer$78(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor lambda$onSecondary$77(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$onSecondary$76(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$onSecondary$75(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.ToneDeltaConstraint lambda$secondary$74(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$secondary$73(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$secondary$72(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor lambda$onSecondaryContainer$71(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$onSecondaryContainer$70(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$onSecondaryContainer$69(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$secondaryContainer$68(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$secondaryContainer$67(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor lambda$onPrimary$66(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$onPrimary$65(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$onPrimary$64(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor lambda$inversePrimary$63(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$inversePrimary$62(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$inversePrimary$61(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.ToneDeltaConstraint lambda$primary$60(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$primary$59(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$primary$58(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor lambda$onPrimaryContainer$57(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$onPrimaryContainer$56(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$onPrimaryContainer$55(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$primaryContainer$54(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$primaryContainer$53(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$surfaceTint$52(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$surfaceTint$51(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$scrim$50(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$scrim$49(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$shadow$48(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$shadow$47(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$outlineVariant$46(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$outlineVariant$45(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$outline$44(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$outline$43(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor lambda$onSurfaceVariant$42(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$onSurfaceVariant$41(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$onSurfaceVariant$40(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$surfaceVariant$39(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$surfaceVariant$38(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor lambda$inverseOnSurface$37(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$inverseOnSurface$36(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$inverseOnSurface$35(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$onSurface$34(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$onSurface$33(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$surfaceContainerHighest$32(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$surfaceContainerHighest$31(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$surfaceContainerHigh$30(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$surfaceContainerHigh$29(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$surfaceContainer$28(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$surfaceContainer$27(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$surfaceContainerLow$26(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$surfaceContainerLow$25(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$surfaceContainerLowest$24(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$surfaceContainerLowest$23(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$surfaceDim$22(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$surfaceDim$21(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$surfaceBright$20(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$surfaceBright$19(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$inverseSurface$18(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$inverseSurface$17(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$surface$16(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$surface$15(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.dynamiccolor.DynamicColor lambda$onBackground$14(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$onBackground$13(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$onBackground$12(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$background$11(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$background$10(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$neutralVariantPaletteKeyColor$9(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$neutralVariantPaletteKeyColor$8(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$neutralPaletteKeyColor$7(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$neutralPaletteKeyColor$6(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$tertiaryPaletteKeyColor$5(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$tertiaryPaletteKeyColor$4(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$secondaryPaletteKeyColor$3(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$secondaryPaletteKeyColor$2(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: java.lang.Double lambda$primaryPaletteKeyColor$1(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.MaterialDynamicColors: com.android.systemui.monet.palettes.TonalPalette lambda$primaryPaletteKeyColor$0(com.android.systemui.monet.scheme.DynamicScheme)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.dynamiccolor.ToneDeltaConstraint",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.dynamiccolor.ToneDeltaConstraint: void <init>(double,com.android.systemui.monet.dynamiccolor.DynamicColor,com.android.systemui.monet.dynamiccolor.TonePolarity)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.contrast.Contrast",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.contrast.Contrast: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.contrast.Contrast: double ratioOfYs(double,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.contrast.Contrast: double ratioOfTones(double,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.contrast.Contrast: double lighter(double,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.contrast.Contrast: double lighterUnsafe(double,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.contrast.Contrast: double darker(double,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.contrast.Contrast: double darkerUnsafe(double,double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.Shades",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.Shades: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.Shades: int[] of(float,float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.CoreSpec",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.CoreSpec: void <init>(com.android.systemui.monet.TonalSpec,com.android.systemui.monet.TonalSpec,com.android.systemui.monet.TonalSpec,com.android.systemui.monet.TonalSpec,com.android.systemui.monet.TonalSpec)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.CoreSpec: com.android.systemui.monet.TonalSpec getA1()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.CoreSpec: com.android.systemui.monet.TonalSpec getA2()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.CoreSpec: com.android.systemui.monet.TonalSpec getA3()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.CoreSpec: com.android.systemui.monet.TonalSpec getN1()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.CoreSpec: com.android.systemui.monet.TonalSpec getN2()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.TonalSpec",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.TonalSpec: void <init>(com.android.systemui.monet.Hue,com.android.systemui.monet.Chroma)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalSpec: void <init>(com.android.systemui.monet.Hue,com.android.systemui.monet.Chroma,int,kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalSpec: com.android.systemui.monet.Hue getHue()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalSpec: com.android.systemui.monet.Chroma getChroma()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalSpec: java.util.List shades(com.android.internal.graphics.cam.Cam)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalSpec: int getAtTone(com.android.internal.graphics.cam.Cam,float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.Hue",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.Hue: double get(com.android.internal.graphics.cam.Cam)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.Hue: double getHueRotation(float,java.util.List)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.Chroma",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ABSTRACT_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.Chroma: double get(com.android.internal.graphics.cam.Cam)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ABSTRACT_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.Chroma: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.HueVibrantTertiary",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.HueVibrantTertiary: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.HueVibrantTertiary: java.util.List getHueToRotations()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.HueVibrantTertiary: double get(com.android.internal.graphics.cam.Cam)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.HueVibrantTertiary: double getHueRotation(float,java.util.List)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.Hue$DefaultImpls",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.Hue$DefaultImpls: double getHueRotation(com.android.systemui.monet.Hue,float,java.util.List)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.ColorScheme$Companion",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion: int getSeedColor(android.app.WallpaperColors,boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion: int getSeedColor$default(com.android.systemui.monet.ColorScheme$Companion,android.app.WallpaperColors,boolean,int,java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion: java.util.List getSeedColors(android.app.WallpaperColors,boolean)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion: java.util.List getSeedColors$default(com.android.systemui.monet.ColorScheme$Companion,android.app.WallpaperColors,boolean,int,java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion: int wrapDegrees(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion: double wrapDegreesDouble(double)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion: float hueDiff(float,float)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion: java.lang.String stringForColor(int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion: java.lang.String humanReadable(java.lang.String,java.util.List)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion: double score(com.android.internal.graphics.cam.Cam,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion: java.util.List huePopulations(java.util.Map,java.util.Map,boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion: java.util.List huePopulations$default(com.android.systemui.monet.ColorScheme$Companion,java.util.Map,java.util.Map,boolean,int,java.lang.Object)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion: int getSeedColor(android.app.WallpaperColors)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion: java.util.List getSeedColors(android.app.WallpaperColors)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion: java.lang.String access$stringForColor(com.android.systemui.monet.ColorScheme$Companion,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion: java.lang.String access$humanReadable(com.android.systemui.monet.ColorScheme$Companion,java.lang.String,java.util.List)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.ColorScheme",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: void <init>(int,boolean,com.android.systemui.monet.Style)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: void <init>(int,boolean,com.android.systemui.monet.Style,int,kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: int getSeed()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: boolean getDarkTheme()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: com.android.systemui.monet.Style getStyle()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: com.android.systemui.monet.TonalPalette getAccent1()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: com.android.systemui.monet.TonalPalette getAccent2()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: com.android.systemui.monet.TonalPalette getAccent3()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: com.android.systemui.monet.TonalPalette getNeutral1()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: com.android.systemui.monet.TonalPalette getNeutral2()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: void <init>(int,boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: void <init>(android.app.WallpaperColors,boolean,com.android.systemui.monet.Style)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: void <init>(android.app.WallpaperColors,boolean,com.android.systemui.monet.Style,int,kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: java.util.List getAllHues()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: java.util.List getAllAccentColors()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: java.util.List getAllNeutralColors()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: int getBackgroundColor()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: int getAccentColor()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: int getShadeCount()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: float getSeedTone()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: java.lang.String toString()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "OVERRIDE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: void <init>(android.app.WallpaperColors,boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: int getSeedColor(android.app.WallpaperColors,boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: java.util.List getSeedColors(android.app.WallpaperColors,boolean)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: int getSeedColor(android.app.WallpaperColors)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: java.util.List getSeedColors(android.app.WallpaperColors)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.Style",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.Style: void <init>(java.lang.String,int,com.android.systemui.monet.CoreSpec)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.Style: com.android.systemui.monet.CoreSpec getCoreSpec$SystemUI_debug()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.Style: com.android.systemui.monet.Style[] values()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.Style: com.android.systemui.monet.Style valueOf(java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.Style: com.android.systemui.monet.Style[] $values()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.Style: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.TonalPalette",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette: void <init>(com.android.systemui.monet.TonalSpec,int)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette: com.android.internal.graphics.cam.Cam getSeedCam()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette: java.util.List getAllShades()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette: java.util.Map getAllShadesMapped()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette: int getBaseColor()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette: int getAtTone(float)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette: int getS10()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette: int getS50()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette: int getS100()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette: int getS200()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette: int getS300()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette: int getS400()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette: int getS500()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette: int getS600()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette: int getS700()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette: int getS800()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette: int getS900()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette: int getS1000()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette: java.util.List access$getSHADE_KEYS$cp()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "ANONYMOUS_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.ChromaBound",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.ChromaBound: void <init>(com.android.systemui.monet.Chroma,double,double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ChromaBound: com.android.systemui.monet.Chroma getBaseChroma()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ChromaBound: double getMinVal()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ChromaBound: double getMaxVal()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ChromaBound: double get(com.android.internal.graphics.cam.Cam)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.Chroma$Companion",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.Chroma$Companion: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.Chroma$Companion: double getMAX_VALUE()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.Chroma$Companion: double getMIN_VALUE()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.Chroma$Companion: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.HueExpressiveTertiary",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.HueExpressiveTertiary: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.HueExpressiveTertiary: java.util.List getHueToRotations()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.HueExpressiveTertiary: double get(com.android.internal.graphics.cam.Cam)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.HueExpressiveTertiary: double getHueRotation(float,java.util.List)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.TonalPalette$Companion",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette$Companion: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette$Companion: java.util.List getSHADE_KEYS()>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.TonalPalette$Companion: void <init>(kotlin.jvm.internal.DefaultConstructorMarker)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.ChromaSource",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.ChromaSource: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ChromaSource: double get(com.android.internal.graphics.cam.Cam)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.ColorScheme$Companion$humanReadable$2",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion$humanReadable$2: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion$humanReadable$2: java.lang.CharSequence invoke(java.lang.String)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion$humanReadable$2: java.lang.Object invoke(java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion$humanReadable$2: void <clinit>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "NON_PUBLIC_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.ColorScheme$Companion$getSeedColors$$inlined$sortByDescending$1",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "ANONYMOUS_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion$getSeedColors$$inlined$sortByDescending$1: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ColorScheme$Companion$getSeedColors$$inlined$sortByDescending$1: int compare(java.lang.Object,java.lang.Object)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.HueSubtract",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.HueSubtract: void <init>(double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.HueSubtract: double getAmountDegrees()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.HueSubtract: double get(com.android.internal.graphics.cam.Cam)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.HueSubtract: double getHueRotation(float,java.util.List)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.HueSource",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.HueSource: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.HueSource: double get(com.android.internal.graphics.cam.Cam)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.HueSource: double getHueRotation(float,java.util.List)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.ChromaAdd",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.ChromaAdd: void <init>(double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ChromaAdd: double getAmount()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ChromaAdd: double get(com.android.internal.graphics.cam.Cam)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.HueVibrantSecondary",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.HueVibrantSecondary: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.HueVibrantSecondary: java.util.List getHueToRotations()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.HueVibrantSecondary: double get(com.android.internal.graphics.cam.Cam)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.HueVibrantSecondary: double getHueRotation(float,java.util.List)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.HueAdd",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.HueAdd: void <init>(double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.HueAdd: double getAmountDegrees()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.HueAdd: double get(com.android.internal.graphics.cam.Cam)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.HueAdd: double getHueRotation(float,java.util.List)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.ChromaMaxOut",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.ChromaMaxOut: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ChromaMaxOut: double get(com.android.internal.graphics.cam.Cam)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.ColorSchemeKt",
+      "classType": "NO_NEED_TO_TEST",
+      "classReason": "PACKAGE_LEVEL_CLASS",
+      "methods": []
+    },
+    {
+      "className": "com.android.systemui.monet.ChromaMultiple",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.ChromaMultiple: void <init>(double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ChromaMultiple: double getMultiple()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ChromaMultiple: double get(com.android.internal.graphics.cam.Cam)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.ChromaConstant",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.ChromaConstant: void <init>(double)>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ChromaConstant: double getChroma()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.ChromaConstant: double get(com.android.internal.graphics.cam.Cam)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    },
+    {
+      "className": "com.android.systemui.monet.HueExpressiveSecondary",
+      "classType": "ENABLE",
+      "classReason": "ENABLE_CLASS",
+      "methods": [
+        {
+          "methodSig": "<com.android.systemui.monet.HueExpressiveSecondary: void <init>()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "CONSTRUCTOR_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.HueExpressiveSecondary: java.util.List getHueToRotations()>",
+          "methodType": "NO_NEED_TO_TEST",
+          "methodReason": "GET_SET_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.HueExpressiveSecondary: double get(com.android.internal.graphics.cam.Cam)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        },
+        {
+          "methodSig": "<com.android.systemui.monet.HueExpressiveSecondary: double getHueRotation(float,java.util.List)>",
+          "methodType": "ENABLE",
+          "methodReason": "ENABLE_METHOD"
+        }
+      ]
+    }
+  ]
+}

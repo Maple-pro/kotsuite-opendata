@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"","method":"test_findVendorName_String_1_1661","class":"com.vrem.wifianalyzer.vendor.model.TempVendorServiceFindVendorNameRound0ID316"}
+{"assert_type":"class java.lang.String","assert_value":"","method":"test_findVendorName_String_2_1665","class":"com.vrem.wifianalyzer.vendor.model.TempVendorServiceFindVendorNameRound0ID316"}

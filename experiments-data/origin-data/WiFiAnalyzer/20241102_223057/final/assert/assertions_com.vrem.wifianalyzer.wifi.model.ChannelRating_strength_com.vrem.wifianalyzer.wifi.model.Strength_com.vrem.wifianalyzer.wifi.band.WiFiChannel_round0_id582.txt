@@ -1,0 +1,2 @@
+{"assert_type":"class com.vrem.wifianalyzer.wifi.model.Strength","assert_value":"ZERO","method":"test_strength_WiFiChannel_1_3180","class":"com.vrem.wifianalyzer.wifi.model.TempChannelRatingStrengthRound0ID582"}
+{"assert_type":"class com.vrem.wifianalyzer.wifi.model.Strength","assert_value":"ZERO","method":"test_strength_WiFiChannel_2_3184","class":"com.vrem.wifianalyzer.wifi.model.TempChannelRatingStrengthRound0ID582"}

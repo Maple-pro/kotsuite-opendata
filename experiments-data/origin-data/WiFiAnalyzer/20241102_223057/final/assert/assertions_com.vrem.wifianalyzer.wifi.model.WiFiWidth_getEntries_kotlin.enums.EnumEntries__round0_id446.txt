@@ -1,0 +1,2 @@
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[MHZ_20, MHZ_40, MHZ_80, MHZ_160, MHZ_80_PLUS]","method":"test_getEntries_1_2364","class":"com.vrem.wifianalyzer.wifi.model.TempWiFiWidthGetEntriesRound0ID446"}
+{"assert_type":"class kotlin.enums.EnumEntriesList","assert_value":"[MHZ_20, MHZ_40, MHZ_80, MHZ_160, MHZ_80_PLUS]","method":"test_getEntries_2_2366","class":"com.vrem.wifianalyzer.wifi.model.TempWiFiWidthGetEntriesRound0ID446"}

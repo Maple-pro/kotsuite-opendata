@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"","method":"test_countryCode_1_1117","class":"com.vrem.wifianalyzer.settings.TempSettingsCountryCodeRound0ID242"}
+{"assert_type":"class java.lang.String","assert_value":"","method":"test_countryCode_2_1121","class":"com.vrem.wifianalyzer.settings.TempSettingsCountryCodeRound0ID242"}

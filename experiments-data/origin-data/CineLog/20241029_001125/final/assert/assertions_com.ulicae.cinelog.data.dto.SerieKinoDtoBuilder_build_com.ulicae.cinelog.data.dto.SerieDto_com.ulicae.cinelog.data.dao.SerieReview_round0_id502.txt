@@ -1,0 +1,2 @@
+{"assert_type":"class com.ulicae.cinelog.data.dto.SerieDto","assert_value":"","method":"test_build_SerieReview_1_3837","class":"com.ulicae.cinelog.data.dto.TempSerieKinoDtoBuilderBuildRound0ID502"}
+{"assert_type":"class com.ulicae.cinelog.data.dto.SerieDto","assert_value":"","method":"test_build_SerieReview_2_3841","class":"com.ulicae.cinelog.data.dto.TempSerieKinoDtoBuilderBuildRound0ID502"}

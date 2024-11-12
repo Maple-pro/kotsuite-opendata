@@ -1,0 +1,2 @@
+{"assert_type":"class android.content.Intent","assert_value":"Intent(child of #1#8)","method":"test_export_MainActivity_List_Date_1_2332","class":"com.vrem.wifianalyzer.export.TempExportExportRound0ID440"}
+{"assert_type":"class android.content.Intent","assert_value":"Intent(child of #1#8)","method":"test_export_MainActivity_List_Date_2_2339","class":"com.vrem.wifianalyzer.export.TempExportExportRound0ID440"}

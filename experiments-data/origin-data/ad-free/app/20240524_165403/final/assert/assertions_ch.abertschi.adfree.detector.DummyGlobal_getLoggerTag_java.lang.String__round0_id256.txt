@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"DummyGlobal","method":"test_getLoggerTag_1_1881","class":"ch.abertschi.adfree.detector.TempDummyGlobalGetLoggerTagRound0ID256"}
+{"assert_type":"class java.lang.String","assert_value":"DummyGlobal","method":"test_getLoggerTag_2_1884","class":"ch.abertschi.adfree.detector.TempDummyGlobalGetLoggerTagRound0ID256"}

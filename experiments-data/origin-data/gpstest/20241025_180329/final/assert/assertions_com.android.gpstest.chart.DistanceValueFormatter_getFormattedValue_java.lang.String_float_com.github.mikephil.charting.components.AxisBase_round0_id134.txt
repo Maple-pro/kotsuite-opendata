@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"-96","method":"test_getFormattedValue_float_AxisBase_1_865","class":"com.android.gpstest.chart.TempDistanceValueFormatterGetFormattedValueRound0ID134"}
+{"assert_type":"class java.lang.String","assert_value":"-57","method":"test_getFormattedValue_float_AxisBase_2_869","class":"com.android.gpstest.chart.TempDistanceValueFormatterGetFormattedValueRound0ID134"}

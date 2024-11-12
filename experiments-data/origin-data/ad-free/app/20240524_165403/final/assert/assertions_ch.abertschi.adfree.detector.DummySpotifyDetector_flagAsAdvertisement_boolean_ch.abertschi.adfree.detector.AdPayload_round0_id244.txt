@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.Integer","assert_value":"1","method":"test_flagAsAdvertisement_AdPayload_1_1817","class":"ch.abertschi.adfree.detector.TempDummySpotifyDetectorFlagAsAdvertisementRound0ID244"}
+{"assert_type":"class java.lang.Integer","assert_value":"1","method":"test_flagAsAdvertisement_AdPayload_2_1821","class":"ch.abertschi.adfree.detector.TempDummySpotifyDetectorFlagAsAdvertisementRound0ID244"}

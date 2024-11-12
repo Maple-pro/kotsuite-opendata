@@ -1,0 +1,2 @@
+{"assert_type":"class java.lang.String","assert_value":"HomePresenter","method":"test_getLoggerTag_1_2797","class":"ch.abertschi.adfree.presenter.TempHomePresenterGetLoggerTagRound0ID390"}
+{"assert_type":"class java.lang.String","assert_value":"HomePresenter","method":"test_getLoggerTag_2_2803","class":"ch.abertschi.adfree.presenter.TempHomePresenterGetLoggerTagRound0ID390"}
