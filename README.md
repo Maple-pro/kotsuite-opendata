@@ -12,7 +12,6 @@ KotSuite is an automated tool of unit test generation of Kotlin programs in Andr
 
 https://github.com/user-attachments/assets/e343ef8f-daa6-470d-aaee-128a1deec489
 
-
 ### 1.2 Toolkit
 
 The binary version of the tool is provided in the [`kotsuite-toolkit`](./kotsuite-toolkit/) directory.
@@ -22,7 +21,7 @@ The binary version of the tool is provided in the [`kotsuite-toolkit`](./kotsuit
 ### 2.1 Files in the toolkit
 
 ```
-Toolkit
+kotsuite-toolkit
 ├── kotsuite-1.2.1.zip              # KotSuite Android Studio plugin (no need to unzip)
 ├── kotsuite-core-fat-1.2.1.jar     # KotSuite Core jar package
 └── libs                            # KotSuite Core dependencies lib folder
@@ -40,7 +39,7 @@ Search for "KotSuite" in the Android Studio plugin marketplace, as shown below:
 
 ##### Method 2: Install from Disk
 
-Click "Install Plugin from Disk" and select "kotsuite-1.2.1.zip" from the "Toolkit" folder to complete the installation.
+Click "Install Plugin from Disk" and select "kotsuite-1.2.1.zip" from the "kotsuite-toolkit" folder to complete the installation.
 
 ![image-20231109201636996](https://maples31-blog.oss-cn-beijing.aliyuncs.com/img/image-20231109201636996.png)
 
@@ -148,42 +147,11 @@ Copy Java test case files from `final/decompiled/` into the project’s test mod
 > testImplementation("io.github.Maple-pro:JMockK:1.4")
 > ```
 
-#### 2.4.3 Tool Errors
+## 3. Experimental Data
 
-If the tool encounters an error, please send the `kotsuite/kotsuite.log` file to [my email](yangfeng@whu.edu.cn) with a description of the issue.
+The experimental data is in [`experiments-data`](./experiments-data/) directory.
 
-## 3. Sample Experimental Data
-
-[Download Open Source Experimental Data](./assets/open_source_experimental_data.zip)
-
-### 3.1 Data Description
-
-The tool was tested on three real projects from OPPO and one open-source project from GitHub. Only open-source project data is provided for now.
-
-| Project Name                                  | Source | Stars   | Methods Tested |
-| --------------------------------------------- | ------ | ------- | -------------- |
-| SystemUi                                      | OPPO   | -       | 223            |
-| OppoGallery3D                                 | OPPO   | -       | 3840           |
-| OppoLauncher                                  | OPPO   | -       | 8051           |
-| [GPSTest](https://github.com/barbeau/gpstest) | GitHub | 1.8K    | 696            |
-
-An `analyzer.py` script is included for analyzing the raw JSON data.
-
-### 3.2 Experimental Results
-
-#### 3.2.1 SystemUi Coverage Report
-
-![image-20241017145650770](https://maples31-blog.oss-cn-beijing.aliyuncs.com/img/image-20241017145650770.png)
-
-#### 3.2.2 OppoGallery3D Coverage Report
-
-![image-20241017145802766](https://maples31-blog.oss-cn-beijing.aliyuncs.com/img/image-20241017145802766.png)
-
-#### 3.2.3 OppoLauncher Coverage Report
-
-![image-20241017145842410](https://maples31-blog.oss-cn-beijing.aliyuncs.com/img/image-20241017145842410.png)
-
-### 3.3 Example Generated Test Cases
+### 3.1 Example Generated Test Cases
 
 ![image-20241017144956167](https://map
 
