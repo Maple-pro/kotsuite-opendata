@@ -6,9 +6,9 @@ KotSuite is an automated tool of unit test generation of Kotlin programs in Andr
 
 ### 1.1 Demo Video
 
-<!-- <video controls>
-    <source src="./assets/demo_video.mkv" type="video/mp4">
-</video> -->
+<video controls>
+    <source src="https://github.com/user-attachments/assets/e343ef8f-daa6-470d-aaee-128a1deec489" type="video/mp4">
+</video>
 
 https://github.com/user-attachments/assets/e343ef8f-daa6-470d-aaee-128a1deec489
 
@@ -18,7 +18,7 @@ The binary version of the tool is provided in the [`kotsuite-toolkit`](./kotsuit
 
 ## 2. User Guide
 
-### 2.1 Files in the toolkit
+### 2.1 File Structure of the toolkit
 
 ```
 kotsuite-toolkit
@@ -35,19 +35,19 @@ kotsuite-toolkit
 
 Search for "KotSuite" in the Android Studio plugin marketplace, as shown below:
 
-![](https://maples31-blog.oss-cn-beijing.aliyuncs.com/img/image-20231128-1d6866-20231128213845.png)
+![](./assets/images/image1.png)
 
 ##### Method 2: Install from Disk
 
 Click "Install Plugin from Disk" and select "kotsuite-1.2.1.zip" from the "kotsuite-toolkit" folder to complete the installation.
 
-![image-20231109201636996](https://maples31-blog.oss-cn-beijing.aliyuncs.com/img/image-20231109201636996.png)
+![image-20231109201636996](./assets/images/image2.png)
 
 #### 2.2.2 Configuring KotSuite
 
 1.   Open Settings and go to the KotSuite configuration page, as shown below:
 
-![image-20231109201929448](https://maples31-blog.oss-cn-beijing.aliyuncs.com/img/image-20231109201929448.png)
+![image-20231109201929448](./assets/images/image3.png)
 
 2.   Configure the KotSuite options as follows:
 
@@ -70,21 +70,21 @@ Click "Install Plugin from Disk" and select "kotsuite-1.2.1.zip" from the "kotsu
      -   Include Rules: Specifies which classes to generate test cases for (prefix match). Use `&` to separate multiple rules.
          -   For example, `com.simplemobiletools.calendar.pro.helpers.Formatter&com.simplemobiletools.calendar.pro.fragments.WeekFragmentsHolder` will target two classes.
 
-![image-20231109203936687](https://maples31-blog.oss-cn-beijing.aliyuncs.com/img/image-20231109203936687.png)
+![image-20231109203936687](./assets/images/image4.png)
 
 3.   After clicking OK, a Run Configuration for this algorithm run will be generated and automatically executed. You can view the Run Configuration as follows:
 
-![image-20231109204750988](https://maples31-blog.oss-cn-beijing.aliyuncs.com/img/image-20231109204750988.png)
+![image-20231109204750988](./assets/images/image5.png)
 
 The Run Configuration allows users to edit parameters, stop, or rerun. The parameters have the same meanings as above.
 
 > Note: Generated Run Configurations are prefixed with "KotSuite-."
 
-![image-20231109204824426](https://maples31-blog.oss-cn-beijing.aliyuncs.com/img/image-20231109204824426.png)
+![image-20231109204824426](./assets/images/image6.png)
 
 4.   Logs will be output during the algorithm's execution, as shown below:
 
-![image-20231109205307957](https://maples31-blog.oss-cn-beijing.aliyuncs.com/img/image-20231109205307957.png)
+![image-20231109205307957](./assets/images/image7.png)
 
 Users can stop the algorithm at any time.
 
@@ -147,14 +147,44 @@ Copy Java test case files from `final/decompiled/` into the project’s test mod
 > testImplementation("io.github.Maple-pro:JMockK:1.4")
 > ```
 
-## 3. Experimental Data
+## 3. Experiment Data
 
 The experimental data is in [`experiments-data`](./experiments-data/) directory.
 
+### 3.1 Experiment Data Description
+
+```
+experiments-data
+├── apk                                 # APK files of certain experimental subjects
+├── evosuite                            # Experimental Result of EvoSuite in Android Projects
+├── loc.sh                              # Script for counting project code lines
+├── open-source                         # Experimental Result of KotSuite in open-source projects
+├── oppo-data                           # Experimental Result of KotSuite in Oppo Data
+├── org.jacoco.cli-0.8.10-nodeps.jar    # Command-line tool for parsing JaCoCo results
+├── origin-data                         # Original experimantal result of KotSuite in open-source
+├── project_analyzer.py                 # Script for analyzing project information
+└── repos                               # Repositories of experimental subjects
+```
+
+### 3.2 Experiment Result in OPPO Projects
+
+We conducted experiments on an internal project at Oppo. Due to confidentiality requirements, only a portion of the test case coverage report is presented below.
+
+#### A. Coverage Report of `SystemUi`
+
+![](./assets/images/image8.png)
+
+![](./assets/images/image9.png)
+
+#### B. Coverage Report of `OppoGallery3D`
+
+![](./assets/images/image10.png)
+
+![](./assets/images/image11.png)
+
 ### 3.1 Example Generated Test Cases
 
-![image-20241017144956167](https://map
+![image-20241017144956167](./assets/images/image12.png)
 
-les31-blog.oss-cn-beijing.aliyuncs.com/img/image-20241017144956167.png)
+![image-20241017145021017](./assets/images/image13.png)
 
-![image-20241017145021017](https://maples31-blog.oss-cn-beijing.aliyuncs.com/img/image-20241017145021017.png)
