@@ -7,10 +7,10 @@ KotSuite is an automated tool of unit test generation of Kotlin programs in Andr
 ### 1.1 Demo Video
 
 <video width="100%" controls>
-    <source src="https://github.com/user-attachments/assets/e343ef8f-daa6-470d-aaee-128a1deec489" type="video/mp4">
+    <source src="https://github.com/user-attachments/assets/333fadf1-4363-4656-9be6-4f362791f91d" type="video/mp4">
 </video>
 
-https://github.com/user-attachments/assets/e343ef8f-daa6-470d-aaee-128a1deec489
+https://github.com/user-attachments/assets/333fadf1-4363-4656-9be6-4f362791f91d
 
 ### 1.2 Toolkit
 
